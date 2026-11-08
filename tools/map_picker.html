@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vagrant Story map marker picker</title>
+<style>
+  body { margin: 0; font: 14px system-ui, sans-serif; background: #15151a; color: #ddd; }
+  header { padding: 10px 14px; background: #222; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; position: sticky; top: 0; z-index: 5; }
+  header .cur { font-size: 18px; color: #f0d060; min-width: 280px; }
+  button, select, input[type=file] { background: #333; color: #ddd; border: 1px solid #555; padding: 4px 8px; border-radius: 4px; }
+  #wrap { position: relative; display: inline-block; margin: 10px; }
+  #wrap img { display: block; cursor: crosshair; }
+  .dot { position: absolute; width: 14px; height: 14px; margin: -7px 0 0 -7px; background: #2ecc40; border: 2px solid #000; box-sizing: border-box; }
+  .dot span { position: absolute; left: 16px; top: -2px; white-space: nowrap; font-size: 11px; background: #000a; padding: 0 3px; pointer-events: none; }
+  #out { width: calc(100% - 28px); height: 140px; margin: 0 14px 14px; background: #0c0c10; color: #9f9; border: 1px solid #444; }
+  .hint { color: #999; font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <label>1. rooms_by_map.json <input type="file" id="roomsFile" accept=".json"></label>
+  <label>2. existing map_layout.json (optional) <input type="file" id="layoutFile" accept=".json"></label>
+  <select id="mapSel"></select>
+  <label>3. map image <input type="file" id="imgFile" accept="image/*"></label>
+  <button id="undo">Undo</button>
+  <button id="skip">Skip room</button>
+  <button id="copy">Copy JSON</button>
+  <span class="cur" id="cur">load rooms_by_map.json first</span>
+  <span class="hint">Click where the marker for the highlighted room should sit. Click an existing dot to re-place that room.</span>
+</header>
+<div id="wrap"><img id="img" alt=""></div>
+<textarea id="out" spellcheck="false" placeholder="map_layout.json output appears here. Save it as tools/map_layout.json, then run generate_pack.py."></textarea>
+<script>
+let rooms = {}, layout = {}, cur = null, queue = [], redo = null;
+const $ = id => document.getElementById(id);
+const readJSON = f => new Promise(r => { const fr = new FileReader(); fr.onload = () => r(JSON.parse(fr.result)); fr.readAsText(f); });
+
+$("roomsFile").onchange = async e => {
+  rooms = await readJSON(e.target.files[0]);
+  $("mapSel").innerHTML = Object.keys(rooms).map(k => `<option value="${k}">${k} (${rooms[k].length})</option>`).join("");
+  selectMap();
+};
+$("layoutFile").onchange = async e => { layout = await readJSON(e.target.files[0]); render(); };
+$("mapSel").onchange = selectMap;
+$("imgFile").onchange = e => { $("img").src = URL.createObjectURL(e.target.files[0]); };
+
+function selectMap() {
+  cur = $("mapSel").value;
+  layout[cur] = layout[cur] || {};
+  queue = rooms[cur].filter(r => !layout[cur][r]);
+  redo = null;
+  render();
+}
+function target() { return redo || queue[0] || null; }
+function render() {
+  document.querySelectorAll(".dot").forEach(d => d.remove());
+  const m = layout[cur] || {};
+  for (const [name, [x, y]] of Object.entries(m)) {
+    const d = document.createElement("div");
+    d.className = "dot"; d.style.left = x + "px"; d.style.top = y + "px";
+    d.innerHTML = `<span>${name}</span>`;
+    d.onclick = ev => { ev.stopPropagation(); redo = name; render(); };
+    $("wrap").appendChild(d);
+  }
+  const t = target();
+  $("cur").textContent = t ? `Place: ${t}  (${Object.keys(m).length}/${rooms[cur].length})` : `Map done (${Object.keys(m).length}/${rooms[cur].length})`;
+  $("out").value = JSON.stringify(layout, null, 1);
+}
+$("img").onclick = e => {
+  const t = target(); if (!t) return;
+  const r = $("img").getBoundingClientRect();
+  const sx = $("img").naturalWidth / r.width, sy = $("img").naturalHeight / r.height;  // store real image pixels
+  layout[cur][t] = [Math.round((e.clientX - r.left) * sx), Math.round((e.clientY - r.top) * sy)];
+  if (redo) redo = null; else queue.shift();
+  render();
+};
+$("undo").onclick = () => {
+  const keys = Object.keys(layout[cur] || {}); if (!keys.length) return;
+  const last = keys[keys.length - 1]; delete layout[cur][last]; queue.unshift(last); render();
+};
+$("skip").onclick = () => { if (queue.length) queue.push(queue.shift()); render(); };
+$("copy").onclick = () => { $("out").select(); document.execCommand("copy"); };
+</script>
+</body>
+</html>

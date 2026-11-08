@@ -1,0 +1,249 @@
+[
+  {
+    "name": "Town Centre - East",
+    "children": [
+      {
+        "name": "Rue Lejour",
+        "access_rules": [
+          "$vs_room|rue_lejour"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_east",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Kesch Bridge",
+        "access_rules": [
+          "$vs_room|kesch_bridge"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_east",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Rue Crimnade",
+        "access_rules": [
+          "$vs_room|rue_crimnade"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_east",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Workshop 'Junction Point'",
+        "access_rules": [
+          "$vs_room|workshop_junction_point"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_east",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Rue Fisserano",
+        "access_rules": [
+          "$vs_room|rue_fisserano"
+        ],
+        "sections": [
+          {
+            "name": "Heal Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_east",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Workshop 'Metal Works'",
+        "access_rules": [
+          "$vs_room|workshop_metal_works"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_east",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Shasras Hill Park",
+        "access_rules": [
+          "$vs_room|shasras_hill_park"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_east",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The House Gilgitte",
+        "access_rules": [
+          "$vs_room|the_house_gilgitte"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_east",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Gharmes Walk",
+        "access_rules": [
+          "$vs_room|gharmes_walk"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_east",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Plateia Lumitar",
+        "access_rules": [
+          "$vs_room|plateia_lumitar"
+        ],
+        "sections": [
+          {
+            "name": "Cure Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_east",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

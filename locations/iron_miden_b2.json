@@ -1,0 +1,589 @@
+[
+  {
+    "name": "Iron Maiden - B2",
+    "children": [
+      {
+        "name": "The Eunics' Lot",
+        "access_rules": [
+          "$vs_room|the_eunics_lot"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Ordeal By Fire",
+        "access_rules": [
+          "$vs_room|ordeal_by_fire"
+        ],
+        "sections": [
+          {
+            "name": "Dark Dragon Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Oven at Neisse",
+        "access_rules": [
+          "$vs_room|the_oven_at_neisse"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Pressing",
+        "access_rules": [
+          "$vs_room|pressing"
+        ],
+        "sections": [
+          {
+            "name": "Ravana Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Mind Burns",
+        "access_rules": [
+          "$vs_room|the_mind_burns"
+        ],
+        "sections": [
+          {
+            "name": "Freeze Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Gust Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Rack",
+        "access_rules": [
+          "$vs_room|the_rack"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 1218,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Saw",
+        "access_rules": [
+          "$vs_room|the_saw"
+        ],
+        "sections": [
+          {
+            "name": "Dragon Zombie Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 1422,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Cold's Bridle",
+        "access_rules": [
+          "$vs_room|the_cold_s_bridle"
+        ],
+        "sections": [
+          {
+            "name": "Curse Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Death Vapor Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Poison Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 1626,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Shin-Vice",
+        "access_rules": [
+          "$vs_room|the_shin_vice"
+        ],
+        "sections": [
+          {
+            "name": "Ogre Zombie Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Death Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Spider",
+        "access_rules": [
+          "$vs_room|the_spider"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Lead Sprinkler",
+        "access_rules": [
+          "$vs_room|lead_sprinkler"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Paralysis Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Squassation",
+        "access_rules": [
+          "$vs_room|squassation"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Poison Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Terra Thrust Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Strappado",
+        "access_rules": [
+          "$vs_room|the_strappado"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Thumbscrews",
+        "access_rules": [
+          "$vs_room|thumbscrews"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 1218,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Pendulum",
+        "access_rules": [
+          "$vs_room|pendulum"
+        ],
+        "sections": [
+          {
+            "name": "Curse Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 1422,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Dragging",
+        "access_rules": [
+          "$vs_room|dragging"
+        ],
+        "sections": [
+          {
+            "name": "Curse Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 1626,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Strangulation",
+        "access_rules": [
+          "$vs_room|strangulation"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 198,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Tablillas",
+        "access_rules": [
+          "$vs_room|tablillas"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 402,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Tongue Slicer",
+        "access_rules": [
+          "$vs_room|tongue_slicer"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 606,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Ordeal by Water",
+        "access_rules": [
+          "$vs_room|ordeal_by_water"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 810,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Brank",
+        "access_rules": [
+          "$vs_room|brank"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 1014,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Tormentum Insomniae",
+        "access_rules": [
+          "$vs_room|tormentum_insomniae"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b2",
+            "x": 1218,
+            "y": 316
+          }
+        ]
+      }
+    ]
+  }
+]

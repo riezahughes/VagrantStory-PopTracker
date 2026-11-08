@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Prologue",
+    "children": [
+      {
+        "name": "Injured Wyvern Boss",
+        "sections": [
+          {
+            "name": "Injured Wyvern Boss",
+            "item_count": 1,
+            "visibility_rules": [
+              "prologue"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "prologue",
+            "x": 120,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Entrance to Manor Entered",
+        "sections": [
+          {
+            "name": "Entrance to Manor Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "prologue"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "prologue",
+            "x": 300,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Alter Room Entered",
+        "sections": [
+          {
+            "name": "Alter Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "prologue"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "prologue",
+            "x": 480,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

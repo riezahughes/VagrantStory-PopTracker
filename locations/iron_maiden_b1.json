@@ -1,0 +1,611 @@
+[
+  {
+    "name": "Iron Maiden - B1",
+    "children": [
+      {
+        "name": "The Cage",
+        "access_rules": [
+          "$vs_room|the_cage"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Cauldron",
+        "access_rules": [
+          "$vs_room|the_cauldron"
+        ],
+        "sections": [
+          {
+            "name": "Wraith Boss - Grimoire Exsorcer",
+            "item_count": 1
+          },
+          {
+            "name": "Gargoyle Boss 1",
+            "item_count": 1
+          },
+          {
+            "name": "Gargoyle Boss 2",
+            "item_count": 1
+          },
+          {
+            "name": "Wraith Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Wooden Horse",
+        "access_rules": [
+          "$vs_room|wooden_horse"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Starvation",
+        "access_rules": [
+          "$vs_room|starvation"
+        ],
+        "sections": [
+          {
+            "name": "Wraith Boss - Grimoire Venin",
+            "item_count": 1
+          },
+          {
+            "name": "Wraith Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Mummy Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Breast Ripper",
+        "access_rules": [
+          "$vs_room|the_breast_ripper"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Wheel",
+        "access_rules": [
+          "$vs_room|the_wheel"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 1218,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Branks",
+        "access_rules": [
+          "$vs_room|the_branks"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 1422,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Pear",
+        "access_rules": [
+          "$vs_room|the_pear"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 1626,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Judas Cradle",
+        "access_rules": [
+          "$vs_room|the_judas_cradle"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Whirlygig",
+        "access_rules": [
+          "$vs_room|the_whirlygig"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Spanish Tickler",
+        "access_rules": [
+          "$vs_room|spanish_tickler"
+        ],
+        "sections": [
+          {
+            "name": "Wyvern Knight Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Heretic's Fork",
+        "access_rules": [
+          "$vs_room|heretic_s_fork"
+        ],
+        "sections": [
+          {
+            "name": "Freeze Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Gust Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Chair of Spikes",
+        "access_rules": [
+          "$vs_room|the_chair_of_spikes"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Blooding",
+        "access_rules": [
+          "$vs_room|blooding"
+        ],
+        "sections": [
+          {
+            "name": "Death Vapor Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Eruption Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 1218,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Bootikens",
+        "access_rules": [
+          "$vs_room|bootikens"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 1422,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Burial",
+        "access_rules": [
+          "$vs_room|burial"
+        ],
+        "sections": [
+          {
+            "name": "Iron Golem Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 1626,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Burning",
+        "access_rules": [
+          "$vs_room|burning"
+        ],
+        "sections": [
+          {
+            "name": "Terra Thrust Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Holy Light Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 198,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Cleansing the Soul",
+        "access_rules": [
+          "$vs_room|cleansing_the_soul"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 402,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Ducking Stool",
+        "access_rules": [
+          "$vs_room|the_ducking_stool"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 606,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Garotte",
+        "access_rules": [
+          "$vs_room|the_garotte"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 810,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Hanging",
+        "access_rules": [
+          "$vs_room|hanging"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 1014,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Impalement",
+        "access_rules": [
+          "$vs_room|impalement"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 1218,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Knotting",
+        "access_rules": [
+          "$vs_room|knotting"
+        ],
+        "sections": [
+          {
+            "name": "Wyvern Queen Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_maiden_b1",
+            "x": 1422,
+            "y": 316
+          }
+        ]
+      }
+    ]
+  }
+]

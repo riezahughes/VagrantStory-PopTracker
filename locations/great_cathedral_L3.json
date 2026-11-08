@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Great Cathedral - L3",
+    "children": [
+      {
+        "name": "The Wine-Lecher's Fall",
+        "access_rules": [
+          "$vs_room|the_wine_lecher_s_fall"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L3",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Heretics' Story",
+        "access_rules": [
+          "$vs_room|the_heretics_story"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L3",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Despair of the Fallen",
+        "access_rules": [
+          "$vs_room|despair_of_the_fallen"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L3",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Hopes of the Idealist",
+        "access_rules": [
+          "$vs_room|hopes_of_the_idealist"
+        ],
+        "sections": [
+          {
+            "name": "Dao Boss - Grimoire Gaea",
+            "item_count": 1
+          },
+          {
+            "name": "Dao Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L3",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Where the Soul Rots",
+        "access_rules": [
+          "$vs_room|where_the_soul_rots"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L3",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Escapeway",
+    "children": [
+      {
+        "name": "Shelter From the Quake",
+        "access_rules": [
+          "$vs_room|shelter_from_the_quake"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "escapeway",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Buried Alive",
+        "access_rules": [
+          "$vs_room|buried_alive"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Meteore",
+            "item_count": 1
+          },
+          {
+            "name": "Chest - Grimoire Radius",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "escapeway",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Movement of Fear",
+        "access_rules": [
+          "$vs_room|movement_of_fear"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "escapeway",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Facing Your Illusions",
+        "access_rules": [
+          "$vs_room|facing_your_illusions"
+        ],
+        "sections": [
+          {
+            "name": "Diabolos Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "escapeway",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Darkness Drinks",
+        "access_rules": [
+          "$vs_room|the_darkness_drinks"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "escapeway",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Fear and Loathing",
+        "access_rules": [
+          "$vs_room|fear_and_loathing"
+        ],
+        "sections": [
+          {
+            "name": "Ifrit Boss - Grimoire Flamme",
+            "item_count": 1
+          },
+          {
+            "name": "Marid Boss - Grimoire Avalanche",
+            "item_count": 1
+          },
+          {
+            "name": "Ifrit Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Marid Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "escapeway",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Blood and The Beast",
+        "access_rules": [
+          "$vs_room|blood_and_the_beast"
+        ],
+        "sections": [
+          {
+            "name": "Poison Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "escapeway",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Where Body and Soul Part",
+        "access_rules": [
+          "$vs_room|where_body_and_soul_part"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "escapeway",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

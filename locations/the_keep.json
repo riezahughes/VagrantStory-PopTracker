@@ -1,0 +1,377 @@
+[
+  {
+    "name": "The Keep",
+    "children": [
+      {
+        "name": "The Soldier's Bedding",
+        "access_rules": [
+          "$vs_room|the_soldier_s_bedding"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "A Storm of Arrows",
+        "access_rules": [
+          "$vs_room|a_storm_of_arrows"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Time Trial (Minotaur)",
+        "access_rules": [
+          "$vs_room|time_trial_minotaur"
+        ],
+        "sections": [
+          {
+            "name": "Minotaur Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Time Trial (Dragon)",
+        "access_rules": [
+          "$vs_room|time_trial_dragon"
+        ],
+        "sections": [
+          {
+            "name": "Dragon Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Urge the Boy On",
+        "access_rules": [
+          "$vs_room|urge_the_boy_on"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Time Trial (Earth Dragon)",
+        "access_rules": [
+          "$vs_room|time_trial_earth_dragon"
+        ],
+        "sections": [
+          {
+            "name": "Earth Dragon Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 1218,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Time Trial (Snow Dragon)",
+        "access_rules": [
+          "$vs_room|time_trial_snow_dragon"
+        ],
+        "sections": [
+          {
+            "name": "Snow Dragon Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "A Taste of the Spoils",
+        "access_rules": [
+          "$vs_room|a_taste_of_the_spoils"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Time Trial (Damascus Golem)",
+        "access_rules": [
+          "$vs_room|time_trial_damascus_golem"
+        ],
+        "sections": [
+          {
+            "name": "Damascus Golem Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Time Trial (Damascus Crab)",
+        "access_rules": [
+          "$vs_room|time_trial_damascus_crab"
+        ],
+        "sections": [
+          {
+            "name": "Damascus Crab Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Wiping Blood from Blades",
+        "access_rules": [
+          "$vs_room|wiping_blood_from_blades"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Time Trial (Death + Ogre Zombie)",
+        "access_rules": [
+          "$vs_room|time_trial_death_ogre_zombie"
+        ],
+        "sections": [
+          {
+            "name": "Death Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Ogre Zombie Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 1218,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Time Trial (Asura)",
+        "access_rules": [
+          "$vs_room|time_trial_asura"
+        ],
+        "sections": [
+          {
+            "name": "Asura Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 198,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Warrior's Rest",
+        "access_rules": [
+          "$vs_room|the_warrior_s_rest"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 402,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Workshop 'Keane's Crafts'",
+        "access_rules": [
+          "$vs_room|workshop_keane_s_crafts"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_keep",
+            "x": 606,
+            "y": 316
+          }
+        ]
+      }
+    ]
+  }
+]

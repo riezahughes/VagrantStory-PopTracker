@@ -1,0 +1,459 @@
+[
+  {
+    "name": "Catacombs",
+    "children": [
+      {
+        "name": "Hall of Sworn Revenge",
+        "access_rules": [
+          "$vs_room|hall_of_sworn_revenge"
+        ],
+        "sections": [
+          {
+            "name": "Heal Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Cure Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Last Blessing",
+        "access_rules": [
+          "$vs_room|the_last_blessing"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Weeping Corridor",
+        "access_rules": [
+          "$vs_room|the_weeping_corridor"
+        ],
+        "sections": [
+          {
+            "name": "Freeze Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Persecution Hall",
+        "access_rules": [
+          "$vs_room|persecution_hall"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Rodent-Ridden Chamber",
+        "access_rules": [
+          "$vs_room|rodent_ridden_chamber"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Shrine to the Martyrs",
+        "access_rules": [
+          "$vs_room|shrine_to_the_martyrs"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 1218,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Lamenting Mother",
+        "access_rules": [
+          "$vs_room|the_lamenting_mother"
+        ],
+        "sections": [
+          {
+            "name": "Ghost Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 1422,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Hall of Dying Hope",
+        "access_rules": [
+          "$vs_room|hall_of_dying_hope"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Bandits' Hideout",
+        "access_rules": [
+          "$vs_room|bandits_hideout"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Bloody Hallway",
+        "access_rules": [
+          "$vs_room|the_bloody_hallway"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Faith Overcame Fear",
+        "access_rules": [
+          "$vs_room|faith_overcame_fear"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Withered Spring",
+        "access_rules": [
+          "$vs_room|the_withered_spring"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Workshop 'Work of Art'",
+        "access_rules": [
+          "$vs_room|workshop_work_of_art"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 1218,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Repent, O ye Sinners",
+        "access_rules": [
+          "$vs_room|repent_o_ye_sinners"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 1422,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Reaper's Victims",
+        "access_rules": [
+          "$vs_room|the_reaper_s_victims"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 198,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Last Stab of Hope",
+        "access_rules": [
+          "$vs_room|the_last_stab_of_hope"
+        ],
+        "sections": [
+          {
+            "name": "Cure Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 402,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Hallway of Heroes",
+        "access_rules": [
+          "$vs_room|hallway_of_heroes"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 606,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Beast's Domain",
+        "access_rules": [
+          "$vs_room|the_beast_s_domain"
+        ],
+        "sections": [
+          {
+            "name": "Lizardman Boss - Grimoire Antidote",
+            "item_count": 1
+          },
+          {
+            "name": "Lizardman Boss 1",
+            "item_count": 1
+          },
+          {
+            "name": "Lizardman Boss 2",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs",
+            "x": 810,
+            "y": 316
+          }
+        ]
+      }
+    ]
+  }
+]

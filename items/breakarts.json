@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Whistle Sting (Dagger L1)",
+    "type": "toggle",
+    "img": "images/breakarts/dagger_1.png",
+    "codes": "breakart_dagger_1",
+    "overlay": "1",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Shadowweave (Dagger L2)",
+    "type": "toggle",
+    "img": "images/breakarts/dagger_2.png",
+    "codes": "breakart_dagger_2",
+    "overlay": "2",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Double Fang (Dagger L3)",
+    "type": "toggle",
+    "img": "images/breakarts/dagger_3.png",
+    "codes": "breakart_dagger_3",
+    "overlay": "3",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Wyrm Scorn (Dagger L4)",
+    "type": "toggle",
+    "img": "images/breakarts/dagger_4.png",
+    "codes": "breakart_dagger_4",
+    "overlay": "4",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Rending Gale (Sword L1)",
+    "type": "toggle",
+    "img": "images/breakarts/sword_1.png",
+    "codes": "breakart_sword_1",
+    "overlay": "1",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Vile Scar (Sword L2)",
+    "type": "toggle",
+    "img": "images/breakarts/sword_2.png",
+    "codes": "breakart_sword_2",
+    "overlay": "2",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Cherry Ronde (Sword L3)",
+    "type": "toggle",
+    "img": "images/breakarts/sword_3.png",
+    "codes": "breakart_sword_3",
+    "overlay": "3",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Papillon Reel (Sword L4)",
+    "type": "toggle",
+    "img": "images/breakarts/sword_4.png",
+    "codes": "breakart_sword_4",
+    "overlay": "4",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Sunder (Great Sword L1)",
+    "type": "toggle",
+    "img": "images/breakarts/great_sword_1.png",
+    "codes": "breakart_great_sword_1",
+    "overlay": "1",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Thunderwave (Great Sword L2)",
+    "type": "toggle",
+    "img": "images/breakarts/great_sword_2.png",
+    "codes": "breakart_great_sword_2",
+    "overlay": "2",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Swallow Slash (Great Sword L3)",
+    "type": "toggle",
+    "img": "images/breakarts/great_sword_3.png",
+    "codes": "breakart_great_sword_3",
+    "overlay": "3",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Advent Sign (Great Sword L4)",
+    "type": "toggle",
+    "img": "images/breakarts/great_sword_4.png",
+    "codes": "breakart_great_sword_4",
+    "overlay": "4",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Mistral Edge (Axes & Maces L1)",
+    "type": "toggle",
+    "img": "images/breakarts/axes_maces_1.png",
+    "codes": "breakart_axes_maces_1",
+    "overlay": "1",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Glacial Gale (Axes & Maces L2)",
+    "type": "toggle",
+    "img": "images/breakarts/axes_maces_2.png",
+    "codes": "breakart_axes_maces_2",
+    "overlay": "2",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Killer Mantis (Axes & Maces L3)",
+    "type": "toggle",
+    "img": "images/breakarts/axes_maces_3.png",
+    "codes": "breakart_axes_maces_3",
+    "overlay": "3",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Black Nebula (Axes & Maces L4)",
+    "type": "toggle",
+    "img": "images/breakarts/axes_maces_4.png",
+    "codes": "breakart_axes_maces_4",
+    "overlay": "4",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Bear Claw (Great Axe L1)",
+    "type": "toggle",
+    "img": "images/breakarts/great_axe_1.png",
+    "codes": "breakart_great_axe_1",
+    "overlay": "1",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Accursed Umbra (Great Axe L2)",
+    "type": "toggle",
+    "img": "images/breakarts/great_axe_2.png",
+    "codes": "breakart_great_axe_2",
+    "overlay": "2",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Iron Ripper (Great Axe L3)",
+    "type": "toggle",
+    "img": "images/breakarts/great_axe_3.png",
+    "codes": "breakart_great_axe_3",
+    "overlay": "3",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Emetic Bomb (Great Axe L4)",
+    "type": "toggle",
+    "img": "images/breakarts/great_axe_4.png",
+    "codes": "breakart_great_axe_4",
+    "overlay": "4",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Sirocco (Stave L1)",
+    "type": "toggle",
+    "img": "images/breakarts/stave_1.png",
+    "codes": "breakart_stave_1",
+    "overlay": "1",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Riskbreak (Stave L2)",
+    "type": "toggle",
+    "img": "images/breakarts/stave_2.png",
+    "codes": "breakart_stave_2",
+    "overlay": "2",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Gravis Aether (Stave L3)",
+    "type": "toggle",
+    "img": "images/breakarts/stave_3.png",
+    "codes": "breakart_stave_3",
+    "overlay": "3",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Trinity Pulse (Stave L4)",
+    "type": "toggle",
+    "img": "images/breakarts/stave_4.png",
+    "codes": "breakart_stave_4",
+    "overlay": "4",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Bonecrusher (Heavy Mace L1)",
+    "type": "toggle",
+    "img": "images/breakarts/heavy_mace_1.png",
+    "codes": "breakart_heavy_mace_1",
+    "overlay": "1",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Quickshock (Heavy Mace L2)",
+    "type": "toggle",
+    "img": "images/breakarts/heavy_mace_2.png",
+    "codes": "breakart_heavy_mace_2",
+    "overlay": "2",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Ignis Wheel (Heavy Mace L3)",
+    "type": "toggle",
+    "img": "images/breakarts/heavy_mace_3.png",
+    "codes": "breakart_heavy_mace_3",
+    "overlay": "3",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Hex Flux (Heavy Mace L4)",
+    "type": "toggle",
+    "img": "images/breakarts/heavy_mace_4.png",
+    "codes": "breakart_heavy_mace_4",
+    "overlay": "4",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Ruination (Polearm L1)",
+    "type": "toggle",
+    "img": "images/breakarts/polearm_1.png",
+    "codes": "breakart_polearm_1",
+    "overlay": "1",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Scythe Wind (Polearm L2)",
+    "type": "toggle",
+    "img": "images/breakarts/polearm_2.png",
+    "codes": "breakart_polearm_2",
+    "overlay": "2",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Giga Tempest (Polearm L3)",
+    "type": "toggle",
+    "img": "images/breakarts/polearm_3.png",
+    "codes": "breakart_polearm_3",
+    "overlay": "3",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Spiral Scourge (Polearm L4)",
+    "type": "toggle",
+    "img": "images/breakarts/polearm_4.png",
+    "codes": "breakart_polearm_4",
+    "overlay": "4",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Brimstone Hail (Crossbow L1)",
+    "type": "toggle",
+    "img": "images/breakarts/crossbow_1.png",
+    "codes": "breakart_crossbow_1",
+    "overlay": "1",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Heaven's Scorn (Crossbow L2)",
+    "type": "toggle",
+    "img": "images/breakarts/crossbow_2.png",
+    "codes": "breakart_crossbow_2",
+    "overlay": "2",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Death Wail (Crossbow L3)",
+    "type": "toggle",
+    "img": "images/breakarts/crossbow_3.png",
+    "codes": "breakart_crossbow_3",
+    "overlay": "3",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Sanctus Flare (Crossbow L4)",
+    "type": "toggle",
+    "img": "images/breakarts/crossbow_4.png",
+    "codes": "breakart_crossbow_4",
+    "overlay": "4",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Lotus Palm (Bare Hands L1)",
+    "type": "toggle",
+    "img": "images/breakarts/bare_hands_1.png",
+    "codes": "breakart_bare_hands_1",
+    "overlay": "1",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Vertigo (Bare Hands L2)",
+    "type": "toggle",
+    "img": "images/breakarts/bare_hands_2.png",
+    "codes": "breakart_bare_hands_2",
+    "overlay": "2",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Vermillion Aura (Bare Hands L3)",
+    "type": "toggle",
+    "img": "images/breakarts/bare_hands_3.png",
+    "codes": "breakart_bare_hands_3",
+    "overlay": "3",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  },
+  {
+    "name": "Retribution (Bare Hands L4)",
+    "type": "toggle",
+    "img": "images/breakarts/bare_hands_4.png",
+    "codes": "breakart_bare_hands_4",
+    "overlay": "4",
+    "overlay_background": "#000000",
+    "overlay_font_size": 11
+  }
+]

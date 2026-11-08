@@ -1,0 +1,246 @@
+[
+  {
+    "name": "Town Centre - West",
+    "children": [
+      {
+        "name": "Rue Vermillion",
+        "access_rules": [
+          "$vs_room|rue_vermillion"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_west",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Rene Coastroad",
+        "access_rules": [
+          "$vs_room|the_rene_coastroad"
+        ],
+        "sections": [
+          {
+            "name": "Heal Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_west",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Workshop 'Magic Hammer'",
+        "access_rules": [
+          "$vs_room|workshop_magic_hammer"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_west",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Rue Mal Fallde",
+        "access_rules": [
+          "$vs_room|rue_mal_fallde"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_west",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Tircolas Flow",
+        "access_rules": [
+          "$vs_room|tircolas_flow"
+        ],
+        "sections": [
+          {
+            "name": "Duane Boss - Grimoire Clef",
+            "item_count": 1
+          },
+          {
+            "name": "Duane Boss - Grimoire Demolir",
+            "item_count": 1
+          },
+          {
+            "name": "Duane Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_west",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Rue Bouquet",
+        "access_rules": [
+          "$vs_room|rue_bouquet"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_west",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Glacialdra Kirk Ruins",
+        "access_rules": [
+          "$vs_room|glacialdra_kirk_ruins"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_west",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Rue Sant D'alsa",
+        "access_rules": [
+          "$vs_room|rue_sant_d_alsa"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_west",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Dinas Walk",
+        "access_rules": [
+          "$vs_room|dinas_walk"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_west",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Villeport Way",
+        "access_rules": [
+          "$vs_room|villeport_way"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_west",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

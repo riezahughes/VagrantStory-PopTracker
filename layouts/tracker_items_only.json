@@ -1,0 +1,461 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "array",
+      "orientation": "horizontal",
+      "margin": "0,0",
+      "content": [
+        {
+          "type": "group",
+          "header": "Break Arts",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "breakart_grid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Abilities",
+          "content": {
+            "type": "array",
+            "orientation": "vertical",
+            "content": [
+              {
+                "type": "group",
+                "header": "Chain Abilities",
+                "content": {
+                  "type": "itemgrid",
+                  "item_size": "28",
+                  "item_margin": "2",
+                  "rows": [
+                    [
+                      "crimson_pain_chain_ability",
+                      "dulling_impact_chain_ability",
+                      "gain_life_chain_ability",
+                      "gain_magic_chain_ability",
+                      "heavy_shot_chain_ability",
+                      "instill_chain_ability",
+                      "mind_ache_chain_ability"
+                    ],
+                    [
+                      "mind_assault_chain_ability",
+                      "numbing_claw_chain_ability",
+                      "paralysis_pulse_chain_ability",
+                      "phantom_pain_chain_ability",
+                      "raging_ache_chain_ability",
+                      "snake_venom_chain_ability",
+                      "temper_chain_ability"
+                    ]
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Defence Abilities",
+                "content": {
+                  "type": "itemgrid",
+                  "item_size": "28",
+                  "item_margin": "2",
+                  "rows": [
+                    [
+                      "absorb_damage_defence_ability",
+                      "absorb_magic_defence_ability",
+                      "aqua_ward_defence_ability",
+                      "demonscale_defence_ability",
+                      "fireproof_defence_ability",
+                      "impact_guard_defence_ability",
+                      "phantom_shield_defence_ability"
+                    ],
+                    [
+                      "reflect_damage_defence_ability",
+                      "reflect_magic_defence_ability",
+                      "shadow_guard_defence_ability",
+                      "siphon_soul_defence_ability",
+                      "terra_ward_defence_ability",
+                      "ward_defence_ability",
+                      "windbreak_defence_ability"
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Blood Sin",
+          "content": {
+            "type": "itemgrid",
+            "item_size": "28",
+            "item_margin": "3",
+            "rows": [
+              [
+                "blood_sin_piece"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Grimoires",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "grimoire_grid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Keys | Sigils",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "keys_grid"
+              },
+              {
+                "type": "layout",
+                "key": "sigils_grid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Settings",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "settings_grid"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "array",
+      "orientation": "horizontal",
+      "margin": "0,0",
+      "content": [
+        {
+          "type": "group",
+          "header": "Break Arts",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "breakart_grid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Abilities",
+          "content": {
+            "type": "array",
+            "orientation": "vertical",
+            "content": [
+              {
+                "type": "group",
+                "header": "Chain Abilities",
+                "content": {
+                  "type": "itemgrid",
+                  "item_size": "28",
+                  "item_margin": "2",
+                  "rows": [
+                    [
+                      "crimson_pain_chain_ability",
+                      "dulling_impact_chain_ability",
+                      "gain_life_chain_ability",
+                      "gain_magic_chain_ability",
+                      "heavy_shot_chain_ability",
+                      "instill_chain_ability",
+                      "mind_ache_chain_ability"
+                    ],
+                    [
+                      "mind_assault_chain_ability",
+                      "numbing_claw_chain_ability",
+                      "paralysis_pulse_chain_ability",
+                      "phantom_pain_chain_ability",
+                      "raging_ache_chain_ability",
+                      "snake_venom_chain_ability",
+                      "temper_chain_ability"
+                    ]
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Defence Abilities",
+                "content": {
+                  "type": "itemgrid",
+                  "item_size": "28",
+                  "item_margin": "2",
+                  "rows": [
+                    [
+                      "absorb_damage_defence_ability",
+                      "absorb_magic_defence_ability",
+                      "aqua_ward_defence_ability",
+                      "demonscale_defence_ability",
+                      "fireproof_defence_ability",
+                      "impact_guard_defence_ability",
+                      "phantom_shield_defence_ability"
+                    ],
+                    [
+                      "reflect_damage_defence_ability",
+                      "reflect_magic_defence_ability",
+                      "shadow_guard_defence_ability",
+                      "siphon_soul_defence_ability",
+                      "terra_ward_defence_ability",
+                      "ward_defence_ability",
+                      "windbreak_defence_ability"
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Blood Sin",
+          "content": {
+            "type": "itemgrid",
+            "item_size": "28",
+            "item_margin": "3",
+            "rows": [
+              [
+                "blood_sin_piece"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Grimoires",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "grimoire_grid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Keys | Sigils",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "keys_grid"
+              },
+              {
+                "type": "layout",
+                "key": "sigils_grid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Settings",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "settings_grid"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "tracker_vertical": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "array",
+      "orientation": "horizontal",
+      "margin": "0,0",
+      "content": [
+        {
+          "type": "group",
+          "header": "Break Arts",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "breakart_grid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Abilities",
+          "content": {
+            "type": "array",
+            "orientation": "vertical",
+            "content": [
+              {
+                "type": "group",
+                "header": "Chain Abilities",
+                "content": {
+                  "type": "itemgrid",
+                  "item_size": "28",
+                  "item_margin": "2",
+                  "rows": [
+                    [
+                      "crimson_pain_chain_ability",
+                      "dulling_impact_chain_ability",
+                      "gain_life_chain_ability",
+                      "gain_magic_chain_ability",
+                      "heavy_shot_chain_ability",
+                      "instill_chain_ability",
+                      "mind_ache_chain_ability"
+                    ],
+                    [
+                      "mind_assault_chain_ability",
+                      "numbing_claw_chain_ability",
+                      "paralysis_pulse_chain_ability",
+                      "phantom_pain_chain_ability",
+                      "raging_ache_chain_ability",
+                      "snake_venom_chain_ability",
+                      "temper_chain_ability"
+                    ]
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Defence Abilities",
+                "content": {
+                  "type": "itemgrid",
+                  "item_size": "28",
+                  "item_margin": "2",
+                  "rows": [
+                    [
+                      "absorb_damage_defence_ability",
+                      "absorb_magic_defence_ability",
+                      "aqua_ward_defence_ability",
+                      "demonscale_defence_ability",
+                      "fireproof_defence_ability",
+                      "impact_guard_defence_ability",
+                      "phantom_shield_defence_ability"
+                    ],
+                    [
+                      "reflect_damage_defence_ability",
+                      "reflect_magic_defence_ability",
+                      "shadow_guard_defence_ability",
+                      "siphon_soul_defence_ability",
+                      "terra_ward_defence_ability",
+                      "ward_defence_ability",
+                      "windbreak_defence_ability"
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Blood Sin",
+          "content": {
+            "type": "itemgrid",
+            "item_size": "28",
+            "item_margin": "3",
+            "rows": [
+              [
+                "blood_sin_piece"
+              ]
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Grimoires",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "grimoire_grid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Keys | Sigils",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "keys_grid"
+              },
+              {
+                "type": "layout",
+                "key": "sigils_grid"
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "header": "Settings",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "layout",
+                "key": "settings_grid"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

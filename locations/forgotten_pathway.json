@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Forgotten Pathway",
+    "children": [
+      {
+        "name": "Stair to the Sinners",
+        "access_rules": [
+          "$vs_room|stair_to_the_sinners"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_pathway",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Slaughter of the Innocent",
+        "access_rules": [
+          "$vs_room|slaughter_of_the_innocent"
+        ],
+        "sections": [
+          {
+            "name": "Damascus Golem Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_pathway",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Oracle Sins No More",
+        "access_rules": [
+          "$vs_room|the_oracle_sins_no_more"
+        ],
+        "sections": [
+          {
+            "name": "Curse Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Holy Light Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_pathway",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Fallen Knight",
+        "access_rules": [
+          "$vs_room|the_fallen_knight"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_pathway",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Awaiting Retribution",
+        "access_rules": [
+          "$vs_room|awaiting_retribution"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forgotten_pathway",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

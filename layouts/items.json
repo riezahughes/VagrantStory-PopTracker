@@ -1,0 +1,299 @@
+{
+  "breakart_grid": {
+    "type": "itemgrid",
+    "item_size": "28",
+    "item_margin": "2",
+    "rows": [
+      [
+        "breakart_dagger_1",
+        "breakart_dagger_2",
+        "breakart_dagger_3",
+        "breakart_dagger_4"
+      ],
+      [
+        "breakart_sword_1",
+        "breakart_sword_2",
+        "breakart_sword_3",
+        "breakart_sword_4"
+      ],
+      [
+        "breakart_great_sword_1",
+        "breakart_great_sword_2",
+        "breakart_great_sword_3",
+        "breakart_great_sword_4"
+      ],
+      [
+        "breakart_axes_maces_1",
+        "breakart_axes_maces_2",
+        "breakart_axes_maces_3",
+        "breakart_axes_maces_4"
+      ],
+      [
+        "breakart_great_axe_1",
+        "breakart_great_axe_2",
+        "breakart_great_axe_3",
+        "breakart_great_axe_4"
+      ],
+      [
+        "breakart_stave_1",
+        "breakart_stave_2",
+        "breakart_stave_3",
+        "breakart_stave_4"
+      ],
+      [
+        "breakart_heavy_mace_1",
+        "breakart_heavy_mace_2",
+        "breakart_heavy_mace_3",
+        "breakart_heavy_mace_4"
+      ],
+      [
+        "breakart_polearm_1",
+        "breakart_polearm_2",
+        "breakart_polearm_3",
+        "breakart_polearm_4"
+      ],
+      [
+        "breakart_crossbow_1",
+        "breakart_crossbow_2",
+        "breakart_crossbow_3",
+        "breakart_crossbow_4"
+      ],
+      [
+        "breakart_bare_hands_1",
+        "breakart_bare_hands_2",
+        "breakart_bare_hands_3",
+        "breakart_bare_hands_4"
+      ]
+    ]
+  },
+  "chain_ability_grid": {
+    "type": "itemgrid",
+    "item_size": "28",
+    "item_margin": "2",
+    "rows": [
+      [
+        "crimson_pain_chain_ability",
+        "dulling_impact_chain_ability",
+        "gain_life_chain_ability",
+        "gain_magic_chain_ability",
+        "heavy_shot_chain_ability",
+        "instill_chain_ability",
+        "mind_ache_chain_ability"
+      ],
+      [
+        "mind_assault_chain_ability",
+        "numbing_claw_chain_ability",
+        "paralysis_pulse_chain_ability",
+        "phantom_pain_chain_ability",
+        "raging_ache_chain_ability",
+        "snake_venom_chain_ability",
+        "temper_chain_ability"
+      ]
+    ]
+  },
+  "defence_ability_grid": {
+    "type": "itemgrid",
+    "item_size": "28",
+    "item_margin": "2",
+    "rows": [
+      [
+        "absorb_damage_defence_ability",
+        "absorb_magic_defence_ability",
+        "aqua_ward_defence_ability",
+        "demonscale_defence_ability",
+        "fireproof_defence_ability",
+        "impact_guard_defence_ability",
+        "phantom_shield_defence_ability"
+      ],
+      [
+        "reflect_damage_defence_ability",
+        "reflect_magic_defence_ability",
+        "shadow_guard_defence_ability",
+        "siphon_soul_defence_ability",
+        "terra_ward_defence_ability",
+        "ward_defence_ability",
+        "windbreak_defence_ability"
+      ]
+    ]
+  },
+  "blood_grid": {
+    "type": "itemgrid",
+    "item_size": "28",
+    "item_margin": "3",
+    "rows": [
+      [
+        "blood_sin_piece"
+      ]
+    ]
+  },
+  "settings_grid": {
+    "type": "itemgrid",
+    "item_size": "28",
+    "item_margin": "3",
+    "rows": [
+      [
+        "opt_open",
+        "roomsanity",
+        "panelsanity"
+      ],
+      [
+        "ngplus",
+        "prologue",
+        "timetrial"
+      ],
+      [
+        "teleport",
+        "rood_inverse",
+        "start_0"
+      ],
+      [
+        "goal"
+      ]
+    ]
+  },
+  "grimoire_grid": {
+    "type": "itemgrid",
+    "item_size": "28",
+    "item_margin": "2",
+    "rows": [
+      [
+        "grimoire_agilite",
+        "grimoire_ameliorer",
+        "grimoire_analyse",
+        "grimoire_annuler",
+        "grimoire_antidote",
+        "progressive_grimoire_avalanche"
+      ],
+      [
+        "grimoire_banish",
+        "grimoire_barrer",
+        "grimoire_benir",
+        "grimoire_clef",
+        "grimoire_debile",
+        "grimoire_demance"
+      ],
+      [
+        "progressive_grimoire_demolir",
+        "grimoire_deteriorer",
+        "grimoire_dissiper",
+        "grimoire_eclairer",
+        "grimoire_egout",
+        "grimoire_exsorcer"
+      ],
+      [
+        "progressive_grimoire_flamme",
+        "grimoire_fleau",
+        "progressive_grimoire_foudre",
+        "progressive_grimoire_gaea",
+        "grimoire_glace",
+        "grimoire_gnome"
+      ],
+      [
+        "grimoire_guerir",
+        "grimoire_halte",
+        "grimoire_ignifuge",
+        "grimoire_incendie",
+        "grimoire_intensite",
+        "grimoire_lux"
+      ],
+      [
+        "progressive_grimoire_meteore",
+        "grimoire_mollesse",
+        "grimoire_muet",
+        "grimoire_nuageux",
+        "grimoire_paralysie",
+        "grimoire_parebrise"
+      ],
+      [
+        "grimoire_patir",
+        "grimoire_purifier",
+        "progressive_grimoire_radius",
+        "grimoire_rempart",
+        "grimoire_salamandre",
+        "grimoire_sylphe"
+      ],
+      [
+        "grimoire_tardif",
+        "grimoire_terre",
+        "grimoire_teslae",
+        "grimoire_undine",
+        "grimoire_venin",
+        "grimoire_vie"
+      ],
+      [
+        "grimoire_visible",
+        "grimoire_zephyr"
+      ]
+    ]
+  },
+  "keys_grid": {
+    "type": "itemgrid",
+    "item_size": "28",
+    "item_margin": "2",
+    "rows": [
+      [
+        "bronze_key",
+        "chest_key"
+      ],
+      [
+        "crimson_key",
+        "gold_key"
+      ],
+      [
+        "iron_key",
+        "platinum_key"
+      ],
+      [
+        "silver_key",
+        "steel_key"
+      ]
+    ]
+  },
+  "sigils_grid": {
+    "type": "itemgrid",
+    "item_size": "28",
+    "item_margin": "2",
+    "rows": [
+      [
+        "acacia_sigil",
+        "anemone_sigil",
+        "aster_sigil"
+      ],
+      [
+        "azalea_sigil",
+        "calla_sigil",
+        "cattleya_sigil"
+      ],
+      [
+        "chamomile_sigil",
+        "clematis_sigil",
+        "colombine_sigil"
+      ],
+      [
+        "eulelia_sigil",
+        "fern_sigil",
+        "hyacinth_sigil"
+      ],
+      [
+        "kalmia_sigil",
+        "laurel_sigil",
+        "lily_sigil"
+      ],
+      [
+        "mandrake_sigil",
+        "marigold_sigil",
+        "melissa_sigil"
+      ],
+      [
+        "palm_sigil",
+        "schirra_sigil",
+        "stock_sigil"
+      ],
+      [
+        "tearose_sigil",
+        "tigertail_sigil",
+        "verbena_sigil"
+      ]
+    ]
+  }
+}

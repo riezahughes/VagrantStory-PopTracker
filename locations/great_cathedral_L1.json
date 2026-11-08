@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Great Cathedral - L1",
+    "children": [
+      {
+        "name": "Into Holy Battle",
+        "access_rules": [
+          "$vs_room|into_holy_battle"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L1",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Poisoned Chapel",
+        "access_rules": [
+          "$vs_room|the_poisoned_chapel"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L1",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Sin and Punishment",
+        "access_rules": [
+          "$vs_room|sin_and_punishment"
+        ],
+        "sections": [
+          {
+            "name": "Curse Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Eruption Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L1",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "A Light in the Dark",
+        "access_rules": [
+          "$vs_room|a_light_in_the_dark"
+        ],
+        "sections": [
+          {
+            "name": "Arch Dragon Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L1",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Monk's Leap",
+        "access_rules": [
+          "$vs_room|monk_s_leap"
+        ],
+        "sections": [
+          {
+            "name": "Lich Boss - Grimoire Demolir",
+            "item_count": 1
+          },
+          {
+            "name": "Lich Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L1",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Hieratic Recollections",
+        "access_rules": [
+          "$vs_room|hieratic_recollections"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L1",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Flayed Confessional",
+        "access_rules": [
+          "$vs_room|the_flayed_confessional"
+        ],
+        "sections": [
+          {
+            "name": "Djinn Boss - Grimoire Foudre",
+            "item_count": 1
+          },
+          {
+            "name": "Djinn Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L1",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Cracked Pleasures",
+        "access_rules": [
+          "$vs_room|cracked_pleasures"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L1",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Where Darkness Spreads",
+        "access_rules": [
+          "$vs_room|where_darkness_spreads"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L1",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

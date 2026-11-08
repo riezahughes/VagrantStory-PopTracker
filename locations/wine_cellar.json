@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Wine Cellar",
+    "children": [
+      {
+        "name": "Entrance to Darkness",
+        "access_rules": [
+          "$vs_room|entrance_to_darkness"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Worker's Breakroom",
+        "access_rules": [
+          "$vs_room|worker_s_breakroom"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Hall of Struggle",
+        "access_rules": [
+          "$vs_room|hall_of_struggle"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Smokebarrel Stair",
+        "access_rules": [
+          "$vs_room|smokebarrel_stair"
+        ],
+        "sections": [
+          {
+            "name": "Heal Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Wine Guild Hall",
+        "access_rules": [
+          "$vs_room|wine_guild_hall"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Wine Magnate's Chambers",
+        "access_rules": [
+          "$vs_room|wine_magnate_s_chambers"
+        ],
+        "sections": [
+          {
+            "name": "Gust Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 1218,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Fine Vintage Vault",
+        "access_rules": [
+          "$vs_room|fine_vintage_vault"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 1422,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Chamber of Fear",
+        "access_rules": [
+          "$vs_room|chamber_of_fear"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Reckoning Room",
+        "access_rules": [
+          "$vs_room|the_reckoning_room"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "A Laborer's Thirst",
+        "access_rules": [
+          "$vs_room|a_laborer_s_thirst"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Rich Drown in Wine",
+        "access_rules": [
+          "$vs_room|the_rich_drown_in_wine"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Room of Rotten Grapes",
+        "access_rules": [
+          "$vs_room|room_of_rotten_grapes"
+        ],
+        "sections": [
+          {
+            "name": "Heal Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Blackmarket of Wines",
+        "access_rules": [
+          "$vs_room|blackmarket_of_wines"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 1218,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Gallows",
+        "access_rules": [
+          "$vs_room|the_gallows"
+        ],
+        "sections": [
+          {
+            "name": "Minotaur Boss - Grimoire Debile",
+            "item_count": 1
+          },
+          {
+            "name": "Minotaur Boss - Grimoire Guerir",
+            "item_count": 1
+          },
+          {
+            "name": "Minotaur Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 1422,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Gallows Again",
+        "access_rules": [
+          "$vs_room|the_gallows_again"
+        ],
+        "sections": [
+          {
+            "name": "Minotaur Zombie Boss",
+            "item_count": 1,
+            "visibility_rules": [
+              "ngplus"
+            ]
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 198,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Room of Cheap Red Wine",
+        "access_rules": [
+          "$vs_room|room_of_cheap_red_wine"
+        ],
+        "sections": [
+          {
+            "name": "Heal Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 402,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Room of Cheap White Wine",
+        "access_rules": [
+          "$vs_room|room_of_cheap_white_wine"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 606,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Greedy One's Den",
+        "access_rules": [
+          "$vs_room|the_greedy_one_s_den"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 810,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Hero's Winehall",
+        "access_rules": [
+          "$vs_room|the_hero_s_winehall"
+        ],
+        "sections": [
+          {
+            "name": "Dullahan Boss - Grimoire Lux",
+            "item_count": 1
+          },
+          {
+            "name": "Dullahan Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wine_cellar",
+            "x": 1014,
+            "y": 316
+          }
+        ]
+      }
+    ]
+  }
+]

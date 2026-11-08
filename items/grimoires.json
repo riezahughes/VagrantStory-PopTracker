@@ -1,0 +1,351 @@
+[
+  {
+    "name": "Grimoire Guerir",
+    "type": "toggle",
+    "img": "images/items/grimoire_guerir.png",
+    "codes": "grimoire_guerir"
+  },
+  {
+    "name": "Grimoire Mollesse",
+    "type": "toggle",
+    "img": "images/items/grimoire_mollesse.png",
+    "codes": "grimoire_mollesse"
+  },
+  {
+    "name": "Grimoire Antidote",
+    "type": "toggle",
+    "img": "images/items/grimoire_antidote.png",
+    "codes": "grimoire_antidote"
+  },
+  {
+    "name": "Grimoire Benir",
+    "type": "toggle",
+    "img": "images/items/grimoire_benir.png",
+    "codes": "grimoire_benir"
+  },
+  {
+    "name": "Grimoire Purifier",
+    "type": "toggle",
+    "img": "images/items/grimoire_purifier.png",
+    "codes": "grimoire_purifier"
+  },
+  {
+    "name": "Grimoire Vie",
+    "type": "toggle",
+    "img": "images/items/grimoire_vie.png",
+    "codes": "grimoire_vie"
+  },
+  {
+    "name": "Grimoire Sylphe",
+    "type": "toggle",
+    "img": "images/items/grimoire_sylphe.png",
+    "codes": "grimoire_sylphe"
+  },
+  {
+    "name": "Grimoire Salamandre",
+    "type": "toggle",
+    "img": "images/items/grimoire_salamandre.png",
+    "codes": "grimoire_salamandre"
+  },
+  {
+    "name": "Grimoire Gnome",
+    "type": "toggle",
+    "img": "images/items/grimoire_gnome.png",
+    "codes": "grimoire_gnome"
+  },
+  {
+    "name": "Grimoire Undine",
+    "type": "toggle",
+    "img": "images/items/grimoire_undine.png",
+    "codes": "grimoire_undine"
+  },
+  {
+    "name": "Grimoire Parebrise",
+    "type": "toggle",
+    "img": "images/items/grimoire_parebrise.png",
+    "codes": "grimoire_parebrise"
+  },
+  {
+    "name": "Grimoire Ignifuge",
+    "type": "toggle",
+    "img": "images/items/grimoire_ignifuge.png",
+    "codes": "grimoire_ignifuge"
+  },
+  {
+    "name": "Grimoire Rempart",
+    "type": "toggle",
+    "img": "images/items/grimoire_rempart.png",
+    "codes": "grimoire_rempart"
+  },
+  {
+    "name": "Grimoire Barrer",
+    "type": "toggle",
+    "img": "images/items/grimoire_barrer.png",
+    "codes": "grimoire_barrer"
+  },
+  {
+    "name": "Grimoire Zephyr",
+    "type": "toggle",
+    "img": "images/items/grimoire_zephyr.png",
+    "codes": "grimoire_zephyr"
+  },
+  {
+    "name": "Grimoire Teslae",
+    "type": "toggle",
+    "img": "images/items/grimoire_teslae.png",
+    "codes": "grimoire_teslae"
+  },
+  {
+    "name": "Grimoire Incendie",
+    "type": "toggle",
+    "img": "images/items/grimoire_incendie.png",
+    "codes": "grimoire_incendie"
+  },
+  {
+    "name": "Grimoire Terre",
+    "type": "toggle",
+    "img": "images/items/grimoire_terre.png",
+    "codes": "grimoire_terre"
+  },
+  {
+    "name": "Grimoire Glace",
+    "type": "toggle",
+    "img": "images/items/grimoire_glace.png",
+    "codes": "grimoire_glace"
+  },
+  {
+    "name": "Grimoire Lux",
+    "type": "toggle",
+    "img": "images/items/grimoire_lux.png",
+    "codes": "grimoire_lux"
+  },
+  {
+    "name": "Grimoire Patir",
+    "type": "toggle",
+    "img": "images/items/grimoire_patir.png",
+    "codes": "grimoire_patir"
+  },
+  {
+    "name": "Grimoire Exsorcer",
+    "type": "toggle",
+    "img": "images/items/grimoire_exsorcer.png",
+    "codes": "grimoire_exsorcer"
+  },
+  {
+    "name": "Grimoire Banish",
+    "type": "toggle",
+    "img": "images/items/grimoire_banish.png",
+    "codes": "grimoire_banish"
+  },
+  {
+    "name": "Grimoire Egout",
+    "type": "toggle",
+    "img": "images/items/grimoire_egout.png",
+    "codes": "grimoire_egout"
+  },
+  {
+    "name": "Grimoire Demance",
+    "type": "toggle",
+    "img": "images/items/grimoire_demance.png",
+    "codes": "grimoire_demance"
+  },
+  {
+    "name": "Grimoire Intensite",
+    "type": "toggle",
+    "img": "images/items/grimoire_intensite.png",
+    "codes": "grimoire_intensite"
+  },
+  {
+    "name": "Grimoire Debile",
+    "type": "toggle",
+    "img": "images/items/grimoire_debile.png",
+    "codes": "grimoire_debile"
+  },
+  {
+    "name": "Grimoire Eclairer",
+    "type": "toggle",
+    "img": "images/items/grimoire_eclairer.png",
+    "codes": "grimoire_eclairer"
+  },
+  {
+    "name": "Grimoire Nuageux",
+    "type": "toggle",
+    "img": "images/items/grimoire_nuageux.png",
+    "codes": "grimoire_nuageux"
+  },
+  {
+    "name": "Grimoire Agilite",
+    "type": "toggle",
+    "img": "images/items/grimoire_agilite.png",
+    "codes": "grimoire_agilite"
+  },
+  {
+    "name": "Grimoire Tardif",
+    "type": "toggle",
+    "img": "images/items/grimoire_tardif.png",
+    "codes": "grimoire_tardif"
+  },
+  {
+    "name": "Grimoire Ameliorer",
+    "type": "toggle",
+    "img": "images/items/grimoire_ameliorer.png",
+    "codes": "grimoire_ameliorer"
+  },
+  {
+    "name": "Grimoire Deteriorer",
+    "type": "toggle",
+    "img": "images/items/grimoire_deteriorer.png",
+    "codes": "grimoire_deteriorer"
+  },
+  {
+    "name": "Grimoire Annuler",
+    "type": "toggle",
+    "img": "images/items/grimoire_annuler.png",
+    "codes": "grimoire_annuler"
+  },
+  {
+    "name": "Grimoire Paralysie",
+    "type": "toggle",
+    "img": "images/items/grimoire_paralysie.png",
+    "codes": "grimoire_paralysie"
+  },
+  {
+    "name": "Grimoire Venin",
+    "type": "toggle",
+    "img": "images/items/grimoire_venin.png",
+    "codes": "grimoire_venin"
+  },
+  {
+    "name": "Grimoire Fleau",
+    "type": "toggle",
+    "img": "images/items/grimoire_fleau.png",
+    "codes": "grimoire_fleau"
+  },
+  {
+    "name": "Grimoire Muet",
+    "type": "toggle",
+    "img": "images/items/grimoire_muet.png",
+    "codes": "grimoire_muet"
+  },
+  {
+    "name": "Grimoire Halte",
+    "type": "toggle",
+    "img": "images/items/grimoire_halte.png",
+    "codes": "grimoire_halte"
+  },
+  {
+    "name": "Grimoire Dissiper",
+    "type": "toggle",
+    "img": "images/items/grimoire_dissiper.png",
+    "codes": "grimoire_dissiper"
+  },
+  {
+    "name": "Grimoire Clef",
+    "type": "toggle",
+    "img": "images/items/grimoire_clef.png",
+    "codes": "grimoire_clef"
+  },
+  {
+    "name": "Grimoire Visible",
+    "type": "toggle",
+    "img": "images/items/grimoire_visible.png",
+    "codes": "grimoire_visible"
+  },
+  {
+    "name": "Grimoire Analyse",
+    "type": "toggle",
+    "img": "images/items/grimoire_analyse.png",
+    "codes": "grimoire_analyse"
+  },
+  {
+    "name": "Progressive Grimoire Demolir",
+    "type": "consumable",
+    "img": "images/items/progressive_grimoire_demolir.png",
+    "codes": "progressive_grimoire_demolir",
+    "min_quantity": 0,
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000AA",
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Progressive Grimoire Foudre",
+    "type": "consumable",
+    "img": "images/items/progressive_grimoire_foudre.png",
+    "codes": "progressive_grimoire_foudre",
+    "min_quantity": 0,
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000AA",
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Progressive Grimoire Flamme",
+    "type": "consumable",
+    "img": "images/items/progressive_grimoire_flamme.png",
+    "codes": "progressive_grimoire_flamme",
+    "min_quantity": 0,
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000AA",
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Progressive Grimoire Gaea",
+    "type": "consumable",
+    "img": "images/items/progressive_grimoire_gaea.png",
+    "codes": "progressive_grimoire_gaea",
+    "min_quantity": 0,
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000AA",
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Progressive Grimoire Avalanche",
+    "type": "consumable",
+    "img": "images/items/progressive_grimoire_avalanche.png",
+    "codes": "progressive_grimoire_avalanche",
+    "min_quantity": 0,
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000AA",
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Progressive Grimoire Radius",
+    "type": "consumable",
+    "img": "images/items/progressive_grimoire_radius.png",
+    "codes": "progressive_grimoire_radius",
+    "min_quantity": 0,
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000AA",
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Progressive Grimoire Meteore",
+    "type": "consumable",
+    "img": "images/items/progressive_grimoire_meteore.png",
+    "codes": "progressive_grimoire_meteore",
+    "min_quantity": 0,
+    "max_quantity": 4,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000AA",
+    "overlay_font_size": 12
+  }
+]

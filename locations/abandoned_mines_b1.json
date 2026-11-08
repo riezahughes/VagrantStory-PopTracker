@@ -1,0 +1,618 @@
+[
+  {
+    "name": "Abandoned Mines - B1",
+    "children": [
+      {
+        "name": "Dreamers' Entrance",
+        "access_rules": [
+          "$vs_room|dreamers_entrance"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Crossing",
+        "access_rules": [
+          "$vs_room|the_crossing"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Miners' Resting Hall",
+        "access_rules": [
+          "$vs_room|miners_resting_hall"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Visible",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Conflict and Accord",
+        "access_rules": [
+          "$vs_room|conflict_and_accord"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The End of the Line",
+        "access_rules": [
+          "$vs_room|the_end_of_the_line"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Earthquake's Mark",
+        "access_rules": [
+          "$vs_room|the_earthquake_s_mark"
+        ],
+        "sections": [
+          {
+            "name": "Eruption Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1218,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Coal Mine Storage",
+        "access_rules": [
+          "$vs_room|coal_mine_storage"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Poison Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Trap Clear Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1422,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Suicide King",
+        "access_rules": [
+          "$vs_room|the_suicide_king"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1626,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Battle's Beginning",
+        "access_rules": [
+          "$vs_room|the_battle_s_beginning"
+        ],
+        "sections": [
+          {
+            "name": "Wyvern Boss - Grimoire Ignifuge",
+            "item_count": 1
+          },
+          {
+            "name": "Wyvern Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "What Lies Ahead?",
+        "access_rules": [
+          "$vs_room|what_lies_ahead"
+        ],
+        "sections": [
+          {
+            "name": "Heal Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Fruits of Friendship",
+        "access_rules": [
+          "$vs_room|the_fruits_of_friendship"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Passion of Lovers",
+        "access_rules": [
+          "$vs_room|the_passion_of_lovers"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Hall of Hope",
+        "access_rules": [
+          "$vs_room|the_hall_of_hope"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Dark Tunnel",
+        "access_rules": [
+          "$vs_room|the_dark_tunnel"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1218,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Everwant Passage",
+        "access_rules": [
+          "$vs_room|everwant_passage"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1422,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Mining Regrets",
+        "access_rules": [
+          "$vs_room|mining_regrets"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Death Vapor Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1626,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Rust in Peace",
+        "access_rules": [
+          "$vs_room|rust_in_peace"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Undine",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 198,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Smeltry",
+        "access_rules": [
+          "$vs_room|the_smeltry"
+        ],
+        "sections": [
+          {
+            "name": "Fire Elemental Boss - Grimoire Flamme",
+            "item_count": 1
+          },
+          {
+            "name": "Fire Elemental Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 402,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Clash of Hyaenas",
+        "access_rules": [
+          "$vs_room|clash_of_hyaenas"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 606,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Greed Knows No Bounds",
+        "access_rules": [
+          "$vs_room|greed_knows_no_bounds"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 810,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Live Long and Prosper",
+        "access_rules": [
+          "$vs_room|live_long_and_prosper"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1014,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Pray to the Mineral Gods",
+        "access_rules": [
+          "$vs_room|pray_to_the_mineral_gods"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1218,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Traitor's Parting",
+        "access_rules": [
+          "$vs_room|traitor_s_parting"
+        ],
+        "sections": [
+          {
+            "name": "Ogre Boss - Grimoire Rempart",
+            "item_count": 1
+          },
+          {
+            "name": "Ogre Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1422,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Escapeway",
+        "access_rules": [
+          "$vs_room|escapeway"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b1",
+            "x": 1626,
+            "y": 316
+          }
+        ]
+      }
+    ]
+  }
+]

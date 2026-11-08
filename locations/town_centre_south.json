@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Town Centre - South",
+    "children": [
+      {
+        "name": "Forcas Rise",
+        "access_rules": [
+          "$vs_room|forcas_rise"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_south",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Valdiman Gates",
+        "access_rules": [
+          "$vs_room|valdiman_gates"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_south",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Rue Aliano",
+        "access_rules": [
+          "$vs_room|rue_aliano"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_south",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The House Khazabas",
+        "access_rules": [
+          "$vs_room|the_house_khazabas"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Muet",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_south",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Zebel's Walk",
+        "access_rules": [
+          "$vs_room|zebel_s_walk"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_south",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Rue Volnac",
+        "access_rules": [
+          "$vs_room|rue_volnac"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_south",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Rue Faltes",
+        "access_rules": [
+          "$vs_room|rue_faltes"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_south",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Rue Morgue",
+        "access_rules": [
+          "$vs_room|rue_morgue"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "town_centre_south",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

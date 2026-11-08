@@ -1,0 +1,1535 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "group",
+                "header": "Break Arts",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "breakart_grid"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Abilities",
+                "content": {
+                  "type": "array",
+                  "orientation": "vertical",
+                  "content": [
+                    {
+                      "type": "group",
+                      "header": "Chain Abilities",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": "28",
+                        "item_margin": "2",
+                        "rows": [
+                          [
+                            "crimson_pain_chain_ability",
+                            "dulling_impact_chain_ability",
+                            "gain_life_chain_ability",
+                            "gain_magic_chain_ability",
+                            "heavy_shot_chain_ability",
+                            "instill_chain_ability",
+                            "mind_ache_chain_ability"
+                          ],
+                          [
+                            "mind_assault_chain_ability",
+                            "numbing_claw_chain_ability",
+                            "paralysis_pulse_chain_ability",
+                            "phantom_pain_chain_ability",
+                            "raging_ache_chain_ability",
+                            "snake_venom_chain_ability",
+                            "temper_chain_ability"
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Defence Abilities",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": "28",
+                        "item_margin": "2",
+                        "rows": [
+                          [
+                            "absorb_damage_defence_ability",
+                            "absorb_magic_defence_ability",
+                            "aqua_ward_defence_ability",
+                            "demonscale_defence_ability",
+                            "fireproof_defence_ability",
+                            "impact_guard_defence_ability",
+                            "phantom_shield_defence_ability"
+                          ],
+                          [
+                            "reflect_damage_defence_ability",
+                            "reflect_magic_defence_ability",
+                            "shadow_guard_defence_ability",
+                            "siphon_soul_defence_ability",
+                            "terra_ward_defence_ability",
+                            "ward_defence_ability",
+                            "windbreak_defence_ability"
+                          ]
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Blood Sin",
+                "content": {
+                  "type": "itemgrid",
+                  "item_size": "28",
+                  "item_margin": "3",
+                  "rows": [
+                    [
+                      "blood_sin_piece"
+                    ]
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Grimoires",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "grimoire_grid"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Keys | Sigils",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "keys_grid"
+                    },
+                    {
+                      "type": "layout",
+                      "key": "sigils_grid"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Settings",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "settings_grid"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Prologue",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "prologue"
+                ]
+              }
+            },
+            {
+              "title": "Wine Cellar",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "wine_cellar"
+                ]
+              }
+            },
+            {
+              "title": "Catacombs",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "catacombs"
+                ]
+              }
+            },
+            {
+              "title": "Sanctum",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sanctum"
+                ]
+              }
+            },
+            {
+              "title": "Undercity",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "undercity_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "undercity_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Town Centre",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "town_centre_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "town_centre_south"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "town_centre_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "City Walls",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_south"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_east"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_north"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "The Keep",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "the_keep"
+                ]
+              }
+            },
+            {
+              "title": "Temple of Kiltia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "temple_of_kiltia"
+                ]
+              }
+            },
+            {
+              "title": "Snowfly Forest",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Snowfly Forest",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowfly_forest"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowfly_forest_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Limestone Quarry",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "limestone_quarry"
+                ]
+              }
+            },
+            {
+              "title": "Abandoned Mines",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "B1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "abandoned_mines_b1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "abandoned_mines_b2"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Iron Maiden",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "B1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "iron_maiden_b1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "iron_miden_b2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B3",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "iron_miden_b3"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Great Cathedral",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "B1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_B1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L3",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L3"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L4",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L4"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dome",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_dome"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Forgotten Pathway",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "forgotten_pathway"
+                ]
+              }
+            },
+            {
+              "title": "Escapeway",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "escapeway"
+                ]
+              }
+            },
+            {
+              "title": "Ashley",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ashley"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "group",
+                "header": "Break Arts",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "breakart_grid"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Abilities",
+                "content": {
+                  "type": "array",
+                  "orientation": "vertical",
+                  "content": [
+                    {
+                      "type": "group",
+                      "header": "Chain Abilities",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": "28",
+                        "item_margin": "2",
+                        "rows": [
+                          [
+                            "crimson_pain_chain_ability",
+                            "dulling_impact_chain_ability",
+                            "gain_life_chain_ability",
+                            "gain_magic_chain_ability",
+                            "heavy_shot_chain_ability",
+                            "instill_chain_ability",
+                            "mind_ache_chain_ability"
+                          ],
+                          [
+                            "mind_assault_chain_ability",
+                            "numbing_claw_chain_ability",
+                            "paralysis_pulse_chain_ability",
+                            "phantom_pain_chain_ability",
+                            "raging_ache_chain_ability",
+                            "snake_venom_chain_ability",
+                            "temper_chain_ability"
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Defence Abilities",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": "28",
+                        "item_margin": "2",
+                        "rows": [
+                          [
+                            "absorb_damage_defence_ability",
+                            "absorb_magic_defence_ability",
+                            "aqua_ward_defence_ability",
+                            "demonscale_defence_ability",
+                            "fireproof_defence_ability",
+                            "impact_guard_defence_ability",
+                            "phantom_shield_defence_ability"
+                          ],
+                          [
+                            "reflect_damage_defence_ability",
+                            "reflect_magic_defence_ability",
+                            "shadow_guard_defence_ability",
+                            "siphon_soul_defence_ability",
+                            "terra_ward_defence_ability",
+                            "ward_defence_ability",
+                            "windbreak_defence_ability"
+                          ]
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Blood Sin",
+                "content": {
+                  "type": "itemgrid",
+                  "item_size": "28",
+                  "item_margin": "3",
+                  "rows": [
+                    [
+                      "blood_sin_piece"
+                    ]
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Grimoires",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "grimoire_grid"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Keys | Sigils",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "keys_grid"
+                    },
+                    {
+                      "type": "layout",
+                      "key": "sigils_grid"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Settings",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "settings_grid"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Prologue",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "prologue"
+                ]
+              }
+            },
+            {
+              "title": "Wine Cellar",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "wine_cellar"
+                ]
+              }
+            },
+            {
+              "title": "Catacombs",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "catacombs"
+                ]
+              }
+            },
+            {
+              "title": "Sanctum",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sanctum"
+                ]
+              }
+            },
+            {
+              "title": "Undercity",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "undercity_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "undercity_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Town Centre",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "town_centre_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "town_centre_south"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "town_centre_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "City Walls",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_south"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_east"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_north"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "The Keep",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "the_keep"
+                ]
+              }
+            },
+            {
+              "title": "Temple of Kiltia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "temple_of_kiltia"
+                ]
+              }
+            },
+            {
+              "title": "Snowfly Forest",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Snowfly Forest",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowfly_forest"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowfly_forest_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Limestone Quarry",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "limestone_quarry"
+                ]
+              }
+            },
+            {
+              "title": "Abandoned Mines",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "B1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "abandoned_mines_b1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "abandoned_mines_b2"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Iron Maiden",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "B1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "iron_maiden_b1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "iron_miden_b2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B3",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "iron_miden_b3"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Great Cathedral",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "B1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_B1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L3",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L3"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L4",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L4"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dome",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_dome"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Forgotten Pathway",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "forgotten_pathway"
+                ]
+              }
+            },
+            {
+              "title": "Escapeway",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "escapeway"
+                ]
+              }
+            },
+            {
+              "title": "Ashley",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ashley"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracker_vertical": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "group",
+                "header": "Break Arts",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "breakart_grid"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Abilities",
+                "content": {
+                  "type": "array",
+                  "orientation": "vertical",
+                  "content": [
+                    {
+                      "type": "group",
+                      "header": "Chain Abilities",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": "28",
+                        "item_margin": "2",
+                        "rows": [
+                          [
+                            "crimson_pain_chain_ability",
+                            "dulling_impact_chain_ability",
+                            "gain_life_chain_ability",
+                            "gain_magic_chain_ability",
+                            "heavy_shot_chain_ability",
+                            "instill_chain_ability",
+                            "mind_ache_chain_ability"
+                          ],
+                          [
+                            "mind_assault_chain_ability",
+                            "numbing_claw_chain_ability",
+                            "paralysis_pulse_chain_ability",
+                            "phantom_pain_chain_ability",
+                            "raging_ache_chain_ability",
+                            "snake_venom_chain_ability",
+                            "temper_chain_ability"
+                          ]
+                        ]
+                      }
+                    },
+                    {
+                      "type": "group",
+                      "header": "Defence Abilities",
+                      "content": {
+                        "type": "itemgrid",
+                        "item_size": "28",
+                        "item_margin": "2",
+                        "rows": [
+                          [
+                            "absorb_damage_defence_ability",
+                            "absorb_magic_defence_ability",
+                            "aqua_ward_defence_ability",
+                            "demonscale_defence_ability",
+                            "fireproof_defence_ability",
+                            "impact_guard_defence_ability",
+                            "phantom_shield_defence_ability"
+                          ],
+                          [
+                            "reflect_damage_defence_ability",
+                            "reflect_magic_defence_ability",
+                            "shadow_guard_defence_ability",
+                            "siphon_soul_defence_ability",
+                            "terra_ward_defence_ability",
+                            "ward_defence_ability",
+                            "windbreak_defence_ability"
+                          ]
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Blood Sin",
+                "content": {
+                  "type": "itemgrid",
+                  "item_size": "28",
+                  "item_margin": "3",
+                  "rows": [
+                    [
+                      "blood_sin_piece"
+                    ]
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Grimoires",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "grimoire_grid"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Keys | Sigils",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "keys_grid"
+                    },
+                    {
+                      "type": "layout",
+                      "key": "sigils_grid"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "header": "Settings",
+                "content": {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "content": [
+                    {
+                      "type": "layout",
+                      "key": "settings_grid"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Prologue",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "prologue"
+                ]
+              }
+            },
+            {
+              "title": "Wine Cellar",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "wine_cellar"
+                ]
+              }
+            },
+            {
+              "title": "Catacombs",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "catacombs"
+                ]
+              }
+            },
+            {
+              "title": "Sanctum",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sanctum"
+                ]
+              }
+            },
+            {
+              "title": "Undercity",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "undercity_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "undercity_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Town Centre",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "town_centre_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "town_centre_south"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "town_centre_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "City Walls",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_south"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_east"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "city_walls_north"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "The Keep",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "the_keep"
+                ]
+              }
+            },
+            {
+              "title": "Temple of Kiltia",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "temple_of_kiltia"
+                ]
+              }
+            },
+            {
+              "title": "Snowfly Forest",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Snowfly Forest",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowfly_forest"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "snowfly_forest_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Limestone Quarry",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "limestone_quarry"
+                ]
+              }
+            },
+            {
+              "title": "Abandoned Mines",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "B1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "abandoned_mines_b1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "abandoned_mines_b2"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Iron Maiden",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "B1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "iron_maiden_b1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "iron_miden_b2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B3",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "iron_miden_b3"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Great Cathedral",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "B1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_B1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L3",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L3"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "L4",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_L4"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dome",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "great_cathedral_dome"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Forgotten Pathway",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "forgotten_pathway"
+                ]
+              }
+            },
+            {
+              "title": "Escapeway",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "escapeway"
+                ]
+              }
+            },
+            {
+              "title": "Ashley",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ashley"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Vagrant Story Archipelago Map Tracker",
+  "game_name": "Vagrant Story",
+  "package_version": "0.1.0",
+  "package_uid": "vagrantstory_ap_maptracker",
+  "platform": "PS1",
+  "author": "Vagrant Story AP",
+  "variants": {
+    "map_tracker": {
+      "display_name": "Map Tracker",
+      "flags": ["ap"]
+    },
+    "items_only": {
+      "display_name": "Items Only",
+      "flags": ["ap"]
+    }
+  },
+  "min_poptracker_version": "0.25.8"
+}

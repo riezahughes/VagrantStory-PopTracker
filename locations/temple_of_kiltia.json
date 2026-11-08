@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Temple of Kiltia",
+    "children": [
+      {
+        "name": "The Dark Coast",
+        "access_rules": [
+          "$vs_room|the_dark_coast"
+        ],
+        "sections": [
+          {
+            "name": "Trap Clear Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Heal Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple_of_kiltia",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Hall of Prayer",
+        "access_rules": [
+          "$vs_room|hall_of_prayer"
+        ],
+        "sections": [
+          {
+            "name": "Last Crusader Boss - Grimoire Purifier",
+            "item_count": 1
+          },
+          {
+            "name": "Last Crusader Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple_of_kiltia",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Those who Drink the Dark",
+        "access_rules": [
+          "$vs_room|those_who_drink_the_dark"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple_of_kiltia",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Chapel of Meschaunce",
+        "access_rules": [
+          "$vs_room|the_chapel_of_meschaunce"
+        ],
+        "sections": [
+          {
+            "name": "Minotaur Lord Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple_of_kiltia",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Resentful Ones",
+        "access_rules": [
+          "$vs_room|the_resentful_ones"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple_of_kiltia",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Those who Fear the Light",
+        "access_rules": [
+          "$vs_room|those_who_fear_the_light"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple_of_kiltia",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Chamber of Reason",
+        "access_rules": [
+          "$vs_room|chamber_of_reason"
+        ],
+        "sections": [
+          {
+            "name": "Kali Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple_of_kiltia",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Exit to City Center",
+        "access_rules": [
+          "$vs_room|exit_to_city_center"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "temple_of_kiltia",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

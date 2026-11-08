@@ -1,0 +1,626 @@
+[
+  {
+    "name": "Snowfly Forest",
+    "children": [
+      {
+        "name": "The Faerie Circle",
+        "access_rules": [
+          "$vs_room|the_faerie_circle"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Hunt Begins",
+        "access_rules": [
+          "$vs_room|the_hunt_begins"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Which Way Home",
+        "access_rules": [
+          "$vs_room|which_way_home"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Giving Trees",
+        "access_rules": [
+          "$vs_room|the_giving_trees"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Birds and the Bees",
+        "access_rules": [
+          "$vs_room|the_birds_and_the_bees"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Wounded Boar",
+        "access_rules": [
+          "$vs_room|the_wounded_boar"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1218,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Golden Egg Way",
+        "access_rules": [
+          "$vs_room|golden_egg_way"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1422,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Traces of the Beast",
+        "access_rules": [
+          "$vs_room|traces_of_the_beast"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1626,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Fluttering Hope",
+        "access_rules": [
+          "$vs_room|fluttering_hope"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Return to the Land",
+        "access_rules": [
+          "$vs_room|return_to_the_land"
+        ],
+        "sections": [
+          {
+            "name": "Earth Dragon Boss - Grimoire Parebrise",
+            "item_count": 1
+          },
+          {
+            "name": "Earth Dragon Boss ",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Yellow Wood",
+        "access_rules": [
+          "$vs_room|the_yellow_wood"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "They Also Feed",
+        "access_rules": [
+          "$vs_room|they_also_feed"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Spirit Trees",
+        "access_rules": [
+          "$vs_room|the_spirit_trees"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Where Soft Rains Fell",
+        "access_rules": [
+          "$vs_room|where_soft_rains_fell"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1218,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Forest River",
+        "access_rules": [
+          "$vs_room|forest_river"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Agilite",
+            "item_count": 1
+          },
+          {
+            "name": "Cure Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1422,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Lamenting to the Moon",
+        "access_rules": [
+          "$vs_room|lamenting_to_the_moon"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1626,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Running with the Wolves",
+        "access_rules": [
+          "$vs_room|running_with_the_wolves"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 198,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "You Are the Prey",
+        "access_rules": [
+          "$vs_room|you_are_the_prey"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 402,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Secret Path",
+        "access_rules": [
+          "$vs_room|the_secret_path"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 606,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Hewn from Nature",
+        "access_rules": [
+          "$vs_room|hewn_from_nature"
+        ],
+        "sections": [
+          {
+            "name": "Dark Crusader Boss - Grimoire Deteriorer",
+            "item_count": 1
+          },
+          {
+            "name": "Grissom Boss - Grimoire Gnome",
+            "item_count": 1
+          },
+          {
+            "name": "Grissom Boss - Grimoire Annuler",
+            "item_count": 1
+          },
+          {
+            "name": "Grissom Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Dark Crusader Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 810,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Wood Gate",
+        "access_rules": [
+          "$vs_room|the_wood_gate"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1014,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Wolves' Choice",
+        "access_rules": [
+          "$vs_room|the_wolves_choice"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1218,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Woodcutter's Run",
+        "access_rules": [
+          "$vs_room|the_woodcutter_s_run"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1422,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Hollow Hills",
+        "access_rules": [
+          "$vs_room|the_hollow_hills"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 1626,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Howl of the Wolf King",
+        "access_rules": [
+          "$vs_room|howl_of_the_wolf_king"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 198,
+            "y": 404
+          }
+        ]
+      },
+      {
+        "name": "The Silent Hedges",
+        "access_rules": [
+          "$vs_room|the_silent_hedges"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "snowfly_forest",
+            "x": 402,
+            "y": 404
+          }
+        ]
+      }
+    ]
+  }
+]

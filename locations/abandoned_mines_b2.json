@@ -1,0 +1,809 @@
+[
+  {
+    "name": "Abandoned Mines - B2",
+    "children": [
+      {
+        "name": "Subtellurian Horrors",
+        "access_rules": [
+          "$vs_room|subtellurian_horrors"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Dining in Darkness",
+        "access_rules": [
+          "$vs_room|dining_in_darkness"
+        ],
+        "sections": [
+          {
+            "name": "Sky Dragon Boss - Grimoire Demance",
+            "item_count": 1
+          },
+          {
+            "name": "Sky Dragon Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Bandit's Hollow",
+        "access_rules": [
+          "$vs_room|bandit_s_hollow"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Delusions of Happiness",
+        "access_rules": [
+          "$vs_room|delusions_of_happiness"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Salamandre",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Work, Then Die",
+        "access_rules": [
+          "$vs_room|work_then_die"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Senses Lost",
+        "access_rules": [
+          "$vs_room|senses_lost"
+        ],
+        "sections": [
+          {
+            "name": "Eruption Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Poison Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1218,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Lunatic Veins",
+        "access_rules": [
+          "$vs_room|the_lunatic_veins"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1422,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Tomb of the Reborn",
+        "access_rules": [
+          "$vs_room|tomb_of_the_reborn"
+        ],
+        "sections": [
+          {
+            "name": "Earth Elemental Boss - Grimoire Gaea",
+            "item_count": 1
+          },
+          {
+            "name": "Earth Elemental Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1626,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Fool's Gold, Fool's Loss",
+        "access_rules": [
+          "$vs_room|fool_s_gold_fool_s_loss"
+        ],
+        "sections": [
+          {
+            "name": "Paralysis Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1830,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Kilroy Was Here",
+        "access_rules": [
+          "$vs_room|kilroy_was_here"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "A Wager of Noble Gold",
+        "access_rules": [
+          "$vs_room|a_wager_of_noble_gold"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Lambs to the Slaughter",
+        "access_rules": [
+          "$vs_room|lambs_to_the_slaughter"
+        ],
+        "sections": [
+          {
+            "name": "Heal Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Ore of Legend",
+        "access_rules": [
+          "$vs_room|the_ore_of_legend"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Suicidal Desires",
+        "access_rules": [
+          "$vs_room|suicidal_desires"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Death Vapor Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Paralysis Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Holy Light Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Terra Thrust Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Gust Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Freeze Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Eruption Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Trap Clear Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Cry of the Beast",
+        "access_rules": [
+          "$vs_room|cry_of_the_beast"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1218,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Fallen Bricklayer",
+        "access_rules": [
+          "$vs_room|the_fallen_bricklayer"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1422,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Hall of Contemplation",
+        "access_rules": [
+          "$vs_room|hall_of_contemplation"
+        ],
+        "sections": [
+          {
+            "name": "Eruption Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1626,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Hall of the Empty Sconce",
+        "access_rules": [
+          "$vs_room|hall_of_the_empty_sconce"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1830,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Acolyte's Burial Vault",
+        "access_rules": [
+          "$vs_room|acolyte_s_burial_vault"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Vie",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 198,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Abandoned Catspaw",
+        "access_rules": [
+          "$vs_room|the_abandoned_catspaw"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 402,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Crossing of Blood",
+        "access_rules": [
+          "$vs_room|crossing_of_blood"
+        ],
+        "sections": [
+          {
+            "name": "Holy Light Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Diabolos Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 606,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Desire's Passage",
+        "access_rules": [
+          "$vs_room|desire_s_passage"
+        ],
+        "sections": [
+          {
+            "name": "Cure Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 810,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Way of Lost Children",
+        "access_rules": [
+          "$vs_room|way_of_lost_children"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1014,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Hidden Resources",
+        "access_rules": [
+          "$vs_room|hidden_resources"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Mollesse",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1218,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Treaty Room",
+        "access_rules": [
+          "$vs_room|treaty_room"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1422,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Miner's End",
+        "access_rules": [
+          "$vs_room|the_miner_s_end"
+        ],
+        "sections": [
+          {
+            "name": "Air Elemental Boss - Grimoire Foudre",
+            "item_count": 1
+          },
+          {
+            "name": "Air Elemental Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1626,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Gambler's Passage",
+        "access_rules": [
+          "$vs_room|gambler_s_passage"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 1830,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Revelation Shaft",
+        "access_rules": [
+          "$vs_room|revelation_shaft"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 198,
+            "y": 404
+          }
+        ]
+      },
+      {
+        "name": "Corridor of Shade",
+        "access_rules": [
+          "$vs_room|corridor_of_shade"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "abandoned_mines_b2",
+            "x": 402,
+            "y": 404
+          }
+        ]
+      }
+    ]
+  }
+]

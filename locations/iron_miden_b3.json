@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Iron Maiden - B3",
+    "children": [
+      {
+        "name": "The Iron Maiden",
+        "access_rules": [
+          "$vs_room|the_iron_maiden"
+        ],
+        "sections": [
+          {
+            "name": "Asura Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b3",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Judgement",
+        "access_rules": [
+          "$vs_room|judgement"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b3",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Saint Elmo's Belt",
+        "access_rules": [
+          "$vs_room|saint_elmo_s_belt"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b3",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Dunking the Witch",
+        "access_rules": [
+          "$vs_room|dunking_the_witch"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "iron_miden_b3",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      }
+    ]
+  }
+]

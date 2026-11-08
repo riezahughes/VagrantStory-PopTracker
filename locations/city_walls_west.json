@@ -1,0 +1,73 @@
+[
+  {
+    "name": "City Walls - West",
+    "children": [
+      {
+        "name": "Students of Death",
+        "access_rules": [
+          "$vs_room|students_of_death"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_west",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Gabled Hall",
+        "access_rules": [
+          "$vs_room|the_gabled_hall"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_west",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Where the Master Fell",
+        "access_rules": [
+          "$vs_room|where_the_master_fell"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_west",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      }
+    ]
+  }
+]

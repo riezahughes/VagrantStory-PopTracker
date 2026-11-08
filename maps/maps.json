@@ -1,0 +1,194 @@
+[
+  {
+    "name": "wine_cellar",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/wine_cellar.png"
+  },
+  {
+    "name": "undercity_west",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/undercity_west.png"
+  },
+  {
+    "name": "undercity_east",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/undercity_east.png"
+  },
+  {
+    "name": "town_centre_south",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/town_centre_south.png"
+  },
+  {
+    "name": "town_centre_east",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/town_centre_east.png"
+  },
+  {
+    "name": "town_centre_west",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/town_centre_west.png"
+  },
+  {
+    "name": "the_keep",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/the_keep.png"
+  },
+  {
+    "name": "temple_of_kiltia",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/temple_of_kiltia.png"
+  },
+  {
+    "name": "snowfly_forest",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/snowfly_forest.png"
+  },
+  {
+    "name": "snowfly_forest_east",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/snowfly_forest_east.png"
+  },
+  {
+    "name": "sanctum",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/sanctum.png"
+  },
+  {
+    "name": "limestone_quarry",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/limestone_quarry.png"
+  },
+  {
+    "name": "iron_maiden_b1",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/iron_maiden_b1.png"
+  },
+  {
+    "name": "iron_miden_b2",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/iron_miden_b2.png"
+  },
+  {
+    "name": "iron_miden_b3",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/iron_miden_b3.png"
+  },
+  {
+    "name": "great_cathedral_L1",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/great_cathedral_L1.png"
+  },
+  {
+    "name": "great_cathedral_B1",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/great_cathedral_B1.png"
+  },
+  {
+    "name": "great_cathedral_L2",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/great_cathedral_L2.png"
+  },
+  {
+    "name": "great_cathedral_L3",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/great_cathedral_L3.png"
+  },
+  {
+    "name": "great_cathedral_L4",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/great_cathedral_L4.png"
+  },
+  {
+    "name": "great_cathedral_dome",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/great_cathedral_dome.png"
+  },
+  {
+    "name": "forgotten_pathway",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/forgotten_pathway.png"
+  },
+  {
+    "name": "escapeway",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/escapeway.png"
+  },
+  {
+    "name": "city_walls_west",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/city_walls_west.png"
+  },
+  {
+    "name": "city_walls_south",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/city_walls_south.png"
+  },
+  {
+    "name": "city_walls_north",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/city_walls_north.png"
+  },
+  {
+    "name": "city_walls_east",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/city_walls_east.png"
+  },
+  {
+    "name": "catacombs",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/catacombs.png"
+  },
+  {
+    "name": "abandoned_mines_b1",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/abandoned_mines_b1.png"
+  },
+  {
+    "name": "abandoned_mines_b2",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/abandoned_mines_b2.png"
+  },
+  {
+    "name": "prologue",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/prologue.png"
+  },
+  {
+    "name": "ashley",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "img": "images/maps/ashley.png"
+  }
+]

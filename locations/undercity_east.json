@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Undercity - East",
+    "children": [
+      {
+        "name": "Hall to a New World",
+        "access_rules": [
+          "$vs_room|hall_to_a_new_world"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Place of Free Words",
+        "access_rules": [
+          "$vs_room|place_of_free_words"
+        ],
+        "sections": [
+          {
+            "name": "Harpy Boss - Grimoire Intensite",
+            "item_count": 1
+          },
+          {
+            "name": "Harpy Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Bazaar of the Bizarre",
+        "access_rules": [
+          "$vs_room|bazaar_of_the_bizarre"
+        ],
+        "sections": [
+          {
+            "name": "Lich Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Noble Gold and Silk",
+        "access_rules": [
+          "$vs_room|noble_gold_and_silk"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Weapons Not Allowed",
+        "access_rules": [
+          "$vs_room|weapons_not_allowed"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Nuageux",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "A Knight Sells his Sword",
+        "access_rules": [
+          "$vs_room|a_knight_sells_his_sword"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 1218,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Gemsword Blackmarket",
+        "access_rules": [
+          "$vs_room|gemsword_blackmarket"
+        ],
+        "sections": [
+          {
+            "name": "Nightstalker Boss - Grimoire Eclairer",
+            "item_count": 1
+          },
+          {
+            "name": "Nightstalker Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Pirate's Son",
+        "access_rules": [
+          "$vs_room|the_pirate_s_son"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Sale of the Sword",
+        "access_rules": [
+          "$vs_room|sale_of_the_sword"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Tardif",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Greengrocer's Stair",
+        "access_rules": [
+          "$vs_room|the_greengrocer_s_stair"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Where Black Waters Ran",
+        "access_rules": [
+          "$vs_room|where_black_waters_ran"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Arms Against Invaders",
+        "access_rules": [
+          "$vs_room|arms_against_invaders"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 1218,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Catspaw Blackmarket",
+        "access_rules": [
+          "$vs_room|catspaw_blackmarket"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Paralysie",
+            "item_count": 1
+          },
+          {
+            "name": "Diabolos Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_east",
+            "x": 198,
+            "y": 316
+          }
+        ]
+      }
+    ]
+  }
+]

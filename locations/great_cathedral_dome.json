@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Great Cathedral - Dome",
+    "children": [
+      {
+        "name": "Dome",
+        "access_rules": [
+          "$vs_room|dome"
+        ],
+        "sections": [
+          {
+            "name": "Guildenstern Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_dome",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Paling",
+        "access_rules": [
+          "$vs_room|paling"
+        ],
+        "sections": [
+          {
+            "name": "Guildenstern Apotheos Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_dome",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      }
+    ]
+  }
+]

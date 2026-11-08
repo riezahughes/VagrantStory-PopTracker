@@ -1,0 +1,121 @@
+[
+  {
+    "name": "City Walls - East",
+    "children": [
+      {
+        "name": "Train and Grow Strong",
+        "access_rules": [
+          "$vs_room|train_and_grow_strong"
+        ],
+        "sections": [
+          {
+            "name": "Rood Inverse Unlock",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_east",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Squire's Gathering",
+        "access_rules": [
+          "$vs_room|the_squire_s_gathering"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_east",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Invaders are Found",
+        "access_rules": [
+          "$vs_room|the_invaders_are_found"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_east",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Dream Weavers",
+        "access_rules": [
+          "$vs_room|the_dream_weavers"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_east",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Cornered Savage",
+        "access_rules": [
+          "$vs_room|the_cornered_savage"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_east",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

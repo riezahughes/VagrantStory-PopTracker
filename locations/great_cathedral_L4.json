@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Great Cathedral - L4",
+    "children": [
+      {
+        "name": "The Atrium",
+        "access_rules": [
+          "$vs_room|the_atrium"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L4",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      }
+    ]
+  }
+]

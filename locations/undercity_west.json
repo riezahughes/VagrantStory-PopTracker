@@ -1,0 +1,725 @@
+[
+  {
+    "name": "Undercity - West",
+    "children": [
+      {
+        "name": "The Bread Peddler's Way",
+        "access_rules": [
+          "$vs_room|the_bread_peddler_s_way"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Way of the Mother Lode",
+        "access_rules": [
+          "$vs_room|way_of_the_mother_lode"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Sewer of Ravenous Rats",
+        "access_rules": [
+          "$vs_room|sewer_of_ravenous_rats"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Underdark Fishmarket",
+        "access_rules": [
+          "$vs_room|underdark_fishmarket"
+        ],
+        "sections": [
+          {
+            "name": "Giant Crab Boss - Grimoire Sylphe",
+            "item_count": 1
+          },
+          {
+            "name": "Giant Crab Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Sunless Way",
+        "access_rules": [
+          "$vs_room|the_sunless_way"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Remembering Days of Yore",
+        "access_rules": [
+          "$vs_room|remembering_days_of_yore"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1218,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Larder for a Lean Winter",
+        "access_rules": [
+          "$vs_room|larder_for_a_lean_winter"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1422,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Where the Hunter Climbed",
+        "access_rules": [
+          "$vs_room|where_the_hunter_climbed"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1626,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Hall of Poverty",
+        "access_rules": [
+          "$vs_room|hall_of_poverty"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1830,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Washing-Woman's Way",
+        "access_rules": [
+          "$vs_room|the_washing_woman_s_way"
+        ],
+        "sections": [
+          {
+            "name": "Heal Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Cure Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Nameless Dark Oblivion",
+        "access_rules": [
+          "$vs_room|nameless_dark_oblivion"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Sinner's Corner",
+        "access_rules": [
+          "$vs_room|sinner_s_corner"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Fear of the Fall",
+        "access_rules": [
+          "$vs_room|fear_of_the_fall"
+        ],
+        "sections": [
+          {
+            "name": "Dark Elemental Boss - Grimoire Meteore",
+            "item_count": 1
+          },
+          {
+            "name": "Dark Elemental Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Children's Hideout",
+        "access_rules": [
+          "$vs_room|the_children_s_hideout"
+        ],
+        "sections": [
+          {
+            "name": "Chest - Grimoire Dissiper",
+            "item_count": 1
+          },
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Corner of Prayers",
+        "access_rules": [
+          "$vs_room|corner_of_prayers"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1218,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Hope Obstructed",
+        "access_rules": [
+          "$vs_room|hope_obstructed"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1422,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Beggars of the Mouthharp",
+        "access_rules": [
+          "$vs_room|beggars_of_the_mouthharp"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1626,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Corner of the Wretched",
+        "access_rules": [
+          "$vs_room|corner_of_the_wretched"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1830,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Crossroads of Rest",
+        "access_rules": [
+          "$vs_room|crossroads_of_rest"
+        ],
+        "sections": [
+          {
+            "name": "Gust Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 198,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Path to the Greengrocer",
+        "access_rules": [
+          "$vs_room|path_to_the_greengrocer"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 402,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Path of the Children",
+        "access_rules": [
+          "$vs_room|path_of_the_children"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 606,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Salvation for the Mother",
+        "access_rules": [
+          "$vs_room|salvation_for_the_mother"
+        ],
+        "sections": [
+          {
+            "name": "Diabolos Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Poison Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 810,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Body Fragile Yields",
+        "access_rules": [
+          "$vs_room|the_body_fragile_yields"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1014,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Bite the Master's Wounds",
+        "access_rules": [
+          "$vs_room|bite_the_master_s_wounds"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1218,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Workshop 'Godhands'",
+        "access_rules": [
+          "$vs_room|workshop_godhands"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1422,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "The Crumbling Market",
+        "access_rules": [
+          "$vs_room|the_crumbling_market"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Eruption Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Freeze Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Gust Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Terra Thrust Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Holy Light Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1626,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Where Flood Waters Ran",
+        "access_rules": [
+          "$vs_room|where_flood_waters_ran"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 1830,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Tears from Empty Sockets",
+        "access_rules": [
+          "$vs_room|tears_from_empty_sockets"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "undercity_west",
+            "x": 198,
+            "y": 404
+          }
+        ]
+      }
+    ]
+  }
+]

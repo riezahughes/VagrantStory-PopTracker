@@ -1,0 +1,139 @@
+[
+  {
+    "name": "City Walls - North",
+    "children": [
+      {
+        "name": "From Squire to Knight",
+        "access_rules": [
+          "$vs_room|from_squire_to_knight"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_north",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Traces of Invasion Past",
+        "access_rules": [
+          "$vs_room|traces_of_invasion_past"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_north",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Be for Battle Prepared",
+        "access_rules": [
+          "$vs_room|be_for_battle_prepared"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_north",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Destruction and Rebirth",
+        "access_rules": [
+          "$vs_room|destruction_and_rebirth"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_north",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "From Boy to Hero",
+        "access_rules": [
+          "$vs_room|from_boy_to_hero"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_north",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "A Welcome Invasion",
+        "access_rules": [
+          "$vs_room|a_welcome_invasion"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_north",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Bronze Key",
+    "type": "toggle",
+    "img": "images/items/bronze_key.png",
+    "codes": "bronze_key"
+  },
+  {
+    "name": "Chest Key",
+    "type": "toggle",
+    "img": "images/items/chest_key.png",
+    "codes": "chest_key"
+  },
+  {
+    "name": "Crimson Key",
+    "type": "toggle",
+    "img": "images/items/crimson_key.png",
+    "codes": "crimson_key"
+  },
+  {
+    "name": "Gold Key",
+    "type": "toggle",
+    "img": "images/items/gold_key.png",
+    "codes": "gold_key"
+  },
+  {
+    "name": "Iron Key",
+    "type": "toggle",
+    "img": "images/items/iron_key.png",
+    "codes": "iron_key"
+  },
+  {
+    "name": "Platinum Key",
+    "type": "toggle",
+    "img": "images/items/platinum_key.png",
+    "codes": "platinum_key"
+  },
+  {
+    "name": "Silver Key",
+    "type": "toggle",
+    "img": "images/items/silver_key.png",
+    "codes": "silver_key"
+  },
+  {
+    "name": "Steel Key",
+    "type": "toggle",
+    "img": "images/items/steel_key.png",
+    "codes": "steel_key"
+  },
+  {
+    "name": "Blood Sin Piece",
+    "type": "consumable",
+    "img": "images/items/blood_sin_piece.png",
+    "codes": "blood_sin_piece",
+    "min_quantity": 0,
+    "max_quantity": 50,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000AA",
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Acacia Sigil",
+    "type": "toggle",
+    "img": "images/items/acacia_sigil.png",
+    "codes": "acacia_sigil"
+  },
+  {
+    "name": "Anemone Sigil",
+    "type": "toggle",
+    "img": "images/items/anemone_sigil.png",
+    "codes": "anemone_sigil"
+  },
+  {
+    "name": "Aster Sigil",
+    "type": "toggle",
+    "img": "images/items/aster_sigil.png",
+    "codes": "aster_sigil"
+  },
+  {
+    "name": "Azalea Sigil",
+    "type": "toggle",
+    "img": "images/items/azalea_sigil.png",
+    "codes": "azalea_sigil"
+  },
+  {
+    "name": "Calla Sigil",
+    "type": "toggle",
+    "img": "images/items/calla_sigil.png",
+    "codes": "calla_sigil"
+  },
+  {
+    "name": "Cattleya Sigil",
+    "type": "toggle",
+    "img": "images/items/cattleya_sigil.png",
+    "codes": "cattleya_sigil"
+  },
+  {
+    "name": "Chamomile Sigil",
+    "type": "toggle",
+    "img": "images/items/chamomile_sigil.png",
+    "codes": "chamomile_sigil"
+  },
+  {
+    "name": "Clematis Sigil",
+    "type": "toggle",
+    "img": "images/items/clematis_sigil.png",
+    "codes": "clematis_sigil"
+  },
+  {
+    "name": "Colombine Sigil",
+    "type": "toggle",
+    "img": "images/items/colombine_sigil.png",
+    "codes": "colombine_sigil"
+  },
+  {
+    "name": "Eulelia Sigil",
+    "type": "toggle",
+    "img": "images/items/eulelia_sigil.png",
+    "codes": "eulelia_sigil"
+  },
+  {
+    "name": "Fern Sigil",
+    "type": "toggle",
+    "img": "images/items/fern_sigil.png",
+    "codes": "fern_sigil"
+  },
+  {
+    "name": "Hyacinth Sigil",
+    "type": "toggle",
+    "img": "images/items/hyacinth_sigil.png",
+    "codes": "hyacinth_sigil"
+  },
+  {
+    "name": "Kalmia Sigil",
+    "type": "toggle",
+    "img": "images/items/kalmia_sigil.png",
+    "codes": "kalmia_sigil"
+  },
+  {
+    "name": "Laurel Sigil",
+    "type": "toggle",
+    "img": "images/items/laurel_sigil.png",
+    "codes": "laurel_sigil"
+  },
+  {
+    "name": "Lily Sigil",
+    "type": "toggle",
+    "img": "images/items/lily_sigil.png",
+    "codes": "lily_sigil"
+  },
+  {
+    "name": "Mandrake Sigil",
+    "type": "toggle",
+    "img": "images/items/mandrake_sigil.png",
+    "codes": "mandrake_sigil"
+  },
+  {
+    "name": "Marigold Sigil",
+    "type": "toggle",
+    "img": "images/items/marigold_sigil.png",
+    "codes": "marigold_sigil"
+  },
+  {
+    "name": "Melissa Sigil",
+    "type": "toggle",
+    "img": "images/items/melissa_sigil.png",
+    "codes": "melissa_sigil"
+  },
+  {
+    "name": "Palm Sigil",
+    "type": "toggle",
+    "img": "images/items/palm_sigil.png",
+    "codes": "palm_sigil"
+  },
+  {
+    "name": "Schirra Sigil",
+    "type": "toggle",
+    "img": "images/items/schirra_sigil.png",
+    "codes": "schirra_sigil"
+  },
+  {
+    "name": "Stock Sigil",
+    "type": "toggle",
+    "img": "images/items/stock_sigil.png",
+    "codes": "stock_sigil"
+  },
+  {
+    "name": "Tearose Sigil",
+    "type": "toggle",
+    "img": "images/items/tearose_sigil.png",
+    "codes": "tearose_sigil"
+  },
+  {
+    "name": "Tigertail Sigil",
+    "type": "toggle",
+    "img": "images/items/tigertail_sigil.png",
+    "codes": "tigertail_sigil"
+  },
+  {
+    "name": "Verbena Sigil",
+    "type": "toggle",
+    "img": "images/items/verbena_sigil.png",
+    "codes": "verbena_sigil"
+  },
+  {
+    "name": "Teleport",
+    "type": "toggle",
+    "img": "images/items/teleport.png",
+    "codes": "teleport"
+  },
+  {
+    "name": "Rood Inverse",
+    "type": "toggle",
+    "img": "images/items/rood_inverse.png",
+    "codes": "rood_inverse"
+  }
+]

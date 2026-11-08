@@ -1,0 +1,2230 @@
+[
+  {
+    "name": "Ashley",
+    "children": [
+      {
+        "name": "Chain Unlock 1",
+        "access_rules": [
+          "$vs_chain|1"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 50,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 2",
+        "access_rules": [
+          "$vs_chain|2"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 112,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 3",
+        "access_rules": [
+          "$vs_chain|3"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 174,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 4",
+        "access_rules": [
+          "$vs_chain|4"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 4",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 236,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 5",
+        "access_rules": [
+          "$vs_chain|5"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 5",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 298,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 6",
+        "access_rules": [
+          "$vs_chain|6"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 6",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 360,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 7",
+        "access_rules": [
+          "$vs_chain|7"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 7",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 422,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 8",
+        "access_rules": [
+          "$vs_chain|8"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 8",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 484,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 9",
+        "access_rules": [
+          "$vs_chain|9"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 9",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 546,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 10",
+        "access_rules": [
+          "$vs_chain|10"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 10",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 608,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 11",
+        "access_rules": [
+          "$vs_chain|11"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 11",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 670,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 12",
+        "access_rules": [
+          "$vs_chain|12"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 12",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 50,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 13",
+        "access_rules": [
+          "$vs_chain|13"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 13",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 112,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 14",
+        "access_rules": [
+          "$vs_chain|14"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 14",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 174,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 15",
+        "access_rules": [
+          "$vs_chain|15"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 15",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 236,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 16",
+        "access_rules": [
+          "$vs_chain|16"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 16",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 298,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 17",
+        "access_rules": [
+          "$vs_chain|17"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 17",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 360,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 18",
+        "access_rules": [
+          "$vs_chain|18"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 18",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 422,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 19",
+        "access_rules": [
+          "$vs_chain|19"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 19",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 484,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 20",
+        "access_rules": [
+          "$vs_chain|20"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 20",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 546,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 21",
+        "access_rules": [
+          "$vs_chain|21"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 21",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 608,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Chain Unlock 22",
+        "access_rules": [
+          "$vs_chain|22"
+        ],
+        "sections": [
+          {
+            "name": "Chain Unlock 22",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 670,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Dagger Level 1",
+        "access_rules": [
+          "$vs_break|dagger|1"
+        ],
+        "sections": [
+          {
+            "name": "Dagger Level 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 50,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Dagger Level 2",
+        "access_rules": [
+          "$vs_break|dagger|2"
+        ],
+        "sections": [
+          {
+            "name": "Dagger Level 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 50,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "Dagger Level 3",
+        "access_rules": [
+          "$vs_break|dagger|3"
+        ],
+        "sections": [
+          {
+            "name": "Dagger Level 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 50,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Dagger Level 4",
+        "access_rules": [
+          "$vs_break|dagger|4"
+        ],
+        "sections": [
+          {
+            "name": "Dagger Level 4",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 50,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Sword Level 1",
+        "access_rules": [
+          "$vs_break|sword|1"
+        ],
+        "sections": [
+          {
+            "name": "Sword Level 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 116,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Sword Level 2",
+        "access_rules": [
+          "$vs_break|sword|2"
+        ],
+        "sections": [
+          {
+            "name": "Sword Level 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 116,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "Sword Level 3",
+        "access_rules": [
+          "$vs_break|sword|3"
+        ],
+        "sections": [
+          {
+            "name": "Sword Level 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 116,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Sword Level 4",
+        "access_rules": [
+          "$vs_break|sword|4"
+        ],
+        "sections": [
+          {
+            "name": "Sword Level 4",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 116,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Great Sword Level 1",
+        "access_rules": [
+          "$vs_break|great_sword|1"
+        ],
+        "sections": [
+          {
+            "name": "Great Sword Level 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 182,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Great Sword Level 2",
+        "access_rules": [
+          "$vs_break|great_sword|2"
+        ],
+        "sections": [
+          {
+            "name": "Great Sword Level 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 182,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "Great Sword Level 3",
+        "access_rules": [
+          "$vs_break|great_sword|3"
+        ],
+        "sections": [
+          {
+            "name": "Great Sword Level 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 182,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Great Sword Level 4",
+        "access_rules": [
+          "$vs_break|great_sword|4"
+        ],
+        "sections": [
+          {
+            "name": "Great Sword Level 4",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 182,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Axes & Maces Level 1",
+        "access_rules": [
+          "$vs_break|axes_maces|1"
+        ],
+        "sections": [
+          {
+            "name": "Axes & Maces Level 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 248,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Axes & Maces Level 2",
+        "access_rules": [
+          "$vs_break|axes_maces|2"
+        ],
+        "sections": [
+          {
+            "name": "Axes & Maces Level 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 248,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "Axes & Maces Level 3",
+        "access_rules": [
+          "$vs_break|axes_maces|3"
+        ],
+        "sections": [
+          {
+            "name": "Axes & Maces Level 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 248,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Axes & Maces Level 4",
+        "access_rules": [
+          "$vs_break|axes_maces|4"
+        ],
+        "sections": [
+          {
+            "name": "Axes & Maces Level 4",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 248,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Great Axe Level 1",
+        "access_rules": [
+          "$vs_break|great_axe|1"
+        ],
+        "sections": [
+          {
+            "name": "Great Axe Level 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 314,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Great Axe Level 2",
+        "access_rules": [
+          "$vs_break|great_axe|2"
+        ],
+        "sections": [
+          {
+            "name": "Great Axe Level 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 314,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "Great Axe Level 3",
+        "access_rules": [
+          "$vs_break|great_axe|3"
+        ],
+        "sections": [
+          {
+            "name": "Great Axe Level 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 314,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Great Axe Level 4",
+        "access_rules": [
+          "$vs_break|great_axe|4"
+        ],
+        "sections": [
+          {
+            "name": "Great Axe Level 4",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 314,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Stave Level 1",
+        "access_rules": [
+          "$vs_break|stave|1"
+        ],
+        "sections": [
+          {
+            "name": "Stave Level 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 380,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Stave Level 2",
+        "access_rules": [
+          "$vs_break|stave|2"
+        ],
+        "sections": [
+          {
+            "name": "Stave Level 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 380,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "Stave Level 3",
+        "access_rules": [
+          "$vs_break|stave|3"
+        ],
+        "sections": [
+          {
+            "name": "Stave Level 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 380,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Stave Level 4",
+        "access_rules": [
+          "$vs_break|stave|4"
+        ],
+        "sections": [
+          {
+            "name": "Stave Level 4",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 380,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Heavy Mace Level 1",
+        "access_rules": [
+          "$vs_break|heavy_mace|1"
+        ],
+        "sections": [
+          {
+            "name": "Heavy Mace Level 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 446,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Heavy Mace Level 2",
+        "access_rules": [
+          "$vs_break|heavy_mace|2"
+        ],
+        "sections": [
+          {
+            "name": "Heavy Mace Level 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 446,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "Heavy Mace Level 3",
+        "access_rules": [
+          "$vs_break|heavy_mace|3"
+        ],
+        "sections": [
+          {
+            "name": "Heavy Mace Level 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 446,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Heavy Mace Level 4",
+        "access_rules": [
+          "$vs_break|heavy_mace|4"
+        ],
+        "sections": [
+          {
+            "name": "Heavy Mace Level 4",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 446,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Polearm Level 1",
+        "access_rules": [
+          "$vs_break|polearm|1"
+        ],
+        "sections": [
+          {
+            "name": "Polearm Level 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 512,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Polearm Level 2",
+        "access_rules": [
+          "$vs_break|polearm|2"
+        ],
+        "sections": [
+          {
+            "name": "Polearm Level 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 512,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "Polearm Level 3",
+        "access_rules": [
+          "$vs_break|polearm|3"
+        ],
+        "sections": [
+          {
+            "name": "Polearm Level 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 512,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Polearm Level 4",
+        "access_rules": [
+          "$vs_break|polearm|4"
+        ],
+        "sections": [
+          {
+            "name": "Polearm Level 4",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 512,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Crossbow Level 1",
+        "access_rules": [
+          "$vs_break|crossbow|1"
+        ],
+        "sections": [
+          {
+            "name": "Crossbow Level 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 578,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Crossbow Level 2",
+        "access_rules": [
+          "$vs_break|crossbow|2"
+        ],
+        "sections": [
+          {
+            "name": "Crossbow Level 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 578,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "Crossbow Level 3",
+        "access_rules": [
+          "$vs_break|crossbow|3"
+        ],
+        "sections": [
+          {
+            "name": "Crossbow Level 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 578,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Crossbow Level 4",
+        "access_rules": [
+          "$vs_break|crossbow|4"
+        ],
+        "sections": [
+          {
+            "name": "Crossbow Level 4",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 578,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Bare Hands Level 1",
+        "access_rules": [
+          "$vs_break|bare_hands|1"
+        ],
+        "sections": [
+          {
+            "name": "Bare Hands Level 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 644,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Bare Hands Level 2",
+        "access_rules": [
+          "$vs_break|bare_hands|2"
+        ],
+        "sections": [
+          {
+            "name": "Bare Hands Level 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 644,
+            "y": 338
+          }
+        ]
+      },
+      {
+        "name": "Bare Hands Level 3",
+        "access_rules": [
+          "$vs_break|bare_hands|3"
+        ],
+        "sections": [
+          {
+            "name": "Bare Hands Level 3",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 644,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Bare Hands Level 4",
+        "access_rules": [
+          "$vs_break|bare_hands|4"
+        ],
+        "sections": [
+          {
+            "name": "Bare Hands Level 4",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 644,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "The Gallows - Minotaur Boss - Grimoire Debile",
+        "access_rules": [
+          "$vs_room|the_gallows"
+        ],
+        "sections": [
+          {
+            "name": "The Gallows - Minotaur Boss - Grimoire Debile",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 824,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "The Gallows - Minotaur Boss - Grimoire Guerir",
+        "access_rules": [
+          "$vs_room|the_gallows"
+        ],
+        "sections": [
+          {
+            "name": "The Gallows - Minotaur Boss - Grimoire Guerir",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 908,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "The Hero's Winehall - Dullahan Boss - Grimoire Lux",
+        "access_rules": [
+          "$vs_room|the_hero_s_winehall"
+        ],
+        "sections": [
+          {
+            "name": "The Hero's Winehall - Dullahan Boss - Grimoire Lux",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 992,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Underdark Fishmarket - Giant Crab Boss - Grimoire Sylphe",
+        "access_rules": [
+          "$vs_room|underdark_fishmarket"
+        ],
+        "sections": [
+          {
+            "name": "Underdark Fishmarket - Giant Crab Boss - Grimoire Sylphe",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1076,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Fear of the Fall - Dark Elemental Boss - Grimoire Meteore",
+        "access_rules": [
+          "$vs_room|fear_of_the_fall"
+        ],
+        "sections": [
+          {
+            "name": "Fear of the Fall - Dark Elemental Boss - Grimoire Meteore",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1160,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "The Children's Hideout - Chest - Grimoire Dissiper",
+        "access_rules": [
+          "$vs_room|the_children_s_hideout"
+        ],
+        "sections": [
+          {
+            "name": "The Children's Hideout - Chest - Grimoire Dissiper",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1244,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Place of Free Words - Harpy Boss - Grimoire Intensite",
+        "access_rules": [
+          "$vs_room|place_of_free_words"
+        ],
+        "sections": [
+          {
+            "name": "Place of Free Words - Harpy Boss - Grimoire Intensite",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1328,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Weapons Not Allowed - Chest - Grimoire Nuageux",
+        "access_rules": [
+          "$vs_room|weapons_not_allowed"
+        ],
+        "sections": [
+          {
+            "name": "Weapons Not Allowed - Chest - Grimoire Nuageux",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1412,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Gemsword Blackmarket - Nightstalker Boss - Grimoire Eclairer",
+        "access_rules": [
+          "$vs_room|gemsword_blackmarket"
+        ],
+        "sections": [
+          {
+            "name": "Gemsword Blackmarket - Nightstalker Boss - Grimoire Eclairer",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1496,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Sale of the Sword - Chest - Grimoire Tardif",
+        "access_rules": [
+          "$vs_room|sale_of_the_sword"
+        ],
+        "sections": [
+          {
+            "name": "Sale of the Sword - Chest - Grimoire Tardif",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 824,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "Catspaw Blackmarket - Chest - Grimoire Paralysie",
+        "access_rules": [
+          "$vs_room|catspaw_blackmarket"
+        ],
+        "sections": [
+          {
+            "name": "Catspaw Blackmarket - Chest - Grimoire Paralysie",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 908,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "The House Khazabas - Chest - Grimoire Muet",
+        "access_rules": [
+          "$vs_room|the_house_khazabas"
+        ],
+        "sections": [
+          {
+            "name": "The House Khazabas - Chest - Grimoire Muet",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 992,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "Tircolas Flow - Duane Boss - Grimoire Clef",
+        "access_rules": [
+          "$vs_room|tircolas_flow"
+        ],
+        "sections": [
+          {
+            "name": "Tircolas Flow - Duane Boss - Grimoire Clef",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1076,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "Tircolas Flow - Duane Boss - Grimoire Demolir",
+        "access_rules": [
+          "$vs_room|tircolas_flow"
+        ],
+        "sections": [
+          {
+            "name": "Tircolas Flow - Duane Boss - Grimoire Demolir",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1160,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "Hall of Prayer - Last Crusader Boss - Grimoire Purifier",
+        "access_rules": [
+          "$vs_room|hall_of_prayer"
+        ],
+        "sections": [
+          {
+            "name": "Hall of Prayer - Last Crusader Boss - Grimoire Purifier",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1244,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "Return to the Land - Earth Dragon Boss - Grimoire Parebrise",
+        "access_rules": [
+          "$vs_room|return_to_the_land"
+        ],
+        "sections": [
+          {
+            "name": "Return to the Land - Earth Dragon Boss - Grimoire Parebrise",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1328,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "Forest River - Chest - Grimoire Agilite",
+        "access_rules": [
+          "$vs_room|forest_river"
+        ],
+        "sections": [
+          {
+            "name": "Forest River - Chest - Grimoire Agilite",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1412,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "Hewn from Nature - Dark Crusader Boss - Grimoire Deteriorer",
+        "access_rules": [
+          "$vs_room|hewn_from_nature"
+        ],
+        "sections": [
+          {
+            "name": "Hewn from Nature - Dark Crusader Boss - Grimoire Deteriorer",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1496,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "Hewn from Nature - Grissom Boss - Grimoire Gnome",
+        "access_rules": [
+          "$vs_room|hewn_from_nature"
+        ],
+        "sections": [
+          {
+            "name": "Hewn from Nature - Grissom Boss - Grimoire Gnome",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 824,
+            "y": 244
+          }
+        ]
+      },
+      {
+        "name": "Hewn from Nature - Grissom Boss - Grimoire Annuler",
+        "access_rules": [
+          "$vs_room|hewn_from_nature"
+        ],
+        "sections": [
+          {
+            "name": "Hewn from Nature - Grissom Boss - Grimoire Annuler",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 908,
+            "y": 244
+          }
+        ]
+      },
+      {
+        "name": "Alchemists' Laboratory - Chest - Grimoire Halte",
+        "access_rules": [
+          "$vs_room|alchemists_laboratory"
+        ],
+        "sections": [
+          {
+            "name": "Alchemists' Laboratory - Chest - Grimoire Halte",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 992,
+            "y": 244
+          }
+        ]
+      },
+      {
+        "name": "Hall of Sacrilege - Golem Boss - Grimoire Ameliorer",
+        "access_rules": [
+          "$vs_room|hall_of_sacrilege"
+        ],
+        "sections": [
+          {
+            "name": "Hall of Sacrilege - Golem Boss - Grimoire Ameliorer",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1076,
+            "y": 244
+          }
+        ]
+      },
+      {
+        "name": "The Cleansing Chantry - Dragon Boss - Grimoire Analyse",
+        "access_rules": [
+          "$vs_room|the_cleansing_chantry"
+        ],
+        "sections": [
+          {
+            "name": "The Cleansing Chantry - Dragon Boss - Grimoire Analyse",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1160,
+            "y": 244
+          }
+        ]
+      },
+      {
+        "name": "Dream of the Holy Land - Water Elemental Boss - Grimoire Avalanche",
+        "access_rules": [
+          "$vs_room|dream_of_the_holy_land"
+        ],
+        "sections": [
+          {
+            "name": "Dream of the Holy Land - Water Elemental Boss - Grimoire Avalanche",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1244,
+            "y": 244
+          }
+        ]
+      },
+      {
+        "name": "Bonds of Friendship - Chest - Grimoire Benir",
+        "access_rules": [
+          "$vs_room|bonds_of_friendship"
+        ],
+        "sections": [
+          {
+            "name": "Bonds of Friendship - Chest - Grimoire Benir",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1328,
+            "y": 244
+          }
+        ]
+      },
+      {
+        "name": "Companions in Arms - Chest - Grimoire Fleau",
+        "access_rules": [
+          "$vs_room|companions_in_arms"
+        ],
+        "sections": [
+          {
+            "name": "Companions in Arms - Chest - Grimoire Fleau",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1412,
+            "y": 244
+          }
+        ]
+      },
+      {
+        "name": "Stone and Sulfurous Fire - Chest - Grimoire Egout",
+        "access_rules": [
+          "$vs_room|stone_and_sulfurous_fire"
+        ],
+        "sections": [
+          {
+            "name": "Stone and Sulfurous Fire - Chest - Grimoire Egout",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1496,
+            "y": 244
+          }
+        ]
+      },
+      {
+        "name": "Excavated Hollow - Chest - Grimoire Flamme",
+        "access_rules": [
+          "$vs_room|excavated_hollow"
+        ],
+        "sections": [
+          {
+            "name": "Excavated Hollow - Chest - Grimoire Flamme",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 824,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "Hall of the Wage-Paying - Snow Dragon Boss - Grimoire Barrer",
+        "access_rules": [
+          "$vs_room|hall_of_the_wage_paying"
+        ],
+        "sections": [
+          {
+            "name": "Hall of the Wage-Paying - Snow Dragon Boss - Grimoire Barrer",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 908,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "The Cauldron - Wraith Boss - Grimoire Exsorcer",
+        "access_rules": [
+          "$vs_room|the_cauldron"
+        ],
+        "sections": [
+          {
+            "name": "The Cauldron - Wraith Boss - Grimoire Exsorcer",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 992,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "Starvation - Wraith Boss - Grimoire Venin",
+        "access_rules": [
+          "$vs_room|starvation"
+        ],
+        "sections": [
+          {
+            "name": "Starvation - Wraith Boss - Grimoire Venin",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1076,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "Monk's Leap - Lich Boss - Grimoire Demolir",
+        "access_rules": [
+          "$vs_room|monk_s_leap"
+        ],
+        "sections": [
+          {
+            "name": "Monk's Leap - Lich Boss - Grimoire Demolir",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1160,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "The Flayed Confessional - Djinn Boss - Grimoire Foudre",
+        "access_rules": [
+          "$vs_room|the_flayed_confessional"
+        ],
+        "sections": [
+          {
+            "name": "The Flayed Confessional - Djinn Boss - Grimoire Foudre",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1244,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "Order and Chaos - Marid Boss - Grimoire Avalanche",
+        "access_rules": [
+          "$vs_room|order_and_chaos"
+        ],
+        "sections": [
+          {
+            "name": "Order and Chaos - Marid Boss - Grimoire Avalanche",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1328,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "Truth and Lies - Ifrit Boss - Grimoire Flamme",
+        "access_rules": [
+          "$vs_room|truth_and_lies"
+        ],
+        "sections": [
+          {
+            "name": "Truth and Lies - Ifrit Boss - Grimoire Flamme",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1412,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "Maelstrom of Malice - Lich Lord Boss - Grimoire Radius",
+        "access_rules": [
+          "$vs_room|maelstrom_of_malice"
+        ],
+        "sections": [
+          {
+            "name": "Maelstrom of Malice - Lich Lord Boss - Grimoire Radius",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1496,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "What Ails You, Kills You - Nightmare Boss - Grimoire Meteore",
+        "access_rules": [
+          "$vs_room|what_ails_you_kills_you"
+        ],
+        "sections": [
+          {
+            "name": "What Ails You, Kills You - Nightmare Boss - Grimoire Meteore",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 824,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Hopes of the Idealist - Dao Boss - Grimoire Gaea",
+        "access_rules": [
+          "$vs_room|hopes_of_the_idealist"
+        ],
+        "sections": [
+          {
+            "name": "Hopes of the Idealist - Dao Boss - Grimoire Gaea",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 908,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Buried Alive - Chest - Grimoire Meteore",
+        "access_rules": [
+          "$vs_room|buried_alive"
+        ],
+        "sections": [
+          {
+            "name": "Buried Alive - Chest - Grimoire Meteore",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 992,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Buried Alive - Chest - Grimoire Radius",
+        "access_rules": [
+          "$vs_room|buried_alive"
+        ],
+        "sections": [
+          {
+            "name": "Buried Alive - Chest - Grimoire Radius",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1076,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Fear and Loathing - Ifrit Boss - Grimoire Flamme",
+        "access_rules": [
+          "$vs_room|fear_and_loathing"
+        ],
+        "sections": [
+          {
+            "name": "Fear and Loathing - Ifrit Boss - Grimoire Flamme",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1160,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Fear and Loathing - Marid Boss - Grimoire Avalanche",
+        "access_rules": [
+          "$vs_room|fear_and_loathing"
+        ],
+        "sections": [
+          {
+            "name": "Fear and Loathing - Marid Boss - Grimoire Avalanche",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1244,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "The Beast's Domain - Lizardman Boss - Grimoire Antidote",
+        "access_rules": [
+          "$vs_room|the_beast_s_domain"
+        ],
+        "sections": [
+          {
+            "name": "The Beast's Domain - Lizardman Boss - Grimoire Antidote",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1328,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Miners' Resting Hall - Chest - Grimoire Visible",
+        "access_rules": [
+          "$vs_room|miners_resting_hall"
+        ],
+        "sections": [
+          {
+            "name": "Miners' Resting Hall - Chest - Grimoire Visible",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1412,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "The Battle's Beginning - Wyvern Boss - Grimoire Ignifuge",
+        "access_rules": [
+          "$vs_room|the_battle_s_beginning"
+        ],
+        "sections": [
+          {
+            "name": "The Battle's Beginning - Wyvern Boss - Grimoire Ignifuge",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1496,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Rust in Peace - Chest - Grimoire Undine",
+        "access_rules": [
+          "$vs_room|rust_in_peace"
+        ],
+        "sections": [
+          {
+            "name": "Rust in Peace - Chest - Grimoire Undine",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 824,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "The Smeltry - Fire Elemental Boss - Grimoire Flamme",
+        "access_rules": [
+          "$vs_room|the_smeltry"
+        ],
+        "sections": [
+          {
+            "name": "The Smeltry - Fire Elemental Boss - Grimoire Flamme",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 908,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "Traitor's Parting - Ogre Boss - Grimoire Rempart",
+        "access_rules": [
+          "$vs_room|traitor_s_parting"
+        ],
+        "sections": [
+          {
+            "name": "Traitor's Parting - Ogre Boss - Grimoire Rempart",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 992,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "Dining in Darkness - Sky Dragon Boss - Grimoire Demance",
+        "access_rules": [
+          "$vs_room|dining_in_darkness"
+        ],
+        "sections": [
+          {
+            "name": "Dining in Darkness - Sky Dragon Boss - Grimoire Demance",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1076,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "Delusions of Happiness - Chest - Grimoire Salamandre",
+        "access_rules": [
+          "$vs_room|delusions_of_happiness"
+        ],
+        "sections": [
+          {
+            "name": "Delusions of Happiness - Chest - Grimoire Salamandre",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1160,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "Tomb of the Reborn - Earth Elemental Boss - Grimoire Gaea",
+        "access_rules": [
+          "$vs_room|tomb_of_the_reborn"
+        ],
+        "sections": [
+          {
+            "name": "Tomb of the Reborn - Earth Elemental Boss - Grimoire Gaea",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1244,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "Acolyte's Burial Vault - Chest - Grimoire Vie",
+        "access_rules": [
+          "$vs_room|acolyte_s_burial_vault"
+        ],
+        "sections": [
+          {
+            "name": "Acolyte's Burial Vault - Chest - Grimoire Vie",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1328,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "Hidden Resources - Chest - Grimoire Mollesse",
+        "access_rules": [
+          "$vs_room|hidden_resources"
+        ],
+        "sections": [
+          {
+            "name": "Hidden Resources - Chest - Grimoire Mollesse",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1412,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "The Miner's End - Air Elemental Boss - Grimoire Foudre",
+        "access_rules": [
+          "$vs_room|the_miner_s_end"
+        ],
+        "sections": [
+          {
+            "name": "The Miner's End - Air Elemental Boss - Grimoire Foudre",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 1496,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "Game End: Credits",
+        "access_rules": [
+          "$vs_room|dome"
+        ],
+        "sections": [
+          {
+            "name": "Game End: Credits",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ashley",
+            "x": 672,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

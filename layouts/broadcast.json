@@ -1,0 +1,16 @@
+{
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "layout",
+        "key": "keys_grid"
+      },
+      {
+        "type": "layout",
+        "key": "sigils_grid"
+      }
+    ]
+  }
+}

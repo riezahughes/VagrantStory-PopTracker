@@ -1,0 +1,117 @@
+[
+  {
+    "name": "City Walls - South",
+    "children": [
+      {
+        "name": "In Wait of the Foe",
+        "access_rules": [
+          "$vs_room|in_wait_of_the_foe"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_south",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Swords for the Land",
+        "access_rules": [
+          "$vs_room|swords_for_the_land"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_south",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Weeping Boy",
+        "access_rules": [
+          "$vs_room|the_weeping_boy"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_south",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Where Weary Riders Rest",
+        "access_rules": [
+          "$vs_room|where_weary_riders_rest"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_south",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Boy's Training Room",
+        "access_rules": [
+          "$vs_room|the_boy_s_training_room"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "city_walls_south",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Great Cathedral - L2",
+    "children": [
+      {
+        "name": "Free from Base Desires",
+        "access_rules": [
+          "$vs_room|free_from_base_desires"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L2",
+            "x": 198,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Abasement from Above",
+        "access_rules": [
+          "$vs_room|abasement_from_above"
+        ],
+        "sections": [
+          {
+            "name": "Poison Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Paralysis Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Curse Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L2",
+            "x": 402,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Convent Room",
+        "access_rules": [
+          "$vs_room|the_convent_room"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L2",
+            "x": 606,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "The Hall of Broken Vows",
+        "access_rules": [
+          "$vs_room|the_hall_of_broken_vows"
+        ],
+        "sections": [
+          {
+            "name": "Flame Dragon Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L2",
+            "x": 810,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Light and Dark Wage War",
+        "access_rules": [
+          "$vs_room|light_and_dark_wage_war"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L2",
+            "x": 1014,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "An Arrow into Darkness",
+        "access_rules": [
+          "$vs_room|an_arrow_into_darkness"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L2",
+            "x": 1218,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "He Screams for Mercy",
+        "access_rules": [
+          "$vs_room|he_screams_for_mercy"
+        ],
+        "sections": [
+          {
+            "name": "Terra Thrust Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Cure Floor Trap",
+            "item_count": 1,
+            "visibility_rules": [
+              "panelsanity"
+            ]
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L2",
+            "x": 198,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Acolyte's Weakness",
+        "access_rules": [
+          "$vs_room|the_acolyte_s_weakness"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L2",
+            "x": 402,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "Maelstrom of Malice",
+        "access_rules": [
+          "$vs_room|maelstrom_of_malice"
+        ],
+        "sections": [
+          {
+            "name": "Lich Lord Boss - Grimoire Radius",
+            "item_count": 1
+          },
+          {
+            "name": "Lich Lord Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L2",
+            "x": 606,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "The Melodics of Madness",
+        "access_rules": [
+          "$vs_room|the_melodics_of_madness"
+        ],
+        "sections": [
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L2",
+            "x": 810,
+            "y": 228
+          }
+        ]
+      },
+      {
+        "name": "What Ails You, Kills You",
+        "access_rules": [
+          "$vs_room|what_ails_you_kills_you"
+        ],
+        "sections": [
+          {
+            "name": "Nightmare Boss - Grimoire Meteore",
+            "item_count": 1
+          },
+          {
+            "name": "Nightmare Boss",
+            "item_count": 1
+          },
+          {
+            "name": "Room Entered",
+            "item_count": 1,
+            "visibility_rules": [
+              "roomsanity"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "great_cathedral_L2",
+            "x": 1014,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]
