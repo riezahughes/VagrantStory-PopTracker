@@ -791,12 +791,16 @@ VS.EDGES = {
   ["t"] = "rue_vermillion",
 },
   {
-  ["f"] = "rue_bouquet",
-  ["t"] = "tircolas_flow",
+  ["f"] = "tircolas_flow",
+  ["t"] = "glacialdra_kirk_ruins",
+},
+  {
+  ["f"] = "tircolas_flow",
+  ["t"] = "rue_bouquet",
 },
   {
   ["f"] = "rue_bouquet",
-  ["t"] = "escapeway",
+  ["t"] = "tircolas_flow",
 },
   {
   ["f"] = "rue_bouquet",
@@ -3233,10 +3237,6 @@ VS.EDGES = {
   {
   ["f"] = "escapeway",
   ["t"] = "traitor_s_parting",
-},
-  {
-  ["f"] = "escapeway",
-  ["t"] = "rue_bouquet",
 },
   {
   ["f"] = "subtellurian_horrors",
