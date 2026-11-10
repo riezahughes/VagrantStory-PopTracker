@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 198,
-            "y": 140
+            "x": 430,
+            "y": 113
           }
         ]
       },
@@ -42,7 +42,7 @@
           {
             "map": "snowfly_forest",
             "x": 402,
-            "y": 140
+            "y": 334
           }
         ]
       },
@@ -63,8 +63,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 606,
-            "y": 140
+            "x": 398,
+            "y": 538
           }
         ]
       },
@@ -85,8 +85,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 810,
-            "y": 140
+            "x": 183,
+            "y": 542
           }
         ]
       },
@@ -107,8 +107,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1014,
-            "y": 140
+            "x": 399,
+            "y": 734
           }
         ]
       },
@@ -129,8 +129,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1218,
-            "y": 140
+            "x": 608,
+            "y": 538
           }
         ]
       },
@@ -151,8 +151,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1422,
-            "y": 140
+            "x": 824,
+            "y": 540
           }
         ]
       },
@@ -173,8 +173,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1626,
-            "y": 140
+            "x": 398,
+            "y": 931
           }
         ]
       },
@@ -195,8 +195,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 198,
-            "y": 228
+            "x": 179,
+            "y": 920
           }
         ]
       },
@@ -225,8 +225,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 402,
-            "y": 228
+            "x": 164,
+            "y": 1133
           }
         ]
       },
@@ -247,8 +247,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 606,
-            "y": 228
+            "x": 614,
+            "y": 931
           }
         ]
       },
@@ -269,8 +269,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 810,
-            "y": 228
+            "x": 822,
+            "y": 929
           }
         ]
       },
@@ -291,8 +291,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1014,
-            "y": 228
+            "x": 866,
+            "y": 1127
           }
         ]
       },
@@ -313,8 +313,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1218,
-            "y": 228
+            "x": 582,
+            "y": 1116
           }
         ]
       },
@@ -350,8 +350,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1422,
-            "y": 228
+            "x": 700,
+            "y": 1303
           }
         ]
       },
@@ -372,8 +372,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1626,
-            "y": 228
+            "x": 1261,
+            "y": 1091
           }
         ]
       },
@@ -394,8 +394,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 198,
-            "y": 316
+            "x": 1276,
+            "y": 867
           }
         ]
       },
@@ -416,8 +416,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 402,
-            "y": 316
+            "x": 1479,
+            "y": 867
           }
         ]
       },
@@ -438,8 +438,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 606,
-            "y": 316
+            "x": 1479,
+            "y": 663
           }
         ]
       },
@@ -484,8 +484,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 810,
-            "y": 316
+            "x": 1500,
+            "y": 440
           }
         ]
       },
@@ -506,8 +506,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1014,
-            "y": 316
+            "x": 1523,
+            "y": 230
           }
         ]
       },
@@ -528,8 +528,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1218,
-            "y": 316
+            "x": 823,
+            "y": 734
           }
         ]
       },
@@ -550,8 +550,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1422,
-            "y": 316
+            "x": 609,
+            "y": 734
           }
         ]
       },
@@ -572,8 +572,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 1626,
-            "y": 316
+            "x": 1087,
+            "y": 912
           }
         ]
       },
@@ -594,8 +594,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 198,
-            "y": 404
+            "x": 1044,
+            "y": 733
           }
         ]
       },
@@ -616,8 +616,8 @@
         "map_locations": [
           {
             "map": "snowfly_forest",
-            "x": 402,
-            "y": 404
+            "x": 1054,
+            "y": 1107
           }
         ]
       }

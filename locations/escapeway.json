@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "escapeway",
-            "x": 198,
-            "y": 140
+            "x": 857,
+            "y": 729
           }
         ]
       },
@@ -53,8 +53,8 @@
         "map_locations": [
           {
             "map": "escapeway",
-            "x": 402,
-            "y": 140
+            "x": 1131,
+            "y": 639
           }
         ]
       },
@@ -75,8 +75,8 @@
         "map_locations": [
           {
             "map": "escapeway",
-            "x": 606,
-            "y": 140
+            "x": 547,
+            "y": 716
           }
         ]
       },
@@ -104,8 +104,8 @@
         "map_locations": [
           {
             "map": "escapeway",
-            "x": 810,
-            "y": 140
+            "x": 451,
+            "y": 1138
           }
         ]
       },
@@ -126,8 +126,8 @@
         "map_locations": [
           {
             "map": "escapeway",
-            "x": 1014,
-            "y": 140
+            "x": 181,
+            "y": 1138
           }
         ]
       },
@@ -164,8 +164,8 @@
         "map_locations": [
           {
             "map": "escapeway",
-            "x": 198,
-            "y": 228
+            "x": 860,
+            "y": 437
           }
         ]
       },
@@ -193,8 +193,8 @@
         "map_locations": [
           {
             "map": "escapeway",
-            "x": 402,
-            "y": 228
+            "x": 865,
+            "y": 130
           }
         ]
       },
@@ -219,8 +219,8 @@
         "map_locations": [
           {
             "map": "escapeway",
-            "x": 606,
-            "y": 228
+            "x": 1136,
+            "y": 125
           }
         ]
       }

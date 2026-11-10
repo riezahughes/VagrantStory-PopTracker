@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "city_walls_west",
-            "x": 198,
-            "y": 140
+            "x": 217,
+            "y": 120
           }
         ]
       },
@@ -41,8 +41,8 @@
         "map_locations": [
           {
             "map": "city_walls_west",
-            "x": 402,
-            "y": 140
+            "x": 600,
+            "y": 120
           }
         ]
       },
@@ -63,8 +63,8 @@
         "map_locations": [
           {
             "map": "city_walls_west",
-            "x": 606,
-            "y": 140
+            "x": 959,
+            "y": 122
           }
         ]
       }

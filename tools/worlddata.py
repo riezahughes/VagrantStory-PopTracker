@@ -12,6 +12,25 @@ import re
 DEFAULT_WORLD = r"D:\Archipelago\dev\VagrantStoryAPWorld\worlds\vagrantstory"
 
 
+def _lam_expr(lam):
+    """lambda state: has_key_required(self, "X", state) [and ...]  ->  nested tuple expression."""
+
+    def conv(n):
+        if isinstance(n, ast.BoolOp) and isinstance(n.op, ast.And):
+            return ("and", [conv(v) for v in n.values])
+        if isinstance(n, ast.Call):
+            f = n.func.id
+            if f in ("has_key_required", "has_sigil_required"):
+                return ("item", n.args[1].value)
+            if f == "has_rood_inverse":
+                return ("item", "Rood Inverse")
+            if f == "player_has_location":
+                return ("loc", n.args[1].value)
+        raise ValueError(ast.dump(n))
+
+    return conv(lam.body)
+
+
 class World:
     def __init__(self, world_dir=DEFAULT_WORLD):
         self.dir = world_dir
@@ -22,7 +41,7 @@ class World:
     # ------------------------------------------------------------------ rooms
     def _load_rooms(self):
         rooms_dir = os.path.join(self.dir, "rooms")
-        init_src = open(os.path.join(rooms_dir, "__init__.py"), encoding="utf-8").read()
+        init_src = open(os.path.join(rooms_dir, "__init__.py"), encoding="utf-8", errors="replace").read()
         pairs = re.findall(r'"([^"]+)":\s*(\w+)\.room_data', init_src)
         self.major_regions = {}  # key -> {room: {"exits": [(target, req)]}}
         for key, mod in pairs:
@@ -40,7 +59,7 @@ class World:
 
     # -------------------------------------------------------------- locations
     def _load_locations(self):
-        tree = ast.parse(open(os.path.join(self.dir, "Locations.py"), encoding="utf-8").read())
+        tree = ast.parse(open(os.path.join(self.dir, "Locations.py"), encoding="utf-8", errors="replace").read())
         tables = None
         for node in tree.body:
             if isinstance(node, ast.Assign) and getattr(node.targets[0], "id", "") == "location_tables":
@@ -65,7 +84,7 @@ class World:
 
     # ------------------------------------------------------------------ items
     def _load_items(self):
-        src = open(os.path.join(self.dir, "Items.py"), encoding="utf-8").read()
+        src = open(os.path.join(self.dir, "Items.py"), encoding="utf-8", errors="replace").read()
         tree = ast.parse(src)
         raw = None
         for node in tree.body:
@@ -114,24 +133,8 @@ class World:
           ("item", name) | ("loc", location_name) | ("and", [expr...])
         modes: vanilla (key+boss progression), open (open progression), time_trial (overlay)
         """
-        tree = ast.parse(open(os.path.join(self.dir, "Rules.py"), encoding="utf-8").read())
+        tree = ast.parse(open(os.path.join(self.dir, "Rules.py"), encoding="utf-8", errors="replace").read())
         funcs = {n.name: n for n in tree.body if isinstance(n, ast.FunctionDef)}
-
-        def lam_expr(lam):
-            def conv(n):
-                if isinstance(n, ast.BoolOp) and isinstance(n.op, ast.And):
-                    return ("and", [conv(v) for v in n.values])
-                if isinstance(n, ast.Call):
-                    f = n.func.id
-                    if f in ("has_key_required", "has_sigil_required"):
-                        return ("item", n.args[1].value)
-                    if f == "has_rood_inverse":
-                        return ("item", "Rood Inverse")
-                    if f == "player_has_location":
-                        return ("loc", n.args[1].value)
-                raise ValueError(ast.dump(n))
-
-            return conv(lam.body)
 
         def collect(fname):
             ops = []
@@ -143,7 +146,7 @@ class World:
                         and getattr(tgt.func, "attr", "") == "get_entrance"
                         and isinstance(node.args[1], ast.Lambda)
                     ):
-                        ops.append((node.func.id, tgt.args[0].value, lam_expr(node.args[1]), node.lineno))
+                        ops.append((node.func.id, tgt.args[0].value, _lam_expr(node.args[1]), node.lineno))
             ops.sort(key=lambda o: o[3])
             return ops
 
@@ -162,6 +165,49 @@ class World:
             "open": apply([collect("set_open_progression")]),
             "time_trial": apply([collect("set_time_trial_rules")]),
         }
+
+    def blade_groups(self):
+        """
+        {WeaponType enum name: [blade item names]} exactly as Items.blade_name_groups(): every BLADE_PARTS item of that
+        weapon type (all tiers), plus "* Knuckles" for BARE_HANDS (they are filed under ARMOUR in the item list).
+        """
+        groups = {}
+        for name, cat, _code in self.items:
+            if name.endswith(" Knuckles"):
+                wt = "BARE_HANDS"
+            elif cat == "BLADE_PARTS" and self.item_weapon.get(name):
+                wt = self.item_weapon[name][0]
+            else:
+                continue
+            lst = groups.setdefault(wt, [])
+            if name not in lst:
+                lst.append(name)
+        return groups
+
+    def location_rules(self):
+        """
+        {mode: {location_name: expr}} for set_rule(self.get_location("..."), lambda ...) calls in the key/open progression
+        functions (e.g. the Chest Key chests). Same expression format as entrance_rules().
+        """
+        tree = ast.parse(open(os.path.join(self.dir, "Rules.py"), encoding="utf-8", errors="replace").read())
+        funcs = {n.name: n for n in tree.body if isinstance(n, ast.FunctionDef)}
+
+        def collect(fname):
+            out = {}
+            for node in ast.walk(funcs[fname]):
+                if isinstance(node, ast.Call) and getattr(node.func, "id", "") == "set_rule" and len(node.args) > 1:
+                    tgt = node.args[0]
+                    if isinstance(tgt, ast.Call) and getattr(tgt.func, "attr", "") == "get_location" and isinstance(node.args[1], ast.Lambda):
+                        out[tgt.args[0].value] = _lam_expr(node.args[1])
+            return out
+
+        return {"vanilla": collect("set_vanilla_key_item_progression"), "open": collect("set_open_progression")}
+
+    def workshops(self):
+        """Rooms of _WORKSHOPS in Rules.py (any of them reachable unlocks break arts)."""
+        src = open(os.path.join(self.dir, "Rules.py"), encoding="utf-8", errors="replace").read()
+        m = re.search(r"_WORKSHOPS\s*=\s*\[(.*?)\]", src, re.S)
+        return re.findall(r'"([^"]+)"', m.group(1)) if m else []
 
 
 if __name__ == "__main__":

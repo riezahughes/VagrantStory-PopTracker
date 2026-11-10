@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Built pack zips (rebuilt from this folder)
+*.zip
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

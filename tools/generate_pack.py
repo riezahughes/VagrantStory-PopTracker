@@ -296,11 +296,11 @@ def fist_sprite():
 def main():
     world_dir = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_WORLD
     w = World(world_dir)
-    init_src = open(os.path.join(world_dir, "__init__.py"), encoding="utf-8").read()
-    rules_src = open(os.path.join(world_dir, "Rules.py"), encoding="utf-8").read()
+    init_src = open(os.path.join(world_dir, "__init__.py"), encoding="utf-8", errors="replace").read()
+    rules_src = open(os.path.join(world_dir, "Rules.py"), encoding="utf-8", errors="replace").read()
 
     # ---- sanity: special rules this generator hard-wires still exist in Rules.py ----
-    for needle in ('"The Atrium -> Dome"', '"Rue Crimnade -> The House Gilgitte"', '"The Withered Spring"'):
+    for needle in ('"The Atrium -> Dome"', '"Rue Crimnade -> The House Gilgitte"', "_WORKSHOPS"):
         if needle not in rules_src:
             print(f"WARNING: expected {needle} in Rules.py - special-case logic in generate_pack.py may be stale")
 
@@ -313,7 +313,7 @@ def main():
     # named by the option, so the tracker orders its starts by OpenWorldOptions. Set to False to mirror the list order.
     START_BY_OPTION_NAME = True
     if START_BY_OPTION_NAME:
-        opts_src = open(os.path.join(world_dir, "Options.py"), encoding="utf-8").read()
+        opts_src = open(os.path.join(world_dir, "Options.py"), encoding="utf-8", errors="replace").read()
         block = re.search(r"class OpenWorldOptions:(.*?)\n\n", opts_src, re.S).group(1)
         by_value = sorted((int(v), n) for n, v in re.findall(r"(\w+)\s*=\s*(\d+)", block))
         ordered = []
@@ -325,20 +325,9 @@ def main():
         assert sorted(ordered) == sorted(starts)
         starts = ordered
 
-    # ---- weapon groups -> blades ----
+    # ---- the weapon list must still match Rules.py (blades themselves are not tracked) ----
     gm = re.search(r"_BREAK_ART_WEAPON_GROUPS\s*=\s*\{(.*?)\}", rules_src, re.S)
     weapon_group = dict(re.findall(r'"([^"]+)":\s*"([^"]+)"', gm.group(1)))
-    import ast as _ast
-
-    groups = {}
-    for node in _ast.walk(_ast.parse(init_src)):
-        if isinstance(node, _ast.Assign) and getattr(node.targets[0], "id", "") == "item_name_groups":
-            for k, v in zip(node.value.keys, node.value.values):
-                groups[k.value] = [e.value for e in v.elts]
-    blade_to_weapon = {}
-    for weapon, gname in weapon_group.items():
-        for blade in groups[gname]:
-            blade_to_weapon[blade] = weapon
     assert set(weapon_group) == set(WEAPONS), "weapon list drifted from Rules.py"
 
     # ------------------------------------------------------------------------------------
@@ -348,7 +337,7 @@ def main():
     sigils = [n for n, c, _ in w.items if c == "SIGILS"]
     grimoires = [n for n, c, _ in w.items if c == "GRIMOIRE" and not n.startswith("Progressive")]
     prog_grim = {}  # name -> qty
-    src = open(os.path.join(world_dir, "Items.py"), encoding="utf-8").read()
+    src = open(os.path.join(world_dir, "Items.py"), encoding="utf-8", errors="replace").read()
     for name, qty in re.findall(r'VagrantStoryItemData\("(Progressive Grimoire [^"]+)",\s*VagrantStoryItemCategory\.GRIMOIRE,\s*False,\s*(\d+)\)', src):
         prog_grim[name] = int(qty)
 
@@ -432,7 +421,25 @@ def main():
             else:
                 save_placeholder(item_img(code), badge("P" + n.replace("Progressive Grimoire ", "")[:2], color_for(n)), f"{n} icon (levelling grimoire)")
 
-    # break arts (display items; ticked by the matching AP location)
+    # blades: one toggle per weapon type, ticked when ANY blade of that type is received (the world gates every break art
+    # on state.has_group("<Type> Blades"), see Rules.set_break_art_rules / Items.blade_name_groups)
+    items_blades = []
+    bgroups = w.blade_groups()
+    assert set(bgroups) == set(WEAPON_ENUM), (sorted(bgroups), sorted(WEAPON_ENUM))
+    for enum, weapon in WEAPON_ENUM.items():
+        bcode = "blade_" + slug(weapon)
+        items_blades.append({"name": f"{weapon} blade (any)", "type": "toggle", "img": f"images/blades/{slug(weapon)}.png", "codes": bcode})
+        for blade in bgroups[enum]:
+            ITEM_MAPPING[w.item_id[blade]] = [bcode, "toggle"]
+        if Image:
+            if SHEET_CELLS[weapon] and os.path.exists(SPRITESHEET):
+                bimg, kind = sheet_sprite(*SHEET_CELLS[weapon][0]), "from-sheet"
+            else:
+                bimg, kind = fist_sprite(), "placeholder"
+            save_placeholder(f"images/blades/{slug(weapon)}.png", bimg, f"{weapon} blade icon (untinted)", kind)
+    write_json("items/blades.json", items_blades)
+
+    # break arts (display items; ticked when the named art is received)
     breakart_loc = {}  # location id -> item code
     # Items.py tags every break art with its weapon type; levels 1-4 are the order they appear in for that type.
     ba_items = [n for n, c, _ in w.items if c == "BREAK_ARTS"]
@@ -523,6 +530,18 @@ def main():
         raise ValueError(expr)
 
     rules = w.entrance_rules()
+
+    # location rules (e.g. the Chest Key chests): must be identical in vanilla and open mode for the tracker to apply them
+    def expr_items(e):
+        if e[0] == "item":
+            return [slug(e[1])]
+        if e[0] == "and":
+            return [c for x in e[1] for c in expr_items(x)]
+        raise ValueError(f"unsupported location rule {e}")
+
+    lrules = w.location_rules()
+    assert lrules["vanilla"] == lrules["open"], "location rules differ between vanilla and open; tracker needs mode-specific handling"
+    loc_item_rules = {n: expr_items(e) for n, e in lrules["vanilla"].items()}
     bsall = ["bsall"]
     ents = w.entrances()
     edges = []
@@ -597,6 +616,8 @@ def main():
                 else:
                     seen[lbl] = 1
                 sec = {"name": lbl, "item_count": 1}
+                if name in loc_item_rules:  # e.g. Chest Key chests: room reachable AND the item(s)
+                    sec["access_rules"] = [",".join([f"$vs_room|{slug(room)}", *loc_item_rules[name]])]
                 if cat in VIS:
                     sec["visibility_rules"] = VIS[cat]
                 sections.append(sec)
@@ -614,7 +635,7 @@ def main():
             )
             room_list.append(room)
         write_json(f"locations/{key}.json", [{"name": MAP_TITLES[key], "children": children}])
-        maps_def.append({"name": key, "location_size": 18, "location_border_thickness": 2, "img": f"images/maps/{key}.png"})
+        maps_def.append({"name": key, "location_size": 36, "location_border_thickness": 3, "img": f"images/maps/{key}.png"})
         rooms_by_map[key] = room_list
         if Image:
             img = Image.new("RGB", (width, height), (10, 10, 14))
@@ -678,7 +699,7 @@ def main():
     if Image:
         save_placeholder("images/chain/goal.png", badge("END", (200, 160, 40)), "Goal / credits icon")
     write_json("items/chain.json", items_chain)
-    items_src = open(os.path.join(world_dir, "Items.py"), encoding="utf-8").read()
+    items_src = open(os.path.join(world_dir, "Items.py"), encoding="utf-8", errors="replace").read()
     start_block = re.search(r"_STARTING_ABILITIES\s*=\s*frozenset\(\s*\[(.*?)\]", items_src, re.S)
     start_abilities = [slug(n) for n in re.findall(r'"([^"]+)"', start_block.group(1))] if start_block else []
     assert all(a in {i["codes"] for i in items_chain} for a in start_abilities), start_abilities
@@ -736,7 +757,7 @@ def main():
         x, y = gx0 + (i % gcols) * gcell + 24, my + (i // gcols) * 70 + 14
         parts = name.split(" - ")
         child = " - ".join(parts[1:])  # drop the area abbreviation; unique because the AP name is
-        add_ash(child, f"$vs_room|{slug(room)}", x, y)
+        add_ash(child, ",".join([f"$vs_room|{slug(room)}", *loc_item_rules.get(name, [])]), x, y)
         path = f"@{ASH}/{child}/{child}"
         prev = LOCATIONS_MAPPING[w.loc_id[name]]
         LOCATIONS_MAPPING[w.loc_id[name]] = [prev, path] if isinstance(prev, str) else [*prev, path]
@@ -753,6 +774,16 @@ def main():
     write_json("locations/ashley.json", [{"name": ASH, "children": ash_children}])
     maps_def.append({"name": "ashley", "location_size": 18, "location_border_thickness": 2, "img": "images/maps/ashley.png"})
 
+    # PopTracker scales every map image to fit the window, so a fixed pixel size looks different per map. Size each
+    # marker relative to how much its image gets shrunk (fit = max(width, 1.6 * height)); 36px at a 2500px-wide map.
+    if Image:
+        for md in maps_def:
+            if md["name"] in ("ashley", "prologue"):
+                continue
+            with Image.open(os.path.join(ROOT, md["img"])) as im:
+                fit = max(im.width, 1.6 * im.height)
+            md["location_size"] = max(14, round(36 * fit / 2500))
+            md["location_border_thickness"] = 3 if md["location_size"] >= 24 else 2
     write_json("maps/maps.json", maps_def)
     write_json("tools/rooms_by_map.json", rooms_by_map)
 
@@ -766,7 +797,7 @@ def main():
         f"VS.VANILLA_START = {lua(slug('Entrance to Darkness'))}",
         f"VS.OPEN_STARTS = {lua([slug(s) for s in starts])}",
         "VS.GOAL_ROOM = \"dome\"",
-        "VS.WITHERED_SPRING = \"the_withered_spring\"",
+        f"VS.WORKSHOPS = {lua([slug(r) for r in w.workshops()])}",
         f"VS.SIG_CODES = {lua(sig)}",
         "VS.EDGES = {",
     ]
@@ -808,6 +839,7 @@ def write_layouts(keys, sigils, grimoires, prog_grimoires, chain_abilities, defe
 
     shared = {
         "breakart_grid": grid(ba_rows, "2"),
+        "blade_grid": grid([["blade_" + slug(wp)] for wp in WEAPONS], "2"),
         "chain_ability_grid": grid(chunk([slug(n) for n in chain_abilities], 7), "2"),
         "defence_ability_grid": grid(chunk([slug(n) for n in defence_abilities], 7), "2"),
         "blood_grid": grid([["blood_sin_piece"]]),
@@ -845,7 +877,7 @@ def write_layouts(keys, sigils, grimoires, prog_grimoires, chain_abilities, defe
     bottom_panel = {
         "type": "array", "orientation": "horizontal", "margin": "0,0",
         "content": [
-            group("Break Arts", "breakart_grid"),
+            group("Blades | Break Arts", "blade_grid", "breakart_grid"),
             abilities,
             {"type": "group", "header": "Blood Sin", "content": shared["blood_grid"]},
             group("Grimoires", "grimoire_grid"),
@@ -921,6 +953,7 @@ def write_images_needed(rooms_by_map, w):
         ("Sigils (23, one per flower)", lambda r: r.startswith("images/items/") and r.endswith("_sigil.png")),
         ("Grimoires (36 spells + 7 levelling)", lambda r: r.startswith("images/items/grimoire") or "progressive_grimoire" in r),
         ("Chain / defence ability icons (14 + 14) + goal icon", lambda r: r.startswith("images/chain/")),
+        ("Blade icons (10, one per weapon type; untinted)", lambda r: r.startswith("images/blades/")),
         ("Break art icons (40 = 10 weapons x 4 levels; level number is overlaid by the tracker)", lambda r: r.startswith("images/breakarts/")),
         ("Settings icons", lambda r: r.startswith("images/settings/")),
     ]

@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 198,
-            "y": 140
+            "x": 237,
+            "y": 535
           }
         ]
       },
@@ -41,8 +41,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 402,
-            "y": 140
+            "x": 640,
+            "y": 535
           }
         ]
       },
@@ -67,8 +67,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 606,
-            "y": 140
+            "x": 644,
+            "y": 389
           }
         ]
       },
@@ -93,8 +93,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 810,
-            "y": 140
+            "x": 642,
+            "y": 720
           }
         ]
       },
@@ -115,8 +115,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 1014,
-            "y": 140
+            "x": 1018,
+            "y": 538
           }
         ]
       },
@@ -141,8 +141,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 1218,
-            "y": 140
+            "x": 1020,
+            "y": 389
           }
         ]
       },
@@ -167,8 +167,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 198,
-            "y": 228
+            "x": 1018,
+            "y": 720
           }
         ]
       },
@@ -189,8 +189,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 402,
-            "y": 228
+            "x": 1366,
+            "y": 538
           }
         ]
       },
@@ -215,8 +215,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 606,
-            "y": 228
+            "x": 1378,
+            "y": 389
           }
         ]
       },
@@ -241,8 +241,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 810,
-            "y": 228
+            "x": 1384,
+            "y": 720
           }
         ]
       },
@@ -263,8 +263,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 1014,
-            "y": 228
+            "x": 1791,
+            "y": 537
           }
         ]
       },
@@ -293,8 +293,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 1218,
-            "y": 228
+            "x": 1767,
+            "y": 338
           }
         ]
       },
@@ -319,8 +319,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 198,
-            "y": 316
+            "x": 1773,
+            "y": 720
           }
         ]
       },
@@ -332,7 +332,10 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$vs_room|the_warrior_s_rest,chest_key"
+            ]
           },
           {
             "name": "Room Entered",
@@ -345,8 +348,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 402,
-            "y": 316
+            "x": 2092,
+            "y": 210
           }
         ]
       },
@@ -367,8 +370,8 @@
         "map_locations": [
           {
             "map": "the_keep",
-            "x": 606,
-            "y": 316
+            "x": 2341,
+            "y": 554
           }
         ]
       }

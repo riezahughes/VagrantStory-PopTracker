@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L2",
-            "x": 198,
-            "y": 140
+            "x": 972,
+            "y": 627
           }
         ]
       },
@@ -62,8 +62,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L2",
-            "x": 402,
-            "y": 140
+            "x": 678,
+            "y": 636
           }
         ]
       },
@@ -84,8 +84,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L2",
-            "x": 606,
-            "y": 140
+            "x": 352,
+            "y": 631
           }
         ]
       },
@@ -110,8 +110,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L2",
-            "x": 810,
-            "y": 140
+            "x": 691,
+            "y": 362
           }
         ]
       },
@@ -132,8 +132,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L2",
-            "x": 1014,
-            "y": 140
+            "x": 1019,
+            "y": 371
           }
         ]
       },
@@ -158,8 +158,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L2",
-            "x": 1218,
-            "y": 140
+            "x": 1247,
+            "y": 362
           }
         ]
       },
@@ -194,8 +194,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L2",
-            "x": 198,
-            "y": 228
+            "x": 666,
+            "y": 118
           }
         ]
       },
@@ -216,8 +216,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L2",
-            "x": 402,
-            "y": 228
+            "x": 358,
+            "y": 122
           }
         ]
       },
@@ -246,8 +246,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L2",
-            "x": 606,
-            "y": 228
+            "x": 993,
+            "y": 118
           }
         ]
       },
@@ -268,8 +268,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L2",
-            "x": 810,
-            "y": 228
+            "x": 355,
+            "y": 362
           }
         ]
       },
@@ -298,8 +298,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L2",
-            "x": 1014,
-            "y": 228
+            "x": 100,
+            "y": 361
           }
         ]
       }

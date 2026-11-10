@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 198,
-            "y": 140
+            "x": 1736,
+            "y": 598
           }
         ]
       },
@@ -49,8 +49,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 402,
-            "y": 140
+            "x": 1440,
+            "y": 598
           }
         ]
       },
@@ -75,8 +75,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 606,
-            "y": 140
+            "x": 1107,
+            "y": 598
           }
         ]
       },
@@ -97,8 +97,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 810,
-            "y": 140
+            "x": 809,
+            "y": 598
           }
         ]
       },
@@ -127,8 +127,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 1014,
-            "y": 140
+            "x": 772,
+            "y": 355
           }
         ]
       },
@@ -149,8 +149,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 1218,
-            "y": 140
+            "x": 789,
+            "y": 894
           }
         ]
       },
@@ -179,8 +179,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 198,
-            "y": 228
+            "x": 471,
+            "y": 896
           }
         ]
       },
@@ -201,8 +201,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 402,
-            "y": 228
+            "x": 184,
+            "y": 894
           }
         ]
       },
@@ -231,8 +231,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 606,
-            "y": 228
+            "x": 142,
+            "y": 629
           }
         ]
       },
@@ -253,8 +253,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 810,
-            "y": 228
+            "x": 1671,
+            "y": 946
           }
         ]
       },
@@ -275,8 +275,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 1014,
-            "y": 228
+            "x": 1967,
+            "y": 949
           }
         ]
       },
@@ -297,8 +297,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 1218,
-            "y": 228
+            "x": 2278,
+            "y": 959
           }
         ]
       },
@@ -334,8 +334,8 @@
         "map_locations": [
           {
             "map": "undercity_east",
-            "x": 198,
-            "y": 316
+            "x": 2313,
+            "y": 685
           }
         ]
       }

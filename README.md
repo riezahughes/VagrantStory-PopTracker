@@ -13,9 +13,10 @@ are picked up automatically; every setting can also be toggled by hand in *Setti
 - Top tabs per area (floors nested), one square per room that has checks. Red = unreachable, green = reachable,
   grey = done. Hover/click a room for its checks (Room Entered, Chest, Boss, Grimoire, floor traps, ...).
 - **Ashley** tab: the 22 chain unlock checks, 40 break art checks (Blood Sin gated), the 54 grimoire pickups, and the
-  Credits goal. Green/red here follows the AP rules (Blood Sin tiers, vanilla workshop prerequisite, room access).
-  Not checked: the blade-of-that-weapon-type requirement for break arts (the tracker doesn't track blades yet).
-- Bottom row = items you hold, on one page, all ticked from items **received** from the server: Break Arts (the 40 named
+  Credits goal. Green/red here follows the AP rules (Blood Sin tiers, "a workshop must be reachable" for break arts, Chest Key chests, room access).
+  Break arts also need ANY blade of that weapon type (Bare Hands = Knuckles), exactly as the world's `has_group` gate.
+- Bottom row = items you hold, on one page, all ticked from items **received** from the server: Blades (one icon per
+  weapon type, ticks when any blade of that type arrives) and Break Arts (the 40 named
   arts), Chain and Defence Abilities (14 + 14, red / blue; the 6 the game grants at the start are ticked on connect),
   Blood Sin counter, Grimoires, Keys | Sigils (A-Z), Settings (incl. Teleport / Rood Inverse, set from your yaml).
 - Room access uses the same graph the generator uses: a flood fill from the start room with the keys/sigils you hold.

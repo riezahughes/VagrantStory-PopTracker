@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "forgotten_pathway",
-            "x": 198,
-            "y": 140
+            "x": 499,
+            "y": 927
           }
         ]
       },
@@ -45,8 +45,8 @@
         "map_locations": [
           {
             "map": "forgotten_pathway",
-            "x": 402,
-            "y": 140
+            "x": 496,
+            "y": 543
           }
         ]
       },
@@ -81,8 +81,8 @@
         "map_locations": [
           {
             "map": "forgotten_pathway",
-            "x": 606,
-            "y": 140
+            "x": 484,
+            "y": 147
           }
         ]
       },
@@ -107,8 +107,8 @@
         "map_locations": [
           {
             "map": "forgotten_pathway",
-            "x": 810,
-            "y": 140
+            "x": 183,
+            "y": 153
           }
         ]
       },
@@ -133,8 +133,8 @@
         "map_locations": [
           {
             "map": "forgotten_pathway",
-            "x": 198,
-            "y": 228
+            "x": 762,
+            "y": 140
           }
         ]
       }

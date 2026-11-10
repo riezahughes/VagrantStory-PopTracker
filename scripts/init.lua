@@ -14,6 +14,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 Tracker:AddItems("items/keys_sigils.json")
 Tracker:AddItems("items/grimoires.json")
 Tracker:AddItems("items/breakarts.json")
+Tracker:AddItems("items/blades.json")
 Tracker:AddItems("items/chain.json")
 Tracker:AddItems("items/settings.json")
 

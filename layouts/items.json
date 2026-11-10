@@ -66,6 +66,43 @@
       ]
     ]
   },
+  "blade_grid": {
+    "type": "itemgrid",
+    "item_size": "28",
+    "item_margin": "2",
+    "rows": [
+      [
+        "blade_dagger"
+      ],
+      [
+        "blade_sword"
+      ],
+      [
+        "blade_great_sword"
+      ],
+      [
+        "blade_axes_maces"
+      ],
+      [
+        "blade_great_axe"
+      ],
+      [
+        "blade_stave"
+      ],
+      [
+        "blade_heavy_mace"
+      ],
+      [
+        "blade_polearm"
+      ],
+      [
+        "blade_crossbow"
+      ],
+      [
+        "blade_bare_hands"
+      ]
+    ]
+  },
   "chain_ability_grid": {
     "type": "itemgrid",
     "item_size": "28",

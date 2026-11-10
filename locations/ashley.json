@@ -2171,7 +2171,7 @@
       {
         "name": "Hidden Resources - Chest - Grimoire Mollesse",
         "access_rules": [
-          "$vs_room|hidden_resources"
+          "$vs_room|hidden_resources,chest_key"
         ],
         "sections": [
           {

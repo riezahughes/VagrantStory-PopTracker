@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 198,
-            "y": 140
+            "x": 301,
+            "y": 1232
           }
         ]
       },
@@ -57,8 +57,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 402,
-            "y": 140
+            "x": 305,
+            "y": 984
           }
         ]
       },
@@ -79,8 +79,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 606,
-            "y": 140
+            "x": 309,
+            "y": 787
           }
         ]
       },
@@ -113,8 +113,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 810,
-            "y": 140
+            "x": 309,
+            "y": 594
           }
         ]
       },
@@ -135,8 +135,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 1014,
-            "y": 140
+            "x": 292,
+            "y": 385
           }
         ]
       },
@@ -161,8 +161,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 1218,
-            "y": 140
+            "x": 133,
+            "y": 362
           }
         ]
       },
@@ -174,7 +174,10 @@
         "sections": [
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$vs_room|the_branks,chest_key"
+            ]
           },
           {
             "name": "Room Entered",
@@ -187,8 +190,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 1422,
-            "y": 140
+            "x": 466,
+            "y": 328
           }
         ]
       },
@@ -209,8 +212,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 1626,
-            "y": 140
+            "x": 288,
+            "y": 99
           }
         ]
       },
@@ -235,8 +238,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 198,
-            "y": 228
+            "x": 112,
+            "y": 102
           }
         ]
       },
@@ -257,8 +260,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 402,
-            "y": 228
+            "x": 470,
+            "y": 91
           }
         ]
       },
@@ -283,8 +286,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 606,
-            "y": 228
+            "x": 965,
+            "y": 1086
           }
         ]
       },
@@ -319,8 +322,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 810,
-            "y": 228
+            "x": 923,
+            "y": 1365
           }
         ]
       },
@@ -341,8 +344,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 1014,
-            "y": 228
+            "x": 758,
+            "y": 1365
           }
         ]
       },
@@ -377,8 +380,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 1218,
-            "y": 228
+            "x": 591,
+            "y": 1365
           }
         ]
       },
@@ -399,8 +402,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 1422,
-            "y": 228
+            "x": 560,
+            "y": 1118
           }
         ]
       },
@@ -425,8 +428,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 1626,
-            "y": 228
+            "x": 588,
+            "y": 851
           }
         ]
       },
@@ -461,8 +464,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 198,
-            "y": 316
+            "x": 618,
+            "y": 480
           }
         ]
       },
@@ -483,8 +486,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 402,
-            "y": 316
+            "x": 823,
+            "y": 483
           }
         ]
       },
@@ -509,8 +512,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 606,
-            "y": 316
+            "x": 984,
+            "y": 480
           }
         ]
       },
@@ -531,8 +534,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 810,
-            "y": 316
+            "x": 1217,
+            "y": 963
           }
         ]
       },
@@ -553,8 +556,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 1014,
-            "y": 316
+            "x": 1387,
+            "y": 963
           }
         ]
       },
@@ -575,8 +578,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 1218,
-            "y": 316
+            "x": 1406,
+            "y": 808
           }
         ]
       },
@@ -601,8 +604,8 @@
         "map_locations": [
           {
             "map": "iron_maiden_b1",
-            "x": 1422,
-            "y": 316
+            "x": 1419,
+            "y": 584
           }
         ]
       }

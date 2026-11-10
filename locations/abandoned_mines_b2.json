@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 198,
-            "y": 140
+            "x": 1970,
+            "y": 84
           }
         ]
       },
@@ -49,8 +49,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 402,
-            "y": 140
+            "x": 1938,
+            "y": 290
           }
         ]
       },
@@ -71,8 +71,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 606,
-            "y": 140
+            "x": 1979,
+            "y": 477
           }
         ]
       },
@@ -101,8 +101,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 810,
-            "y": 140
+            "x": 2239,
+            "y": 489
           }
         ]
       },
@@ -123,8 +123,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1014,
-            "y": 140
+            "x": 2068,
+            "y": 718
           }
         ]
       },
@@ -159,8 +159,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1218,
-            "y": 140
+            "x": 1460,
+            "y": 1137
           }
         ]
       },
@@ -181,8 +181,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1422,
-            "y": 140
+            "x": 1714,
+            "y": 507
           }
         ]
       },
@@ -211,8 +211,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1626,
-            "y": 140
+            "x": 1699,
+            "y": 730
           }
         ]
       },
@@ -240,8 +240,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1830,
-            "y": 140
+            "x": 1644,
+            "y": 893
           }
         ]
       },
@@ -262,8 +262,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 198,
-            "y": 228
+            "x": 1714,
+            "y": 1062
           }
         ]
       },
@@ -284,8 +284,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 402,
-            "y": 228
+            "x": 1683,
+            "y": 1352
           }
         ]
       },
@@ -313,8 +313,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 606,
-            "y": 228
+            "x": 1468,
+            "y": 1349
           }
         ]
       },
@@ -335,8 +335,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 810,
-            "y": 228
+            "x": 1165,
+            "y": 1358
           }
         ]
       },
@@ -417,8 +417,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1014,
-            "y": 228
+            "x": 967,
+            "y": 1340
           }
         ]
       },
@@ -439,8 +439,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1218,
-            "y": 228
+            "x": 1141,
+            "y": 1195
           }
         ]
       },
@@ -461,8 +461,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1422,
-            "y": 228
+            "x": 1205,
+            "y": 939
           }
         ]
       },
@@ -490,8 +490,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1626,
-            "y": 228
+            "x": 1168,
+            "y": 730
           }
         ]
       },
@@ -512,8 +512,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1830,
-            "y": 228
+            "x": 1153,
+            "y": 489
           }
         ]
       },
@@ -542,8 +542,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 198,
-            "y": 316
+            "x": 1340,
+            "y": 453
           }
         ]
       },
@@ -564,8 +564,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 402,
-            "y": 316
+            "x": 1386,
+            "y": 724
           }
         ]
       },
@@ -600,8 +600,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 606,
-            "y": 316
+            "x": 1442,
+            "y": 932
           }
         ]
       },
@@ -629,8 +629,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 810,
-            "y": 316
+            "x": 956,
+            "y": 1199
           }
         ]
       },
@@ -651,8 +651,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1014,
-            "y": 316
+            "x": 765,
+            "y": 1189
           }
         ]
       },
@@ -664,11 +664,17 @@
         "sections": [
           {
             "name": "Chest - Grimoire Mollesse",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$vs_room|hidden_resources,chest_key"
+            ]
           },
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$vs_room|hidden_resources,chest_key"
+            ]
           },
           {
             "name": "Room Entered",
@@ -681,8 +687,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1218,
-            "y": 316
+            "x": 577,
+            "y": 1195
           }
         ]
       },
@@ -703,8 +709,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1422,
-            "y": 316
+            "x": 727,
+            "y": 947
           }
         ]
       },
@@ -733,8 +739,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1626,
-            "y": 316
+            "x": 730,
+            "y": 724
           }
         ]
       },
@@ -755,8 +761,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 1830,
-            "y": 316
+            "x": 724,
+            "y": 498
           }
         ]
       },
@@ -777,8 +783,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 198,
-            "y": 404
+            "x": 646,
+            "y": 296
           }
         ]
       },
@@ -799,8 +805,8 @@
         "map_locations": [
           {
             "map": "abandoned_mines_b2",
-            "x": 402,
-            "y": 404
+            "x": 354,
+            "y": 334
           }
         ]
       }

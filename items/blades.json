@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Axes & Maces blade (any)",
+    "type": "toggle",
+    "img": "images/blades/axes_maces.png",
+    "codes": "blade_axes_maces"
+  },
+  {
+    "name": "Bare Hands blade (any)",
+    "type": "toggle",
+    "img": "images/blades/bare_hands.png",
+    "codes": "blade_bare_hands"
+  },
+  {
+    "name": "Crossbow blade (any)",
+    "type": "toggle",
+    "img": "images/blades/crossbow.png",
+    "codes": "blade_crossbow"
+  },
+  {
+    "name": "Dagger blade (any)",
+    "type": "toggle",
+    "img": "images/blades/dagger.png",
+    "codes": "blade_dagger"
+  },
+  {
+    "name": "Great Axe blade (any)",
+    "type": "toggle",
+    "img": "images/blades/great_axe.png",
+    "codes": "blade_great_axe"
+  },
+  {
+    "name": "Great Sword blade (any)",
+    "type": "toggle",
+    "img": "images/blades/great_sword.png",
+    "codes": "blade_great_sword"
+  },
+  {
+    "name": "Heavy Mace blade (any)",
+    "type": "toggle",
+    "img": "images/blades/heavy_mace.png",
+    "codes": "blade_heavy_mace"
+  },
+  {
+    "name": "Polearm blade (any)",
+    "type": "toggle",
+    "img": "images/blades/polearm.png",
+    "codes": "blade_polearm"
+  },
+  {
+    "name": "Stave blade (any)",
+    "type": "toggle",
+    "img": "images/blades/stave.png",
+    "codes": "blade_stave"
+  },
+  {
+    "name": "Sword blade (any)",
+    "type": "toggle",
+    "img": "images/blades/sword.png",
+    "codes": "blade_sword"
+  }
+]

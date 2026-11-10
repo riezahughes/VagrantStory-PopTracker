@@ -1,0 +1,1542 @@
+{
+ "wine_cellar": {
+  "Entrance to Darkness": [
+   187,
+   328
+  ],
+  "Worker's Breakroom": [
+   410,
+   332
+  ],
+  "Hall of Struggle": [
+   686,
+   341
+  ],
+  "Smokebarrel Stair": [
+   1024,
+   404
+  ],
+  "Wine Guild Hall": [
+   635,
+   669
+  ],
+  "Wine Magnate's Chambers": [
+   244,
+   960
+  ],
+  "Fine Vintage Vault": [
+   519,
+   1199
+  ],
+  "Chamber of Fear": [
+   829,
+   1164
+  ],
+  "The Reckoning Room": [
+   829,
+   934
+  ],
+  "A Laborer's Thirst": [
+   1107,
+   1212
+  ],
+  "The Rich Drown in Wine": [
+   1347,
+   1222
+  ],
+  "Room of Rotten Grapes": [
+   1603,
+   1221
+  ],
+  "Blackmarket of Wines": [
+   1837,
+   1222
+  ],
+  "The Gallows": [
+   2083,
+   1212
+  ],
+  "The Gallows Again": [
+   2159,
+   1313
+  ],
+  "Room of Cheap Red Wine": [
+   1341,
+   354
+  ],
+  "Room of Cheap White Wine": [
+   1626,
+   343
+  ],
+  "The Greedy One's Den": [
+   1881,
+   306
+  ],
+  "The Hero's Winehall": [
+   2245,
+   280
+  ]
+ },
+ "catacombs": {
+  "Hall of Sworn Revenge": [
+   699,
+   385
+  ],
+  "The Last Blessing": [
+   935,
+   430
+  ],
+  "The Weeping Corridor": [
+   1133,
+   430
+  ],
+  "Persecution Hall": [
+   1388,
+   397
+  ],
+  "Rodent-Ridden Chamber": [
+   1314,
+   148
+  ],
+  "Shrine to the Martyrs": [
+   1652,
+   429
+  ],
+  "The Lamenting Mother": [
+   1494,
+   699
+  ],
+  "Hall of Dying Hope": [
+   1880,
+   426
+  ],
+  "Bandits' Hideout": [
+   1968,
+   142
+  ],
+  "The Bloody Hallway": [
+   1912,
+   687
+  ],
+  "Faith Overcame Fear": [
+   1915,
+   858
+  ],
+  "The Withered Spring": [
+   1960,
+   1125
+  ],
+  "Workshop 'Work of Art'": [
+   2145,
+   1175
+  ],
+  "Repent, O ye Sinners": [
+   1697,
+   1160
+  ],
+  "The Reaper's Victims": [
+   1601,
+   995
+  ],
+  "The Last Stab of Hope": [
+   1465,
+   1172
+  ],
+  "Hallway of Heroes": [
+   1276,
+   1186
+  ],
+  "The Beast's Domain": [
+   1018,
+   1172
+  ]
+ },
+ "sanctum": {
+  "Prisoners' Niche": [
+   1293,
+   326
+  ],
+  "Corridor of the Clerics": [
+   1288,
+   588
+  ],
+  "Priests' Confinement": [
+   1212,
+   792
+  ],
+  "Alchemists' Laboratory": [
+   773,
+   792
+  ],
+  "The Academia Corridor": [
+   773,
+   581
+  ],
+  "Theology Classroom": [
+   735,
+   371
+  ],
+  "Shrine of the Martyrs": [
+   317,
+   562
+  ],
+  "Hallowed Hope": [
+   225,
+   837
+  ],
+  "Hall of Sacrilege": [
+   230,
+   1131
+  ],
+  "Advent Ground": [
+   1723,
+   581
+  ],
+  "Passage of the Refugees": [
+   1664,
+   843
+  ],
+  "The Cleansing Chantry": [
+   2092,
+   581
+  ],
+  "Stairway to the Light": [
+   2371,
+   550
+  ]
+ },
+ "town_centre_west": {
+  "Rue Vermillion": [
+   202,
+   694
+  ],
+  "The Rene Coastroad": [
+   359,
+   208
+  ],
+  "Workshop 'Magic Hammer'": [
+   303,
+   404
+  ],
+  "Rue Mal Fallde": [
+   541,
+   486
+  ],
+  "Tircolas Flow": [
+   843,
+   530
+  ],
+  "Rue Bouquet": [
+   1167,
+   385
+  ],
+  "Glacialdra Kirk Ruins": [
+   1167,
+   675
+  ],
+  "Rue Sant D'alsa": [
+   1451,
+   631
+  ],
+  "Dinas Walk": [
+   1371,
+   1050
+  ],
+  "Villeport Way": [
+   1470,
+   1173
+  ]
+ },
+ "city_walls_west": {
+  "Students of Death": [
+   217,
+   120
+  ],
+  "The Gabled Hall": [
+   600,
+   120
+  ],
+  "Where the Master Fell": [
+   959,
+   122
+  ]
+ },
+ "undercity_west": {
+  "The Bread Peddler's Way": [
+   573,
+   753
+  ],
+  "Way of the Mother Lode": [
+   750,
+   741
+  ],
+  "Sewer of Ravenous Rats": [
+   922,
+   709
+  ],
+  "Underdark Fishmarket": [
+   750,
+   909
+  ],
+  "The Sunless Way": [
+   751,
+   1115
+  ],
+  "Remembering Days of Yore": [
+   566,
+   1140
+  ],
+  "Larder for a Lean Winter": [
+   379,
+   1114
+  ],
+  "Where the Hunter Climbed": [
+   557,
+   1292
+  ],
+  "Hall of Poverty": [
+   1365,
+   683
+  ],
+  "The Washing-Woman's Way": [
+   1366,
+   843
+  ],
+  "Nameless Dark Oblivion": [
+   1558,
+   900
+  ],
+  "Sinner's Corner": [
+   1590,
+   1073
+  ],
+  "Fear of the Fall": [
+   1599,
+   1271
+  ],
+  "The Children's Hideout": [
+   1392,
+   1073
+  ],
+  "Corner of Prayers": [
+   1794,
+   1060
+  ],
+  "Hope Obstructed": [
+   1785,
+   894
+  ],
+  "Beggars of the Mouthharp": [
+   945,
+   524
+  ],
+  "Corner of the Wretched": [
+   912,
+   364
+  ],
+  "Crossroads of Rest": [
+   751,
+   364
+  ],
+  "Path to the Greengrocer": [
+   756,
+   189
+  ],
+  "Path of the Children": [
+   733,
+   562
+  ],
+  "Salvation for the Mother": [
+   1995,
+   1064
+  ],
+  "The Body Fragile Yields": [
+   1983,
+   862
+  ],
+  "Bite the Master's Wounds": [
+   2177,
+   1050
+  ],
+  "Workshop 'Godhands'": [
+   2184,
+   868
+  ],
+  "The Crumbling Market": [
+   1646,
+   594
+  ],
+  "Where Flood Waters Ran": [
+   1539,
+   345
+  ],
+  "Tears from Empty Sockets": [
+   1964,
+   677
+  ]
+ },
+ "snowfly_forest": {
+  "The Faerie Circle": [
+   430,
+   113
+  ],
+  "The Hunt Begins": [
+   402,
+   334
+  ],
+  "Which Way Home": [
+   398,
+   538
+  ],
+  "The Giving Trees": [
+   183,
+   542
+  ],
+  "The Birds and the Bees": [
+   399,
+   734
+  ],
+  "The Wounded Boar": [
+   608,
+   538
+  ],
+  "Golden Egg Way": [
+   824,
+   540
+  ],
+  "Traces of the Beast": [
+   398,
+   931
+  ],
+  "Fluttering Hope": [
+   179,
+   920
+  ],
+  "Return to the Land": [
+   164,
+   1133
+  ],
+  "The Yellow Wood": [
+   614,
+   931
+  ],
+  "They Also Feed": [
+   822,
+   929
+  ],
+  "The Spirit Trees": [
+   866,
+   1127
+  ],
+  "Where Soft Rains Fell": [
+   582,
+   1116
+  ],
+  "Forest River": [
+   700,
+   1303
+  ],
+  "Lamenting to the Moon": [
+   1261,
+   1091
+  ],
+  "Running with the Wolves": [
+   1276,
+   867
+  ],
+  "You Are the Prey": [
+   1479,
+   867
+  ],
+  "The Secret Path": [
+   1479,
+   663
+  ],
+  "Hewn from Nature": [
+   1500,
+   440
+  ],
+  "The Wood Gate": [
+   1523,
+   230
+  ],
+  "The Wolves' Choice": [
+   823,
+   734
+  ],
+  "The Woodcutter's Run": [
+   609,
+   734
+  ],
+  "The Hollow Hills": [
+   1087,
+   912
+  ],
+  "Howl of the Wolf King": [
+   1044,
+   733
+  ],
+  "The Silent Hedges": [
+   1054,
+   1107
+  ]
+ },
+ "snowfly_forest_east": {
+  "Steady the Boar-Spears": [
+   202,
+   123
+  ],
+  "The Boar's Revenge": [
+   170,
+   326
+  ],
+  "Nature's Womb": [
+   196,
+   578
+  ]
+ },
+ "city_walls_south": {
+  "The Weeping Boy": [
+   247,
+   249
+  ],
+  "Swords for the Land": [
+   681,
+   249
+  ],
+  "In Wait of the Foe": [
+   1135,
+   249
+  ],
+  "Where Weary Riders Rest": [
+   1630,
+   249
+  ],
+  "The Boy's Training Room": [
+   2198,
+   249
+  ]
+ },
+ "the_keep": {
+  "The Soldier's Bedding": [
+   237,
+   535
+  ],
+  "A Storm of Arrows": [
+   640,
+   535
+  ],
+  "Urge the Boy On": [
+   1018,
+   538
+  ],
+  "A Taste of the Spoils": [
+   1366,
+   538
+  ],
+  "Wiping Blood from Blades": [
+   1791,
+   537
+  ],
+  "The Warrior's Rest": [
+   2092,
+   210
+  ],
+  "Workshop 'Keane's Crafts'": [
+   2341,
+   554
+  ],
+  "Time Trial (Minotaur)": [
+   644,
+   389
+  ],
+  "Time Trial (Dragon)": [
+   642,
+   720
+  ],
+  "Time Trial (Earth Dragon)": [
+   1020,
+   389
+  ],
+  "Time Trial (Snow Dragon)": [
+   1018,
+   720
+  ],
+  "Time Trial (Damascus Golem)": [
+   1378,
+   389
+  ],
+  "Time Trial (Damascus Crab)": [
+   1384,
+   720
+  ],
+  "Time Trial (Death + Ogre Zombie)": [
+   1767,
+   338
+  ],
+  "Time Trial (Asura)": [
+   1773,
+   720
+  ]
+ },
+ "iron_maiden_b1": {
+  "The Cage": [
+   301,
+   1232
+  ],
+  "The Cauldron": [
+   305,
+   984
+  ],
+  "Wooden Horse": [
+   309,
+   787
+  ],
+  "Starvation": [
+   309,
+   594
+  ],
+  "The Breast Ripper": [
+   292,
+   385
+  ],
+  "The Wheel": [
+   133,
+   362
+  ],
+  "The Branks": [
+   466,
+   328
+  ],
+  "The Pear": [
+   288,
+   99
+  ],
+  "The Judas Cradle": [
+   112,
+   102
+  ],
+  "The Whirlygig": [
+   470,
+   91
+  ],
+  "Spanish Tickler": [
+   965,
+   1086
+  ],
+  "Heretic's Fork": [
+   923,
+   1365
+  ],
+  "The Chair of Spikes": [
+   758,
+   1365
+  ],
+  "Blooding": [
+   591,
+   1365
+  ],
+  "Bootikens": [
+   560,
+   1118
+  ],
+  "Burial": [
+   588,
+   851
+  ],
+  "Burning": [
+   618,
+   480
+  ],
+  "Cleansing the Soul": [
+   823,
+   483
+  ],
+  "The Ducking Stool": [
+   984,
+   480
+  ],
+  "The Garotte": [
+   1217,
+   963
+  ],
+  "Hanging": [
+   1387,
+   963
+  ],
+  "Impalement": [
+   1406,
+   808
+  ],
+  "Knotting": [
+   1419,
+   584
+  ]
+ },
+ "town_centre_south": {
+  "Forcas Rise": [
+   688,
+   586
+  ],
+  "Valdiman Gates": [
+   242,
+   752
+  ],
+  "Rue Aliano": [
+   1145,
+   835
+  ],
+  "The House Khazabas": [
+   1654,
+   962
+  ],
+  "Zebel's Walk": [
+   1710,
+   605
+  ],
+  "Rue Volnac": [
+   2030,
+   531
+  ],
+  "Rue Faltes": [
+   1698,
+   416
+  ],
+  "Rue Morgue": [
+   1638,
+   188
+  ]
+ },
+ "city_walls_east": {
+  "Train and Grow Strong": [
+   329,
+   134
+  ],
+  "The Squire's Gathering": [
+   688,
+   115
+  ],
+  "The Invaders are Found": [
+   1027,
+   115
+  ],
+  "The Dream Weavers": [
+   1379,
+   115
+  ],
+  "The Cornered Savage": [
+   1720,
+   121
+  ]
+ },
+ "abandoned_mines_b2": {
+  "Subtellurian Horrors": [
+   1970,
+   84
+  ],
+  "Dining in Darkness": [
+   1938,
+   290
+  ],
+  "Bandit's Hollow": [
+   1979,
+   477
+  ],
+  "Delusions of Happiness": [
+   2239,
+   489
+  ],
+  "Work, Then Die": [
+   2068,
+   718
+  ],
+  "Senses Lost": [
+   1460,
+   1137
+  ],
+  "The Lunatic Veins": [
+   1714,
+   507
+  ],
+  "Tomb of the Reborn": [
+   1699,
+   730
+  ],
+  "Fool's Gold, Fool's Loss": [
+   1644,
+   893
+  ],
+  "Kilroy Was Here": [
+   1714,
+   1062
+  ],
+  "A Wager of Noble Gold": [
+   1683,
+   1352
+  ],
+  "Lambs to the Slaughter": [
+   1468,
+   1349
+  ],
+  "The Ore of Legend": [
+   1165,
+   1358
+  ],
+  "Suicidal Desires": [
+   967,
+   1340
+  ],
+  "Cry of the Beast": [
+   1141,
+   1195
+  ],
+  "The Fallen Bricklayer": [
+   1205,
+   939
+  ],
+  "Hall of Contemplation": [
+   1168,
+   730
+  ],
+  "Hall of the Empty Sconce": [
+   1153,
+   489
+  ],
+  "Acolyte's Burial Vault": [
+   1340,
+   453
+  ],
+  "The Abandoned Catspaw": [
+   1386,
+   724
+  ],
+  "Crossing of Blood": [
+   1442,
+   932
+  ],
+  "Desire's Passage": [
+   956,
+   1199
+  ],
+  "Way of Lost Children": [
+   765,
+   1189
+  ],
+  "Hidden Resources": [
+   577,
+   1195
+  ],
+  "Treaty Room": [
+   727,
+   947
+  ],
+  "The Miner's End": [
+   730,
+   724
+  ],
+  "Gambler's Passage": [
+   724,
+   498
+  ],
+  "Revelation Shaft": [
+   646,
+   296
+  ],
+  "Corridor of Shade": [
+   354,
+   334
+  ]
+ },
+ "town_centre_east": {
+  "Rue Lejour": [
+   259,
+   1031
+  ],
+  "Kesch Bridge": [
+   786,
+   1088
+  ],
+  "Rue Crimnade": [
+   932,
+   834
+  ],
+  "Workshop 'Junction Point'": [
+   834,
+   649
+  ],
+  "Rue Fisserano": [
+   1503,
+   910
+  ],
+  "Workshop 'Metal Works'": [
+   1643,
+   751
+  ],
+  "Shasras Hill Park": [
+   1666,
+   401
+  ],
+  "The House Gilgitte": [
+   1244,
+   751
+  ],
+  "Gharmes Walk": [
+   1182,
+   306
+  ],
+  "Plateia Lumitar": [
+   813,
+   242
+  ]
+ },
+ "city_walls_north": {
+  "From Squire to Knight": [
+   607,
+   102
+  ],
+  "Traces of Invasion Past": [
+   306,
+   104
+  ],
+  "Be for Battle Prepared": [
+   937,
+   102
+  ],
+  "Destruction and Rebirth": [
+   1264,
+   102
+  ],
+  "From Boy to Hero": [
+   1599,
+   102
+  ],
+  "A Welcome Invasion": [
+   1925,
+   107
+  ]
+ },
+ "undercity_east": {
+  "Hall to a New World": [
+   1736,
+   598
+  ],
+  "Place of Free Words": [
+   1440,
+   598
+  ],
+  "Bazaar of the Bizarre": [
+   1107,
+   598
+  ],
+  "Noble Gold and Silk": [
+   809,
+   598
+  ],
+  "Weapons Not Allowed": [
+   772,
+   355
+  ],
+  "A Knight Sells his Sword": [
+   789,
+   894
+  ],
+  "Gemsword Blackmarket": [
+   471,
+   896
+  ],
+  "The Pirate's Son": [
+   184,
+   894
+  ],
+  "Sale of the Sword": [
+   142,
+   629
+  ],
+  "The Greengrocer's Stair": [
+   1671,
+   946
+  ],
+  "Where Black Waters Ran": [
+   1967,
+   949
+  ],
+  "Arms Against Invaders": [
+   2278,
+   959
+  ],
+  "Catspaw Blackmarket": [
+   2313,
+   685
+  ]
+ },
+ "limestone_quarry": {
+  "Dark Abhors Light": [
+   1635,
+   455
+  ],
+  "Dream of the Holy Land": [
+   1829,
+   449
+  ],
+  "The Ore Road": [
+   2030,
+   471
+  ],
+  "The Air Stirs": [
+   2022,
+   281
+  ],
+  "Bonds of Friendship": [
+   2024,
+   103
+  ],
+  "Atone for Eternity": [
+   2011,
+   652
+  ],
+  "Stair to Sanctuary": [
+   1842,
+   650
+  ],
+  "The Fallen Hall": [
+   1648,
+   644
+  ],
+  "The Rotten Core": [
+   1461,
+   657
+  ],
+  "The Dreamer's Climb": [
+   1394,
+   438
+  ],
+  "The Ore-Bearers": [
+   1425,
+   290
+  ],
+  "Screams of the Wounded": [
+   1624,
+   276
+  ],
+  "Bacchus is Cheap": [
+   1819,
+   271
+  ],
+  "Sinner's Sustenence": [
+   1202,
+   460
+  ],
+  "The Timely Dew of Sleep": [
+   1000,
+   465
+  ],
+  "Companions in Arms": [
+   974,
+   325
+  ],
+  "The Auction Block": [
+   953,
+   660
+  ],
+  "Ascension": [
+   766,
+   653
+  ],
+  "Where the Serpent Hunts": [
+   552,
+   680
+  ],
+  "Drowned in Fleeting Joy": [
+   541,
+   514
+  ],
+  "Ants Prepare for Winter": [
+   541,
+   844
+  ],
+  "The Laborer's Bonfire": [
+   1075,
+   834
+  ],
+  "Stone and Sulfurous Fire": [
+   1007,
+   1007
+  ],
+  "Torture Without End": [
+   1353,
+   1018
+  ],
+  "Way Down": [
+   1564,
+   1001
+  ],
+  "Excavated Hollow": [
+   1559,
+   828
+  ],
+  "Parting Regrets": [
+   1749,
+   1001
+  ],
+  "Corridor of Tales": [
+   1955,
+   1007
+  ],
+  "Dust Shall Eat the Days": [
+   1951,
+   1329
+  ],
+  "Hall of the Wage-Paying": [
+   1769,
+   1329
+  ],
+  "Tunnel of the Heartless": [
+   1572,
+   1331
+  ]
+ },
+ "temple_of_kiltia": {
+  "The Dark Coast": [
+   443,
+   744
+  ],
+  "Hall of Prayer": [
+   941,
+   744
+  ],
+  "Those who Drink the Dark": [
+   1062,
+   1109
+  ],
+  "The Chapel of Meschaunce": [
+   1526,
+   1177
+  ],
+  "The Resentful Ones": [
+   1107,
+   407
+  ],
+  "Those who Fear the Light": [
+   1539,
+   750
+  ],
+  "Chamber of Reason": [
+   1917,
+   719
+  ],
+  "Exit to City Center": [
+   2297,
+   731
+  ]
+ },
+ "great_cathedral_B1": {
+  "Struggle for the Soul": [
+   505,
+   518
+  ],
+  "Order and Chaos": [
+   279,
+   268
+  ],
+  "An Offering of Souls": [
+   154,
+   460
+  ],
+  "Truth and Lies": [
+   678,
+   285
+  ],
+  "Sanity and Madness": [
+   928,
+   111
+  ],
+  "The Victor's Laurels": [
+   938,
+   496
+  ]
+ },
+ "great_cathedral_L1": {
+  "Into Holy Battle": [
+   578,
+   563
+  ],
+  "The Poisoned Chapel": [
+   320,
+   346
+  ],
+  "Sin and Punishment": [
+   87,
+   358
+  ],
+  "A Light in the Dark": [
+   614,
+   346
+  ],
+  "Monk's Leap": [
+   569,
+   115
+  ],
+  "Hieratic Recollections": [
+   887,
+   349
+  ],
+  "The Flayed Confessional": [
+   893,
+   192
+  ],
+  "Cracked Pleasures": [
+   902,
+   493
+  ],
+  "Where Darkness Spreads": [
+   1180,
+   346
+  ]
+ },
+ "great_cathedral_L2": {
+  "Free from Base Desires": [
+   972,
+   627
+  ],
+  "Abasement from Above": [
+   678,
+   636
+  ],
+  "The Convent Room": [
+   352,
+   631
+  ],
+  "The Hall of Broken Vows": [
+   691,
+   362
+  ],
+  "Light and Dark Wage War": [
+   1019,
+   371
+  ],
+  "An Arrow into Darkness": [
+   1247,
+   362
+  ],
+  "He Screams for Mercy": [
+   666,
+   118
+  ],
+  "The Acolyte's Weakness": [
+   358,
+   122
+  ],
+  "Maelstrom of Malice": [
+   993,
+   118
+  ],
+  "The Melodics of Madness": [
+   355,
+   362
+  ],
+  "What Ails You, Kills You": [
+   100,
+   361
+  ]
+ },
+ "great_cathedral_L3": {
+  "The Wine-Lecher's Fall": [
+   422,
+   543
+  ],
+  "The Heretics' Story": [
+   444,
+   326
+  ],
+  "Despair of the Fallen": [
+   195,
+   330
+  ],
+  "Hopes of the Idealist": [
+   435,
+   102
+  ],
+  "Where the Soul Rots": [
+   674,
+   332
+  ]
+ },
+ "great_cathedral_L4": {
+  "The Atrium": [
+   147,
+   147
+  ]
+ },
+ "great_cathedral_dome": {
+  "Dome": [
+   109,
+   102
+  ],
+  "Paling": [
+   109,
+   294
+  ]
+ },
+ "escapeway": {
+  "Shelter From the Quake": [
+   857,
+   729
+  ],
+  "Buried Alive": [
+   1131,
+   639
+  ],
+  "Movement of Fear": [
+   547,
+   716
+  ],
+  "Facing Your Illusions": [
+   451,
+   1138
+  ],
+  "The Darkness Drinks": [
+   181,
+   1138
+  ],
+  "Fear and Loathing": [
+   860,
+   437
+  ],
+  "Blood and The Beast": [
+   865,
+   130
+  ],
+  "Where Body and Soul Part": [
+   1136,
+   125
+  ]
+ },
+ "forgotten_pathway": {
+  "Stair to the Sinners": [
+   499,
+   927
+  ],
+  "Slaughter of the Innocent": [
+   496,
+   543
+  ],
+  "The Oracle Sins No More": [
+   484,
+   147
+  ],
+  "The Fallen Knight": [
+   183,
+   153
+  ],
+  "Awaiting Retribution": [
+   762,
+   140
+  ]
+ },
+ "iron_miden_b2": {
+  "The Eunics' Lot": [
+   192,
+   701
+  ],
+  "Ordeal By Fire": [
+   362,
+   691
+  ],
+  "The Oven at Neisse": [
+   530,
+   676
+  ],
+  "Pressing": [
+   714,
+   659
+  ],
+  "The Mind Burns": [
+   906,
+   661
+  ],
+  "The Rack": [
+   1098,
+   647
+  ],
+  "The Saw": [
+   1277,
+   650
+  ],
+  "The Cold's Bridle": [
+   1452,
+   627
+  ],
+  "The Shin-Vice": [
+   1631,
+   640
+  ],
+  "The Spider": [
+   1819,
+   623
+  ],
+  "Lead Sprinkler": [
+   1772,
+   473
+  ],
+  "Squassation": [
+   1808,
+   775
+  ],
+  "The Strappado": [
+   947,
+   915
+  ],
+  "Thumbscrews": [
+   848,
+   429
+  ],
+  "Pendulum": [
+   342,
+   1186
+  ],
+  "Dragging": [
+   322,
+   186
+  ],
+  "Strangulation": [
+   502,
+   429
+  ],
+  "Tablillas": [
+   585,
+   948
+  ],
+  "Tongue Slicer": [
+   1111,
+   1164
+  ],
+  "Ordeal by Water": [
+   1482,
+   883
+  ],
+  "Brank": [
+   1404,
+   377
+  ],
+  "Tormentum Insomniae": [
+   1047,
+   184
+  ]
+ },
+ "iron_miden_b3": {
+  "The Iron Maiden": [
+   458,
+   314
+  ],
+  "Judgement": [
+   213,
+   346
+  ],
+  "Saint Elmo's Belt": [
+   236,
+   563
+  ],
+  "Dunking the Witch": [
+   188,
+   141
+  ]
+ },
+ "abandoned_mines_b1": {
+  "Dreamers' Entrance": [
+   360,
+   800
+  ],
+  "The Crossing": [
+   360,
+   640
+  ],
+  "Miners' Resting Hall": [
+   475,
+   635
+  ],
+  "Conflict and Accord": [
+   223,
+   640
+  ],
+  "The End of the Line": [
+   210,
+   520
+  ],
+  "The Earthquake's Mark": [
+   215,
+   225
+  ],
+  "Coal Mine Storage": [
+   70,
+   225
+  ],
+  "The Suicide King": [
+   355,
+   540
+  ],
+  "The Battle's Beginning": [
+   355,
+   415
+  ],
+  "What Lies Ahead?": [
+   348,
+   320
+  ],
+  "The Fruits of Friendship": [
+   350,
+   225
+  ],
+  "The Passion of Lovers": [
+   1440,
+   405
+  ],
+  "The Hall of Hope": [
+   1255,
+   402
+  ],
+  "The Dark Tunnel": [
+   1077,
+   440
+  ],
+  "Everwant Passage": [
+   1090,
+   640
+  ],
+  "Mining Regrets": [
+   1232,
+   642
+  ],
+  "Rust in Peace": [
+   905,
+   430
+  ],
+  "The Smeltry": [
+   1050,
+   255
+  ],
+  "Clash of Hyaenas": [
+   1042,
+   45
+  ],
+  "Greed Knows No Bounds": [
+   895,
+   45
+  ],
+  "Live Long and Prosper": [
+   710,
+   45
+  ],
+  "Pray to the Mineral Gods": [
+   627,
+   255
+  ],
+  "Traitor's Parting": [
+   627,
+   410
+  ],
+  "Escapeway": [
+   620,
+   590
+  ]
+ }
+}

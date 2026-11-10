@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "town_centre_west",
-            "x": 198,
-            "y": 140
+            "x": 202,
+            "y": 694
           }
         ]
       },
@@ -48,8 +48,8 @@
         "map_locations": [
           {
             "map": "town_centre_west",
-            "x": 402,
-            "y": 140
+            "x": 359,
+            "y": 208
           }
         ]
       },
@@ -70,8 +70,8 @@
         "map_locations": [
           {
             "map": "town_centre_west",
-            "x": 606,
-            "y": 140
+            "x": 303,
+            "y": 404
           }
         ]
       },
@@ -92,8 +92,8 @@
         "map_locations": [
           {
             "map": "town_centre_west",
-            "x": 810,
-            "y": 140
+            "x": 541,
+            "y": 486
           }
         ]
       },
@@ -126,8 +126,8 @@
         "map_locations": [
           {
             "map": "town_centre_west",
-            "x": 1014,
-            "y": 140
+            "x": 843,
+            "y": 530
           }
         ]
       },
@@ -148,8 +148,8 @@
         "map_locations": [
           {
             "map": "town_centre_west",
-            "x": 198,
-            "y": 228
+            "x": 1167,
+            "y": 385
           }
         ]
       },
@@ -170,8 +170,8 @@
         "map_locations": [
           {
             "map": "town_centre_west",
-            "x": 402,
-            "y": 228
+            "x": 1167,
+            "y": 675
           }
         ]
       },
@@ -192,8 +192,8 @@
         "map_locations": [
           {
             "map": "town_centre_west",
-            "x": 606,
-            "y": 228
+            "x": 1451,
+            "y": 631
           }
         ]
       },
@@ -214,8 +214,8 @@
         "map_locations": [
           {
             "map": "town_centre_west",
-            "x": 810,
-            "y": 228
+            "x": 1371,
+            "y": 1050
           }
         ]
       },
@@ -236,8 +236,8 @@
         "map_locations": [
           {
             "map": "town_centre_west",
-            "x": 1014,
-            "y": 228
+            "x": 1470,
+            "y": 1173
           }
         ]
       }

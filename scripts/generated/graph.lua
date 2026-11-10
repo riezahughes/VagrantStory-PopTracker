@@ -3,7 +3,7 @@ VS = VS or {}
 VS.VANILLA_START = "entrance_to_darkness"
 VS.OPEN_STARTS = {"workshop_magic_hammer", "workshop_junction_point", "workshop_metal_works", "workshop_godhands", "workshop_keane_s_crafts", "workshop_work_of_art"}
 VS.GOAL_ROOM = "dome"
-VS.WITHERED_SPRING = "the_withered_spring"
+VS.WORKSHOPS = {"workshop_magic_hammer", "workshop_junction_point", "workshop_metal_works", "workshop_godhands", "workshop_keane_s_crafts", "workshop_work_of_art"}
 VS.SIG_CODES = {"bronze_key", "chest_key", "crimson_key", "gold_key", "iron_key", "platinum_key", "silver_key", "steel_key", "blood_sin_piece", "acacia_sigil", "anemone_sigil", "aster_sigil", "azalea_sigil", "calla_sigil", "cattleya_sigil", "chamomile_sigil", "clematis_sigil", "colombine_sigil", "eulelia_sigil", "fern_sigil", "hyacinth_sigil", "kalmia_sigil", "laurel_sigil", "lily_sigil", "mandrake_sigil", "marigold_sigil", "melissa_sigil", "palm_sigil", "schirra_sigil", "stock_sigil", "tearose_sigil", "tigertail_sigil", "verbena_sigil", "teleport", "rood_inverse", "start_0", "start_1", "start_2", "start_3", "start_4", "start_5", "opt_open", "timetrial", "blood_sin_total"}
 VS.EDGES = {
   {
@@ -111,6 +111,8 @@ VS.EDGES = {
   {
   ["f"] = "blackmarket_of_wines",
   ["t"] = "the_gallows",
+  ["v"] = {"item", "stock_sigil"},
+  ["o"] = {"item", "stock_sigil"},
 },
   {
   ["f"] = "blackmarket_of_wines",
@@ -120,10 +122,14 @@ VS.EDGES = {
   {
   ["f"] = "the_gallows",
   ["t"] = "blackmarket_of_wines",
+  ["v"] = {"item", "stock_sigil"},
+  ["o"] = {"item", "stock_sigil"},
 },
   {
   ["f"] = "the_gallows_again",
   ["t"] = "blackmarket_of_wines",
+  ["v"] = {"item", "stock_sigil"},
+  ["o"] = {"item", "stock_sigil"},
 },
   {
   ["f"] = "room_of_cheap_red_wine",
@@ -351,6 +357,8 @@ VS.EDGES = {
   {
   ["f"] = "crossroads_of_rest",
   ["t"] = "path_of_the_children",
+  ["v"] = {"item", "iron_key"},
+  ["o"] = {"item", "iron_key"},
 },
   {
   ["f"] = "path_to_the_greengrocer",
@@ -363,6 +371,8 @@ VS.EDGES = {
   {
   ["f"] = "path_of_the_children",
   ["t"] = "crossroads_of_rest",
+  ["v"] = {"item", "iron_key"},
+  ["o"] = {"item", "iron_key"},
 },
   {
   ["f"] = "path_of_the_children",
@@ -387,6 +397,8 @@ VS.EDGES = {
   {
   ["f"] = "the_body_fragile_yields",
   ["t"] = "tears_from_empty_sockets",
+  ["v"] = {"item", "gold_key"},
+  ["o"] = {"item", "gold_key"},
 },
   {
   ["f"] = "the_body_fragile_yields",
@@ -429,6 +441,8 @@ VS.EDGES = {
   {
   ["f"] = "tears_from_empty_sockets",
   ["t"] = "the_body_fragile_yields",
+  ["v"] = {"item", "gold_key"},
+  ["o"] = {"item", "gold_key"},
 },
   {
   ["f"] = "tears_from_empty_sockets",
@@ -619,6 +633,8 @@ VS.EDGES = {
   {
   ["f"] = "rue_morgue",
   ["t"] = "corridor_of_shade",
+  ["v"] = {"item", "bronze_key"},
+  ["o"] = {"item", "bronze_key"},
 },
   {
   ["f"] = "rue_lejour",
@@ -3461,5 +3477,7 @@ VS.EDGES = {
   {
   ["f"] = "corridor_of_shade",
   ["t"] = "rue_morgue",
+  ["v"] = {"item", "bronze_key"},
+  ["o"] = {"item", "bronze_key"},
 },
 }

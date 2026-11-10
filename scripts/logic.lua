@@ -123,12 +123,23 @@ function vs_chain(n)
 end
 
 -- $vs_break|<weapon_slug>|<level>
--- NOTE: the AP world also requires owning a blade of that weapon type (Bare Hands excepted). The tracker does not
--- track blades yet, so that part is NOT checked here; a break art can show green before the blade is found.
+-- Mirrors set_break_art_rules + set_break_art_workshop_prerequisite: ANY blade of that weapon type (Bare Hands = Knuckles),
+-- the Blood Sin tier for the level, and a reachable workshop (open mode starts in one).
 function vs_break(weapon, level)
     level = tonumber(level)
-    -- vanilla: no workshop (so no crafting) until The Withered Spring has been reached
-    if not has("opt_open") and not vs_reached()[VS.WITHERED_SPRING] then
+    if not has("blade_" .. weapon) then
+        return false
+    end
+    -- no workshop reachable = no crafting = no break arts
+    local reached = vs_reached()
+    local workshop = false
+    for _, ws in ipairs(VS.WORKSHOPS) do
+        if reached[ws] then
+            workshop = true
+            break
+        end
+    end
+    if not workshop then
         return false
     end
     local need = tier(cnt("blood_sin_total"), level)

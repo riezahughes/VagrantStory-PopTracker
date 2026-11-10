@@ -23,8 +23,8 @@
         "map_locations": [
           {
             "map": "city_walls_east",
-            "x": 198,
-            "y": 140
+            "x": 329,
+            "y": 134
           }
         ]
       },
@@ -45,8 +45,8 @@
         "map_locations": [
           {
             "map": "city_walls_east",
-            "x": 402,
-            "y": 140
+            "x": 688,
+            "y": 115
           }
         ]
       },
@@ -67,8 +67,8 @@
         "map_locations": [
           {
             "map": "city_walls_east",
-            "x": 606,
-            "y": 140
+            "x": 1027,
+            "y": 115
           }
         ]
       },
@@ -89,8 +89,8 @@
         "map_locations": [
           {
             "map": "city_walls_east",
-            "x": 810,
-            "y": 140
+            "x": 1379,
+            "y": 115
           }
         ]
       },
@@ -111,8 +111,8 @@
         "map_locations": [
           {
             "map": "city_walls_east",
-            "x": 198,
-            "y": 228
+            "x": 1720,
+            "y": 121
           }
         ]
       }

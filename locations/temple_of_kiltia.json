@@ -33,8 +33,8 @@
         "map_locations": [
           {
             "map": "temple_of_kiltia",
-            "x": 198,
-            "y": 140
+            "x": 443,
+            "y": 744
           }
         ]
       },
@@ -63,8 +63,8 @@
         "map_locations": [
           {
             "map": "temple_of_kiltia",
-            "x": 402,
-            "y": 140
+            "x": 941,
+            "y": 744
           }
         ]
       },
@@ -85,8 +85,8 @@
         "map_locations": [
           {
             "map": "temple_of_kiltia",
-            "x": 606,
-            "y": 140
+            "x": 1062,
+            "y": 1109
           }
         ]
       },
@@ -111,8 +111,8 @@
         "map_locations": [
           {
             "map": "temple_of_kiltia",
-            "x": 810,
-            "y": 140
+            "x": 1526,
+            "y": 1177
           }
         ]
       },
@@ -133,8 +133,8 @@
         "map_locations": [
           {
             "map": "temple_of_kiltia",
-            "x": 1014,
-            "y": 140
+            "x": 1107,
+            "y": 407
           }
         ]
       },
@@ -155,8 +155,8 @@
         "map_locations": [
           {
             "map": "temple_of_kiltia",
-            "x": 198,
-            "y": 228
+            "x": 1539,
+            "y": 750
           }
         ]
       },
@@ -181,8 +181,8 @@
         "map_locations": [
           {
             "map": "temple_of_kiltia",
-            "x": 402,
-            "y": 228
+            "x": 1917,
+            "y": 719
           }
         ]
       },
@@ -203,8 +203,8 @@
         "map_locations": [
           {
             "map": "temple_of_kiltia",
-            "x": 606,
-            "y": 228
+            "x": 2297,
+            "y": 731
           }
         ]
       }

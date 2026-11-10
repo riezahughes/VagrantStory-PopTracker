@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 198,
-            "y": 140
+            "x": 192,
+            "y": 701
           }
         ]
       },
@@ -45,8 +45,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 402,
-            "y": 140
+            "x": 362,
+            "y": 691
           }
         ]
       },
@@ -67,8 +67,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 606,
-            "y": 140
+            "x": 530,
+            "y": 676
           }
         ]
       },
@@ -93,8 +93,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 810,
-            "y": 140
+            "x": 714,
+            "y": 659
           }
         ]
       },
@@ -129,8 +129,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 1014,
-            "y": 140
+            "x": 906,
+            "y": 661
           }
         ]
       },
@@ -151,8 +151,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 1218,
-            "y": 140
+            "x": 1098,
+            "y": 647
           }
         ]
       },
@@ -177,8 +177,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 1422,
-            "y": 140
+            "x": 1277,
+            "y": 650
           }
         ]
       },
@@ -220,8 +220,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 1626,
-            "y": 140
+            "x": 1452,
+            "y": 627
           }
         ]
       },
@@ -250,8 +250,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 198,
-            "y": 228
+            "x": 1631,
+            "y": 640
           }
         ]
       },
@@ -272,8 +272,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 402,
-            "y": 228
+            "x": 1819,
+            "y": 623
           }
         ]
       },
@@ -305,8 +305,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 606,
-            "y": 228
+            "x": 1772,
+            "y": 473
           }
         ]
       },
@@ -345,8 +345,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 810,
-            "y": 228
+            "x": 1808,
+            "y": 775
           }
         ]
       },
@@ -367,8 +367,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 1014,
-            "y": 228
+            "x": 947,
+            "y": 915
           }
         ]
       },
@@ -389,8 +389,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 1218,
-            "y": 228
+            "x": 848,
+            "y": 429
           }
         ]
       },
@@ -418,8 +418,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 1422,
-            "y": 228
+            "x": 342,
+            "y": 1186
           }
         ]
       },
@@ -447,8 +447,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 1626,
-            "y": 228
+            "x": 322,
+            "y": 186
           }
         ]
       },
@@ -469,8 +469,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 198,
-            "y": 316
+            "x": 502,
+            "y": 429
           }
         ]
       },
@@ -491,8 +491,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 402,
-            "y": 316
+            "x": 585,
+            "y": 948
           }
         ]
       },
@@ -513,8 +513,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 606,
-            "y": 316
+            "x": 1111,
+            "y": 1164
           }
         ]
       },
@@ -535,8 +535,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 810,
-            "y": 316
+            "x": 1482,
+            "y": 883
           }
         ]
       },
@@ -557,8 +557,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 1014,
-            "y": 316
+            "x": 1404,
+            "y": 377
           }
         ]
       },
@@ -579,8 +579,8 @@
         "map_locations": [
           {
             "map": "iron_miden_b2",
-            "x": 1218,
-            "y": 316
+            "x": 1047,
+            "y": 184
           }
         ]
       }

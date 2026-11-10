@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 198,
-            "y": 140
+            "x": 187,
+            "y": 328
           }
         ]
       },
@@ -45,8 +45,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 402,
-            "y": 140
+            "x": 410,
+            "y": 332
           }
         ]
       },
@@ -67,8 +67,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 606,
-            "y": 140
+            "x": 686,
+            "y": 341
           }
         ]
       },
@@ -96,8 +96,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 810,
-            "y": 140
+            "x": 1024,
+            "y": 404
           }
         ]
       },
@@ -118,8 +118,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 1014,
-            "y": 140
+            "x": 635,
+            "y": 669
           }
         ]
       },
@@ -147,8 +147,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 1218,
-            "y": 140
+            "x": 244,
+            "y": 960
           }
         ]
       },
@@ -169,8 +169,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 1422,
-            "y": 140
+            "x": 519,
+            "y": 1199
           }
         ]
       },
@@ -191,8 +191,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 198,
-            "y": 228
+            "x": 829,
+            "y": 1164
           }
         ]
       },
@@ -217,8 +217,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 402,
-            "y": 228
+            "x": 829,
+            "y": 934
           }
         ]
       },
@@ -239,8 +239,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 606,
-            "y": 228
+            "x": 1107,
+            "y": 1212
           }
         ]
       },
@@ -261,8 +261,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 810,
-            "y": 228
+            "x": 1347,
+            "y": 1222
           }
         ]
       },
@@ -290,8 +290,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 1014,
-            "y": 228
+            "x": 1603,
+            "y": 1221
           }
         ]
       },
@@ -316,8 +316,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 1218,
-            "y": 228
+            "x": 1837,
+            "y": 1222
           }
         ]
       },
@@ -341,7 +341,10 @@
           },
           {
             "name": "Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "$vs_room|the_gallows,chest_key"
+            ]
           },
           {
             "name": "Room Entered",
@@ -354,8 +357,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 1422,
-            "y": 228
+            "x": 2083,
+            "y": 1212
           }
         ]
       },
@@ -380,8 +383,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 198,
-            "y": 316
+            "x": 2159,
+            "y": 1313
           }
         ]
       },
@@ -409,8 +412,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 402,
-            "y": 316
+            "x": 1341,
+            "y": 354
           }
         ]
       },
@@ -431,8 +434,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 606,
-            "y": 316
+            "x": 1626,
+            "y": 343
           }
         ]
       },
@@ -453,8 +456,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 810,
-            "y": 316
+            "x": 1881,
+            "y": 306
           }
         ]
       },
@@ -487,8 +490,8 @@
         "map_locations": [
           {
             "map": "wine_cellar",
-            "x": 1014,
-            "y": 316
+            "x": 2245,
+            "y": 280
           }
         ]
       }

@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L1",
-            "x": 198,
-            "y": 140
+            "x": 578,
+            "y": 563
           }
         ]
       },
@@ -41,8 +41,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L1",
-            "x": 402,
-            "y": 140
+            "x": 320,
+            "y": 346
           }
         ]
       },
@@ -77,8 +77,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L1",
-            "x": 606,
-            "y": 140
+            "x": 87,
+            "y": 358
           }
         ]
       },
@@ -103,8 +103,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L1",
-            "x": 810,
-            "y": 140
+            "x": 614,
+            "y": 346
           }
         ]
       },
@@ -133,8 +133,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L1",
-            "x": 1014,
-            "y": 140
+            "x": 569,
+            "y": 115
           }
         ]
       },
@@ -155,8 +155,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L1",
-            "x": 198,
-            "y": 228
+            "x": 887,
+            "y": 349
           }
         ]
       },
@@ -189,8 +189,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L1",
-            "x": 402,
-            "y": 228
+            "x": 893,
+            "y": 192
           }
         ]
       },
@@ -211,8 +211,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L1",
-            "x": 606,
-            "y": 228
+            "x": 902,
+            "y": 493
           }
         ]
       },
@@ -237,8 +237,8 @@
         "map_locations": [
           {
             "map": "great_cathedral_L1",
-            "x": 810,
-            "y": 228
+            "x": 1180,
+            "y": 346
           }
         ]
       }

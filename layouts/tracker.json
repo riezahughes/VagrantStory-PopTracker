@@ -15,11 +15,15 @@
             "content": [
               {
                 "type": "group",
-                "header": "Break Arts",
+                "header": "Blades | Break Arts",
                 "content": {
                   "type": "array",
                   "orientation": "horizontal",
                   "content": [
+                    {
+                      "type": "layout",
+                      "key": "blade_grid"
+                    },
                     {
                       "type": "layout",
                       "key": "breakart_grid"
@@ -526,11 +530,15 @@
             "content": [
               {
                 "type": "group",
-                "header": "Break Arts",
+                "header": "Blades | Break Arts",
                 "content": {
                   "type": "array",
                   "orientation": "horizontal",
                   "content": [
+                    {
+                      "type": "layout",
+                      "key": "blade_grid"
+                    },
                     {
                       "type": "layout",
                       "key": "breakart_grid"
@@ -1037,11 +1045,15 @@
             "content": [
               {
                 "type": "group",
-                "header": "Break Arts",
+                "header": "Blades | Break Arts",
                 "content": {
                   "type": "array",
                   "orientation": "horizontal",
                   "content": [
+                    {
+                      "type": "layout",
+                      "key": "blade_grid"
+                    },
                     {
                       "type": "layout",
                       "key": "breakart_grid"

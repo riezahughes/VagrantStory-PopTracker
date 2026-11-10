@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "town_centre_south",
-            "x": 198,
-            "y": 140
+            "x": 688,
+            "y": 586
           }
         ]
       },
@@ -41,8 +41,8 @@
         "map_locations": [
           {
             "map": "town_centre_south",
-            "x": 402,
-            "y": 140
+            "x": 242,
+            "y": 752
           }
         ]
       },
@@ -63,8 +63,8 @@
         "map_locations": [
           {
             "map": "town_centre_south",
-            "x": 606,
-            "y": 140
+            "x": 1145,
+            "y": 835
           }
         ]
       },
@@ -93,8 +93,8 @@
         "map_locations": [
           {
             "map": "town_centre_south",
-            "x": 810,
-            "y": 140
+            "x": 1654,
+            "y": 962
           }
         ]
       },
@@ -115,8 +115,8 @@
         "map_locations": [
           {
             "map": "town_centre_south",
-            "x": 1014,
-            "y": 140
+            "x": 1710,
+            "y": 605
           }
         ]
       },
@@ -137,8 +137,8 @@
         "map_locations": [
           {
             "map": "town_centre_south",
-            "x": 198,
-            "y": 228
+            "x": 2030,
+            "y": 531
           }
         ]
       },
@@ -159,8 +159,8 @@
         "map_locations": [
           {
             "map": "town_centre_south",
-            "x": 402,
-            "y": 228
+            "x": 1698,
+            "y": 416
           }
         ]
       },
@@ -181,8 +181,8 @@
         "map_locations": [
           {
             "map": "town_centre_south",
-            "x": 606,
-            "y": 228
+            "x": 1638,
+            "y": 188
           }
         ]
       }
